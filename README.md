@@ -34,15 +34,99 @@ Extend CoLRAG-TF from text-only to multimodal capabilities, enabling the system 
 **Visual Content**: Tables (primary focus), figures, images, maps
 **Hierarchy Preservation**: 3-tier structure (Volume → Chapter → Chunk) maintained
 
-**Pipeline**:
+**Pipeline (Methodological Flow)**:
 
+```latex
+\documentclass[tikz,border=3mm]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds}
+
+\tikzset{
+  process/.style={rectangle, rounded corners, minimum width=3cm, minimum height=1cm, 
+                  text centered, draw=black, fill=blue!10, font=\small},
+  decision/.style={diamond, minimum width=2.5cm, minimum height=1cm, text centered, 
+                   draw=black, fill=orange!20, font=\small, aspect=2},
+  io/.style={trapezium, trapezium left angle=70, trapezium right angle=110, 
+             minimum width=2.5cm, minimum height=0.8cm, text centered, draw=black, 
+             fill=green!10, font=\small},
+  model/.style={rectangle, rounded corners, minimum width=2.8cm, minimum height=0.8cm, 
+                text centered, draw=black, fill=purple!10, font=\footnotesize},
+  metric/.style={rectangle, rounded corners, minimum width=2.2cm, minimum height=0.6cm, 
+                 text centered, draw=black, fill=yellow!15, font=\scriptsize},
+  arrow/.style={thick,-Stealth},
+  note/.style={font=\scriptsize, text width=2.5cm, align=center}
+}
+
+\begin{document}
+\begin{tikzpicture}[node distance=1.2cm and 2.5cm]
+
+% Input
+\node (input) [io] {43 Disaster PDFs\\(歴史資料集, 災害事例)};
+
+% Phase 1: Environment
+\node (env) [process, below=of input] {Phase 1: Environment\\Python 3.12.10, CUDA 12.4};
+\node (env-model) [model, right=0.5cm of env] {PyTorch 2.6.0\\transformers 5.5.0};
+
+% Phase 2: Layout Analysis
+\node (layout) [process, below=of env] {Phase 2: Layout Analysis\\Table Transformer Detection};
+\node (layout-model) [model, right=0.5cm of layout] {microsoft/\\table-transformer\\FP16, conf>0.7};
+\node (layout-metric) [metric, below=0.3cm of layout] {52 pages\\38 tables, 19 text blocks};
+
+% Phase 3a: OCR Strategy
+\node (ocr) [process, below=1.5cm of layout] {Phase 3a: OCR Extraction\\Hybrid Strategy};
+\node (pymupdf) [model, below left=0.5cm and -0.5cm of ocr] {PyMuPDF\\Text Layer};
+\node (pymupdf-metric) [metric, below=0.2cm of pymupdf] {68.4\%\\26/38 tables};
+\node (tesseract) [model, below right=0.5cm and -0.5cm of ocr] {Tesseract 5.5\\jpn+eng};
+\node (tesseract-metric) [metric, below=0.2cm of tesseract] {86.8\%\\33/38 tables};
+
+% Phase 3b: Caption
+\node (caption) [process, below=2.5cm of ocr] {Phase 3b: Caption Generation\\from OCR Text};
+\node (caption-model) [model, right=0.5cm of caption] {qwen2.5:7b\\instruct-q4\_k\_m};
+\node (caption-metric) [metric, below=0.3cm of caption] {Success: 86.8\%\\33/38 structured captions};
+
+% Phase 4: Embedding & Index
+\node (embed) [process, below=1.5cm of caption] {Phase 4: Multimodal Index\\Embedding + Vector Store};
+\node (embed-model) [model, right=0.5cm of embed] {hotchpotch\\1024-dim + Qdrant};
+\node (embed-metric) [metric, below=0.3cm of embed] {57 blocks indexed\\(38 tables + 19 text)};
+
+% Output
+\node (output) [io, below=of embed] {Multimodal Index\\Ready for Retrieval};
+
+% Arrows
+\draw [arrow] (input) -- (env);
+\draw [arrow] (env) -- (layout);
+\draw [arrow] (layout) -- (ocr);
+\draw [arrow] (ocr) -- (pymupdf);
+\draw [arrow] (ocr) -- (tesseract);
+\draw [arrow] (pymupdf) -- (caption);
+\draw [arrow] (tesseract) -- (caption);
+\draw [arrow] (caption) -- (embed);
+\draw [arrow] (embed) -- (output);
+
+% Phase labels on the left
+\node [note, left=1.5cm of env, anchor=east] {\textbf{Setup}};
+\node [note, left=1.5cm of layout, anchor=east] {\textbf{Detection}};
+\node [note, left=1.5cm of ocr, anchor=east] {\textbf{Text\\Extraction}};
+\node [note, left=1.5cm of caption, anchor=east] {\textbf{Semantic\\Generation}};
+\node [note, left=1.5cm of embed, anchor=east] {\textbf{Vectorization}};
+
+% Background boxes for phases
+\begin{scope}[on background layer]
+\node [fill=gray!5, rounded corners, fit=(layout) (layout-model) (layout-metric), inner sep=8pt] {};
+\node [fill=gray!5, rounded corners, fit=(ocr) (pymupdf) (tesseract) (pymupdf-metric) (tesseract-metric), inner sep=8pt] {};
+\node [fill=gray!5, rounded corners, fit=(caption) (caption-model) (caption-metric), inner sep=8pt] {};
+\node [fill=gray!5, rounded corners, fit=(embed) (embed-model) (embed-metric), inner sep=8pt] {};
+\end{scope}
+
+\end{tikzpicture}
+\end{document}
 ```
-PDF → Layout Analysis (Table Transformer) 
-    → OCR/Text Extraction (PyMuPDF + Tesseract) 
-    → Caption Generation (Qwen2.5-7B) 
-    → Embedding (hotchpotch 1024-dim) 
-    → Multimodal Index (Qdrant)
-```
+
+**Methodological Highlights**:
+- **Hybrid OCR**: PyMuPDF (fast, text-layer) → Tesseract fallback (image-based) achieves 86.8% success
+- **Semantic Captions**: LLM-generated structured descriptions from raw OCR text
+- **Scalable Pipeline**: Modular design with FP16 precision for 16GB VRAM constraint
+- **Reproducibility**: All phases documented in `experiments_v070/` scripts
 
 **2. Implementation Results**
 
