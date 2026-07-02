@@ -36,6 +36,11 @@ Extend CoLRAG-TF from text-only to multimodal capabilities, enabling the system 
 
 **Pipeline (Methodological Flow)**:
 
+📊 **[View High-Resolution Methodology Flow Diagram (PDF)](docs/v071_methodology_flow.pdf)**
+
+<details>
+<summary>TikZ Source Code (click to expand)</summary>
+
 ```latex
 \documentclass[tikz,border=3mm]{standalone}
 \usepackage{tikz}
@@ -121,6 +126,8 @@ Extend CoLRAG-TF from text-only to multimodal capabilities, enabling the system 
 \end{tikzpicture}
 \end{document}
 ```
+
+</details>
 
 **Methodological Highlights**:
 - **Hybrid OCR**: PyMuPDF (fast, text-layer) → Tesseract fallback (image-based) achieves 86.8% success
