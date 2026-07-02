@@ -1,0 +1,99 @@
+{
+  "_comment": "災害教訓PDFのVolume/Chapter階層マッピング定義",
+  "_structure": "Volume (事例集カテゴリ) → Chapter (PDF) → Chunk (ページブロック)",
+  
+  "volumes": {
+    "歴史資料集": {
+      "description": "1958年～2009年の河川砂防災害事例",
+      "pdf_pattern": "01jirei\\d_.*\\.pdf",
+      "chapters": [
+        "01jirei2_1958-1993.pdf",
+        "01jirei3_1995-2001.pdf",
+        "01jirei4_2002-2004.pdf",
+        "01jirei5_2005-2009.pdf"
+      ],
+      "keywords": ["歴史", "事例", "昭和", "平成初期", "災害記録"]
+    },
+    
+    "2011-2018災害事例": {
+      "description": "平成23年～平成30年の主要災害事例（2-9分冊）",
+      "pdf_pattern": "02jirei\\d_.*\\.pdf",
+      "chapters": [
+        "02jirei2_2011-2018.pdf",
+        "02jirei3_2011-2018.pdf",
+        "02jirei4_2011-2018.pdf",
+        "02jirei5_2011-2018.pdf",
+        "02jirei6_2011-2018.pdf",
+        "02jirei7_2011-2018.pdf",
+        "02jirei8_2011-2018.pdf",
+        "02jirei9_2011-2018.pdf"
+      ],
+      "keywords": ["東日本大震災", "台風", "豪雨", "土砂災害", "熊本地震"]
+    },
+    
+    "2018-2019災害事例": {
+      "description": "平成30年～令和元年の災害事例（2-5分冊）",
+      "pdf_pattern": "03jirei\\d_.*\\.pdf",
+      "chapters": [
+        "03jirei2_2018-2019.pdf",
+        "03jirei3_2018-2019.pdf",
+        "03jirei4_2018-2019.pdf",
+        "03jirei5_2018-2019.pdf"
+      ],
+      "keywords": ["西日本豪雨", "台風19号", "令和元年", "激甚災害"]
+    },
+    
+    "災害教訓報告": {
+      "description": "平成7年～平成30年の主要災害の詳細教訓報告書",
+      "pdf_pattern": "disaster-H.*\\.pdf",
+      "chapters": [
+        "disaster-H7_hanshinawaji.pdf",
+        "disaster-H16_chuetsu.pdf",
+        "disaster-H19_chuetsuoki.pdf",
+        "disaster-H23_higashinihon.pdf",
+        "disaster-H23_typhoon12.pdf",
+        "disaster-H24_kyushuhokubu.pdf",
+        "disaster-H25_typhoon26.pdf",
+        "disaster-H26_02oyuki.pdf",
+        "disaster-H26_08ooame.pdf",
+        "disaster-H26_mitake.pdf",
+        "disaster-H27_hakone.pdf",
+        "disaster-H27_kantotohoku.pdf",
+        "disaster-H27_kuchinoerabu.pdf",
+        "disaster-H28_kumamoto.pdf",
+        "disaster-H28_typhoon10.pdf",
+        "disaster-H29_kyushuhokubu.pdf",
+        "disaster-H30_07ooame.pdf"
+      ],
+      "keywords": ["教訓", "対策", "復旧", "被害分析", "提言"]
+    },
+    
+    "復興知見": {
+      "description": "復興まちづくりハンドブック・最新事例（2011-2025）",
+      "pdf_pattern": "(201|202).*\\.pdf",
+      "chapters": [
+        "201101_higashinihon.pdf",
+        "201205_EastJapanQuakeLessons.pdf",
+        "201601-1_kumamoto.pdf",
+        "201601-2_kumamoto.pdf",
+        "201802_hokkaido.pdf",
+        "202103_Examples_fukko-kyokun.pdf",
+        "202103_fukku-fukko-handbook_vol1.pdf",
+        "202103_fukku-fukko-handbook_vol2.pdf",
+        "202103_Report_fukko-kyokun.pdf",
+        "202505_Reiwa6DisasterExamples.pdf"
+      ],
+      "keywords": ["復興", "まちづくり", "令和6年", "ハンドブック", "復旧手法", "東日本大震災", "熊本地震"]
+    }
+  },
+  
+  "metadata": {
+    "total_volumes": 5,
+    "total_pdfs": 43,
+    "estimated_pages": 3000,
+    "last_updated": "2026-07-03",
+    "data_directory": "data/disaster_visual_docus_rn/",
+    "image_directory": "data/disaster_visual_docus_rn/images/",
+    "note": "目次ファイル（01jirei1shuu-mokuji.pdf, 02jirei1-mokuji-2011-2018.pdf, 03jirei1-mokuji-2018-2019.pdf）は除外"
+  }
+}

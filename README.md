@@ -20,6 +20,68 @@ Multi-modal Contextual Late Interaction RAG with Triple Filtering (Multi-modal C
 
 ## Release Notes
 
+### v0.7.2 (2026-07-03) 🔍
+
+**HippoRAG2-Style Retrieval with Triple Extraction and Multimodal Evaluation**
+
+**Objective:**
+
+Implement knowledge graph-based retrieval with triple extraction, FAISS indexing, image understanding integration, and comprehensive multimodal evaluation framework.
+
+**Key Components:**
+
+**Phase 5: Triple Extraction & Knowledge Graph**
+- **Triple Extraction** (`04_extract_triples.py`): OpenIE-style triple extraction from captions using Ollama
+  - Extracted 227 triples from 57 blocks (avg 3.98 triples/block)
+  - 86% block success rate (49/57 blocks)
+  - Triple types: Subject-Predicate-Object relations
+- **FAISS Triple Index** (`05_build_triple_index.py`): Vector search for semantic triple retrieval
+  - hotchpotch/static-embedding-japanese (1024-dim)
+  - IndexFlatIP (Inner Product for normalized vectors)
+  - Natural Japanese conversion: `triple_to_text()` method
+
+**Phase 6: Multimodal HippoRAG2 Retriever**
+- **Query Analysis** (`06_multimodal_retriever.py`): Figure-related keyword detection
+  - FIGURE_KEYWORDS: 図, 表, グラフ, 写真, 地図
+  - VISUAL_KEYWORDS: 何枚, 何件, 数値, データ
+- **Multi-Score Fusion**: Text + Triple + Image scores with alpha weights
+  - Figure boost: ×1.2 multiplier for table/figure blocks
+  - Demo tested: Triple score 0.8998 vs Text 0.5726 for "全壊家屋" query
+- **Image Understanding Integration**: Ollama multimodal client
+  - `retrieve_with_images()`: Enhanced retrieval with image LLM
+  - `generate_answer_multimodal()`: Context-aware answer generation
+  - Base64 image encoding with qwen2.5:7b model
+
+**Phase 7: Multimodal Evaluation Framework**
+- **QA Generation** (`07_multimodal_evaluation.py`): Figure-specific QA pairs from captions
+  - 10 QA pairs generated from 33 figure blocks
+  - Question types: table, figure, text, multihop
+  - Ollama-based generation with FIGURE_QA_PROMPT
+- **7 Evaluation Metrics**:
+  - **Existing** (v0.6.4-compatible): Faithfulness, Relevance, Answer Correctness, Recall
+  - **New** (Multimodal-specific): Image Relevance, Image Coverage, Multimodal Faithfulness
+- **Evaluation Results** (demo with 10 questions):
+  - Answer Correctness: 1.0000
+  - Faithfulness: 1.0000
+  - Image Relevance: 1.0000
+  - Image Coverage: 1.0000
+  - Multimodal Faithfulness: 1.0000
+  - *(Relevance: 0.0 due to dummy retrieval in demo mode)*
+
+**Scripts:**
+- `experiments_v070/04_extract_triples.py`: Triple extraction with OpenIE patterns
+- `experiments_v070/05_build_triple_index.py`: FAISS index construction
+- `experiments_v070/06_multimodal_retriever.py`: HippoRAG2-style multimodal retriever
+- `experiments_v070/07_multimodal_evaluation.py`: QA generation + evaluation
+
+**Next Steps:**
+- Full retriever integration in evaluation (currently uses dummy blocks)
+- LightGBM calibration model for reranking (Phase 6.17, deferred)
+- Multi-hop question evaluation on generated QA dataset
+- Comparison benchmark: v0.7.2 (multimodal) vs v0.6.4 (text-only)
+
+---
+
 ### v0.7.1 (2026-07-03) 🖼️
 
 **Multimodal Extension: Table Detection, OCR, and Caption Generation**

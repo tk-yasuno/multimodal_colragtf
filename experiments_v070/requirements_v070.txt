@@ -1,0 +1,49 @@
+# ──────────────────────────────────────────────
+# CoLRAG-TF v0.7.0 マルチモーダル拡張 requirements
+# Python 3.12 / .venv-coltf / GPU 16GB 環境
+#
+# インストール:
+#   .\.venv-coltf\Scripts\pip install -r experiments_v070/requirements_v070.txt
+# ──────────────────────────────────────────────
+
+# ── 既存 CoLRAG-TF v0.6.4 依存 ─────────────────
+rank-bm25>=0.2.2                # BM25Okapi
+faiss-cpu>=1.8.0                # IndexFlatIP
+sentence-transformers>=3.0.0    # hotchpotch/static-embedding-japanese
+httpx>=0.27.0                   # Ollama API クライアント
+numpy>=1.26.0
+tqdm>=4.66.0
+pandas>=2.2.0
+matplotlib>=3.9.0
+japanize-matplotlib>=1.1.3
+
+# ── マルチモーダル LLM & 埋め込み ─────────────
+llama-index-core>=0.10.0        # LlamaIndex コア
+llama-index-vector-stores-qdrant>=0.2.0  # Qdrant ベクトルストア
+llama-index-embeddings-huggingface>=0.2.0  # HuggingFace 埋め込み
+llama-index-multi-modal-llms-ollama>=0.1.0  # Ollama マルチモーダルLLM
+qdrant-client>=1.9.0            # Qdrant Python クライアント
+
+# ── PDF & 画像処理 ────────────────────────────
+PyMuPDF>=1.24.0                 # fitz: PDF → PNG 変換
+Pillow>=10.3.0                  # PIL: 画像処理
+pdf2image>=1.17.0               # Poppler ベース PDF → 画像（バックアップ）
+
+# ── レイアウト解析 ────────────────────────────
+transformers>=4.41.0            # HuggingFace Transformers（Table Transformer用）
+timm>=0.9.0                     # torch image models（DETR依存）
+layoutparser[paddleocr]>=0.3.4  # レイアウト解析（オプション: OCR統合）
+pytesseract>=0.3.10             # Tesseract OCR Python wrapper
+
+# ── ビジョン & マルチモーダルモデル ────────────
+torch>=2.3.0                    # PyTorch（GPU対応版は別途インストール）
+torchvision>=0.18.0             # 画像前処理
+open-clip-torch>=2.24.0         # OpenCLIP / SigLIP 埋め込み
+
+# ── 機械学習 ──────────────────────────────────
+scikit-learn>=1.5.0             # Calibration Model用
+lightgbm>=4.3.0                 # LightGBM Ranker
+
+# ── 可視化・評価 ──────────────────────────────
+seaborn>=0.13.0                 # 高度な可視化
+plotly>=5.22.0                  # インタラクティブグラフ

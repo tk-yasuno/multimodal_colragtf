@@ -1,0 +1,125 @@
+# ──────────────────────────────────────────────
+# マルチモーダルLLM設定
+# CoLRAG-TF v0.7.0
+# ──────────────────────────────────────────────
+
+models:
+  # メインモデル（インデックス構築時のキャプション生成）
+  primary:
+    name: "llava-7b"
+    ollama_model: "llava:7b"
+    max_tokens: 256
+    temperature: 0.2  # 低温度で安定したキャプション生成
+    batch_size: 8
+    use_case: "caption_generation"
+  
+  # オプションモデル（クエリ時の詳細画像理解）
+  query_time:
+    name: "llama-4-scout-17b"
+    ollama_model: "llama-4-scout:17b-16e-instruct-q4_k_m"
+    max_tokens: 512
+    temperature: 0.3
+    batch_size: 4
+    use_case: "detailed_understanding"
+  
+  # 軽量モデル（高速処理優先）
+  lightweight:
+    name: "gemma-4-e2b"
+    ollama_model: "gemma:4e2b-instruct-fp16"
+    max_tokens: 128
+    temperature: 0.1
+    batch_size: 16
+    use_case: "fast_embedding"
+
+prompts:
+  # 図表キャプション生成プロンプト（画像ベース）
+  caption_generation: |
+    あなたは災害教訓文書の図表を分析する専門家です。
+    与えられた{type}の内容を詳細に説明してください。
+    
+    説明には以下を含めてください：
+    - 図表のタイプ（グラフ、表、写真、地図など）
+    - 主要な数値やラベル
+    - 傾向やパターン
+    - 災害との関連性
+    
+    日本語で簡潔に（100-200文字）説明してください。
+  
+  # 表キャプション生成プロンプト（OCRテキストベース）
+  table_caption_from_text: |
+    以下は災害教訓文書の表からOCRで抽出されたテキストです。
+    このテキストを基に、表の内容を構造的に理解し、簡潔に要約してください。
+    
+    要約には以下を含めてください：
+    - 表の主題（何についての情報か）
+    - 主要な項目やカテゴリ
+    - 重要な数値やデータ
+    - 災害との関連性
+    
+    日本語で簡潔に（100-200文字）説明してください。
+    
+    抽出テキスト：
+    {text}
+  
+  # 知識三つ組抽出プロンプト（マルチモーダル版）
+  multimodal_openie: |
+    あなたは画像とテキストから知識三つ組を抽出する専門家です。
+    与えられた図表から、災害に関する(主語, 関係, 目的語)の三つ組を抽出してください。
+    
+    出力形式: [{"subject": "...", "relation": "...", "object": "..."}, ...]
+    
+    例：
+    - {"subject": "昭和42年羽越豪雨", "relation": "被害を与えた", "object": "新潟県下越地方"}
+    - {"subject": "堤防決壊", "relation": "原因は", "object": "越水による浸食"}
+    
+    最低5つ、最大10つの三つ組を抽出してください。
+  
+  # クエリ時の画像理解プロンプト
+  query_understanding: |
+    以下のテキストと図表を参考に、質問に答えてください。
+    
+    質問: {query}
+    
+    テキストコンテキスト:
+    {text_context}
+    
+    図表: {image_count}枚が提供されています。
+    
+    図表の情報も活用して、正確かつ詳細に回答してください。
+    数値やデータが図表に含まれる場合は、それを明示的に引用してください。
+
+embedding:
+  # テキスト埋め込み（既存）
+  text:
+    model: "hotchpotch/static-embedding-japanese"
+    dimension: 1024
+    normalize: true
+    device: "cuda"
+  
+  # 画像埋め込み
+  image:
+    model: "openai/clip-vit-large-patch14"  # または "laion/CLIP-ViT-H-14-laion2B-s32B-b79K"
+    dimension: 768  # CLIP: 768次元 → projection → 1024次元
+    projection_dim: 1024
+    normalize: true
+    device: "cuda"
+  
+  # マルチモーダル融合
+  fusion:
+    method: "concat_mlp"  # "concat_mlp", "cross_attention", "weighted_sum"
+    text_weight: 0.7
+    image_weight: 0.3
+    hidden_dim: 512  # MLP中間層次元
+
+ollama:
+  base_url: "http://localhost:11434"
+  timeout: 120  # タイムアウト（秒）
+  retry_attempts: 3
+  retry_delay: 5  # 秒
+
+performance:
+  gpu_memory_fraction: 0.9  # GPU VRAM使用率上限
+  mixed_precision: true  # FP16混合精度
+  gradient_checkpointing: false  # メモリ節約（推論時不要）
+  cache_captions: true  # キャプション結果をキャッシュ
+  cache_file: "indices/.cache/captions_cache.json"

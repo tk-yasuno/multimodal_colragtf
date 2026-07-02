@@ -1,0 +1,43 @@
+# ──────────────────────────────────────────────
+# レイアウト解析設定（Table Transformer）
+# CoLRAG-TF v0.7.0
+# ──────────────────────────────────────────────
+
+model:
+  name: "microsoft/table-transformer-detection"
+  device: "cuda"  # "cpu" または "cuda"
+  precision: "fp16"  # "fp32" または "fp16"（GPU推論高速化）
+
+detection:
+  confidence_threshold: 0.7  # 検出信頼度閾値（0.7 = 70%以上で採用）
+  target_types:
+    - "table"      # テーブル
+    - "figure"     # 図・グラフ
+    - "image"      # 写真・地図
+  
+  # バウンディングボックス後処理
+  nms_iou_threshold: 0.5  # Non-Maximum Suppression（重複除去）
+  min_box_area: 1000      # 最小ボックス面積（ピクセル^2）
+  expand_margin: 10       # ボックス拡張マージン（ピクセル）
+
+pdf:
+  dpi: 150  # PDF→PNG変換解像度（150 DPI = バランス最適）
+  image_format: "png"
+  max_image_dimension: 2048  # 最大画像サイズ（長辺、GPU VRAM節約）
+
+ocr:
+  engine: "pymupdf"  # "pymupdf", "tesseract", "paddleocr"
+  tesseract_lang: "jpn"  # Tesseract言語（日本語）
+  min_text_length: 10  # 最小テキスト長（ノイズ除去）
+
+output:
+  save_block_images: true  # 個別ブロック画像を保存
+  save_layout_json: true   # レイアウト情報をJSON保存
+  block_image_dir: "indices/block_images/"
+  layout_json_path: "indices/layout_blocks.jsonl"
+
+performance:
+  batch_size: 4  # バッチサイズ（GPU VRAM制約）
+  num_workers: 2  # データローダーワーカー数
+  cache_enabled: true  # 中間結果キャッシュ
+  cache_dir: "indices/.cache/"
