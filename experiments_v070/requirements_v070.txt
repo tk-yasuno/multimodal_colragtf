@@ -44,6 +44,9 @@ open-clip-torch>=2.24.0         # OpenCLIP / SigLIP 埋め込み
 scikit-learn>=1.5.0             # Calibration Model用
 lightgbm>=4.3.0                 # LightGBM Ranker
 
+# ── ハイパーパラメータ最適化 ──────────────────
+optuna>=3.6.0                   # ベイズ最適化（v0.7.4: 融合重みの最適化）
+
 # ── 可視化・評価 ──────────────────────────────
 seaborn>=0.13.0                 # 高度な可視化
 plotly>=5.22.0                  # インタラクティブグラフ

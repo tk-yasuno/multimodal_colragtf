@@ -1,0 +1,2202 @@
+[
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page122_table_0_qa",
+    "question": "特定地域での災害公営住宅の初期活用から解体までの期間はどの程度ですか？",
+    "answer": "これらの情報からは具体的な期間は示されていませんが、特定地域での災害公営住宅の初期活用から解体までの期間が示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page122_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page008_table_0_qa",
+    "question": "地震の規模はどのくらいでしたか？",
+    "answer": "地震の規模はM6.5とM7.3です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page008_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page008_table_0_qa",
+    "question": "国がどのような支援を行いましたか？",
+    "answer": "国は個人や中小企業の損壊建物解体を特例的に支援しました。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page008_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page122_table_0_qa",
+    "question": "緊急対応期にどのような具体的施策が行われますか？",
+    "answer": "被災状況把握が行われます。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page122_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page035_table_1_qa",
+    "question": "重傷者に対する補償金額はいくらですか？",
+    "answer": "50万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page035_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page036_table_0_qa",
+    "question": "災害救助法が適用された期間はどのくらいですか？",
+    "answer": "約8か月です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page036_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page080_table_1_qa",
+    "question": "合計想定被害額はいくらですか？",
+    "answer": "3,400億円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page080_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page098_table_0_qa",
+    "question": "阪神・淡路大震災と東日本大震災での事例は何が挙げられていますか？",
+    "answer": "道路交通網や卸売市場の整備計画が挙げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page098_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page282_table_0_qa",
+    "question": "この取り組みはいつから実施されていますか？",
+    "answer": "2011年4月から実施されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page282_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page024_table_0_qa",
+    "question": "この表ではどのような種類の支援事業が示されていますか？",
+    "answer": "この表では、住宅建設や再建、購入に対する利子補給、共同化支援、学生寄宿舎建設促進など様々な支援事業が示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page024_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page086_table_1_qa",
+    "question": "主にどの種類の農家が支援を受けていますか？",
+    "answer": "特に施設園芸農家のための降灰対策が重点的に取り上げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page086_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page099_table_0_qa",
+    "question": "補助率の範囲はどの程度ですか？",
+    "answer": "補助率は2/3～4/4から1/3まで様々です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page099_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H26_mitake_page006_table_0_qa",
+    "question": "緊急対応期にどのような施策が行われますか？",
+    "answer": "緊急対応期では、被災状況把握と避難者対策が重点的に行われます。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H26_mitake_page006_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page117_table_0_qa",
+    "question": "この文書ではどのような住棟設計が特筆されていますか？",
+    "answer": "コミュニティ形成や共助促進に配慮した住棟設計が特筆されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page117_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page052_table_0_qa",
+    "question": "補助率はどの程度ですか？沖縄と奄美の補助率は異なりますか？",
+    "answer": "補助率は5.5/10です。沖縄の補助率は9/10、奄美的は7/10で異なります。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page052_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page010_table_0_qa",
+    "question": "死者と重軽傷者の合計人数はいくつか？",
+    "answer": "26人です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page010_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page085_table_1_qa",
+    "question": "漁礁設置助成事業では地元負担はどの程度になりますか？",
+    "answer": "地元負担は半分です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page085_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page037_table_0_qa",
+    "question": "災害復旧プロセスには何段階ありますか？",
+    "answer": "災害復旧プロセスには4段階があります。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page037_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page114_table_0_qa",
+    "question": "補助災害復旧事業債で一般公共事業債が何％充当されるか？",
+    "answer": "95%です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page114_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page003_table_1_qa",
+    "question": "土木施設の被害金額はどの程度ですか？",
+    "answer": "土木施設の被害金額は4,777,334千円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page003_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page060_table_0_qa",
+    "question": "被災者調査は幾回行われましたか？",
+    "answer": "4回でした。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page060_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page005_table_0_qa",
+    "question": "災害弔慰金の世帯主死亡時の支給額はいくらですか？",
+    "answer": "500万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page005_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H23_higashinihon_page007_table_0_qa",
+    "question": "复兴期间的主要阶段有哪些？",
+    "answer": "主要阶段包括“应对期”、“应急恢复期”和“全面恢复期”。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H23_higashinihon_page007_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page048_table_0_qa",
+    "question": "災害発生時の地震時刻はいつでしたか？",
+    "answer": "災害発生時の地震時刻は昭和58年5月26日12:00です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page048_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page027_table_0_qa",
+    "question": "この表ではどのような災害時の対応措置が記載されていますか？",
+    "answer": "この表では、建築確認申請や許可申請に関する接道規定、建ぺい率、日陰規制の緩和、仮設建築物の取り扱い、震災復興型総合設計制度の創設などがあります。また、申請等の手数料免除や駐車場台数の届出に関する緩和措置も含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page027_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page031_table_0_qa",
+    "question": "尼崎市の家庭用水道管改造資金融資の限度額はいくらですか？",
+    "answer": "30万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page031_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page002_table_0_qa",
+    "question": "この期間に発生した最大の地震のマグニチュードは何ですか？",
+    "answer": "6.7です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page002_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page062_table_0_qa",
+    "question": "大きな取り組みは、何年間にわたる復興の経緯を示していますか？",
+    "answer": "約11年間です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page062_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page164_table_0_qa",
+    "question": "取組期間はどの時期からどの時期までですか？",
+    "answer": "取組期間は応急期から復興後期までです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page164_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page131_table_0_qa",
+    "question": "学習活動支援設備事業の補助率はどのくらいですか？",
+    "answer": "補助率は1/3以内です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page131_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page047_table_0_qa",
+    "question": "抑制工の目的は何か？",
+    "answer": "抑制工の目的は、雨水の作用を受けないようにすることです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page047_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page104_table_0_qa",
+    "question": "東川口地区ではどのような取り組みが行われていますか？",
+    "answer": "東川口地区では毎月の市が行われており、コミュニティ活性化に貢献しています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page104_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page022_table_0_qa",
+    "question": "この活動はどのような時期から継続されていますか？",
+    "answer": "2011年4月14日から継続されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page022_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page146_table_0_qa",
+    "question": "防災計画の中で、どのような施設整備が行われていますか？",
+    "answer": "整備計画の策定、防災林業施設整備、防災漁業施設整備が行われています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page146_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H25_typhoon26_page005_table_0_qa",
+    "question": "大雨警報が発表された日時は何時分ですか？",
+    "answer": "10月15日17:38に大雨警報が発表されました。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H25_typhoon26_page005_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page153_table_0_qa",
+    "question": "災害復興において、企業がどのような取り組みを行っていますか？",
+    "answer": "企業は技術を活用した製品開発を行い、販路回復に努めています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page153_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集3_2011-2018_page051_table_0_qa",
+    "question": "平成24年度の用地専任職員数はいくつでしたか？",
+    "answer": "0人です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集3_2011-2018_page051_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page168_table_0_qa",
+    "question": "仮設商店街が開業した年はいつですか？",
+    "answer": "2012年に開業しました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page168_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page059_table_0_qa",
+    "question": "台風10号による死者は何人ですか？",
+    "answer": "6人です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page059_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page066_table_1_qa",
+    "question": "合併後の長岡市の総人口は何人になりますか？",
+    "answer": "合併後の長岡市の総人口は287,139人です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page066_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page072_table_0_qa",
+    "question": "物資を提供した企業はどの2つがありますか？",
+    "answer": "「あしなが育英会」や「ソフトバンク」です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page072_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page037_table_1_qa",
+    "question": "喷火が確認された時間はいつでしたか？",
+    "answer": "11:52に噴火が確認されました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page037_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集9_2011-2018_page012_table_0_qa",
+    "question": "复兴计划的制定过程中包含了哪些会议和调查？",
+    "answer": "计划各阶段中的会议和调查包括地区别复旧·复振兴推推进协会议、市民问卷调查以及委员会议等。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集9_2011-2018_page012_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page015_table_0_qa",
+    "question": "大船渡、広田、山田はどのような被害を受けましたか？",
+    "answer": "特别重大的损害。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page015_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page015_table_0_qa",
+    "question": "「住居」施設では、居住者と避難者の総人数はいくつか？",
+    "answer": "居住者は35人で、避難者は54人なので、総人数は89人です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page015_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page026_table_0_qa",
+    "question": "この表はどのような災害に関する復興支援について記載していますか？",
+    "answer": "東日本大震災の復興支援に関する情報が記載されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page026_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page018_table_0_qa",
+    "question": "岩手県での災害派遣手当はありますか？",
+    "answer": "ありません。岩手県では災害派遣手当が付かないことが処遇格差の一因となっています。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page018_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page262_table_0_qa",
+    "question": "この表が示す主要な取組主体は誰ですか？",
+    "answer": "主要な取組主体は関西広域連合です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page262_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H26_02HeavySnow_page006_table_0_qa",
+    "question": "緊急対応期と応急復旧期（避難期）はどのくらいの期間を表していますか？",
+    "answer": "主要な項目には具体的な期間は記載されていません。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H26_02HeavySnow_page006_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page046_table_0_qa",
+    "question": "ボランティア参加者は実費としてどのくらいの金額を負担しますか？",
+    "answer": "実費は1000円（風呂代込み）です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page046_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page038_table_0_qa",
+    "question": "「1983年日本海中部地震」で対応した具体的な防災対策は何でしたか？",
+    "answer": "対応した具体的な防災対策は「港湾における防潮堤等整備」です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page038_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page009_table_0_qa",
+    "question": "「住家合計」の総数値はいくらですか？",
+    "answer": "115,600です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page009_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page089_table_0_qa",
+    "question": "どの期間にかけて52人の職員が派遣されましたか？",
+    "answer": "7月～9月にかけて。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page089_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page030_table_0_qa",
+    "question": "この表はどの地域と期間について記述していますか？",
+    "answer": "福島県いわき市で、応急期から復興後期までの期間について記述しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page030_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page003_table_0_qa",
+    "question": "床上浸水の家屋は幾らですか？",
+    "answer": "7,680戸です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page003_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page060_table_0_qa",
+    "question": "災害対策本部会議はどの期間に開催されましたか？",
+    "answer": "8月から10月にかけて約4ヶ月間開催されました。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page060_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page236_table_0_qa",
+    "question": "この表はどの地域の取組を記載していますか？",
+    "answer": "宮城県での取組が記載されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page236_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page040_table_0_qa",
+    "question": "商店街や小売市場の復興補助はどのような支援を提供していますか？",
+    "answer": "商店街や小零售市场的复建补助包括设备资金支持、临时工厂设置援助等。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page040_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page058_table_0_qa",
+    "question": "補助率はどの程度でしょうか？",
+    "answer": "補助率は1/2です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page058_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page049_table_0_qa",
+    "question": "第1回議事録での出席者は何人でしたか？",
+    "answer": "第1回議事録での出席者は43人でした。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page049_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page057_table_0_qa",
+    "question": "北海道と沖縄の補助率は異なりますか？",
+    "answer": "はい、異なることが示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page057_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page002_table_0_qa",
+    "question": "災害時の対応計画において、具体的な施策としてどのような項目が挙げられていますか？",
+    "answer": "被災家屋の解体や堆積物撤去、復興本部の設置、計画策定、広報・相談対応、金融財政措置などが挙げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page002_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page028_table_0_qa",
+    "question": "神戸市が申請した「罹災都市借地借家臨時処理法」によりどのような効果が期待されていますか？",
+    "answer": "借地人や借家人の住生活安定が図られる見込みです。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page028_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page107_table_0_qa",
+    "question": "融資利子補給期間はどの程度ですか？",
+    "answer": "6年間無利子で補助します。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page107_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page194_table_0_qa",
+    "question": "取組主体は誰ですか？",
+    "answer": "株式会社八葉水産です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page194_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集4_2018-2019_page019_table_0_qa",
+    "question": "最大で何名が活動に参加しましたか？",
+    "answer": "最大で1,380名が活動に参加しました。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集4_2018-2019_page019_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page109_table_0_qa",
+    "question": "災害記憶の継承にどのような取り組みが含まれていますか？",
+    "answer": "災害記録誌の作成、記念館等の整備、浸水到達標高表示が含まれます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page109_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page007_table_0_qa",
+    "question": "これらの取り組みはどのような時期に分かれていますか？",
+    "answer": "「復興前」と「復興後」の2つの時期に分かれています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page007_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page033_table_0_qa",
+    "question": "災害対策としてどのようなシステムが導入されましたか？",
+    "answer": "即時監視システム整備と職員招集・エリアメール発信システムが導入されました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page033_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page077_table_0_qa",
+    "question": "融資金額の上限はどのくらいですか？",
+    "answer": "融資金額の上限は1億3,000万円以内です。具体的には、運転資金5,000万円と設備資金8,000万円以内となっています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page077_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page018_table_0_qa",
+    "question": "対応期と応急復旧期（避難期）にはどのような具体的な施策がありますか？",
+    "answer": "対応期では「緊急救援活動」「避難指示の実施」などが行われ、応急復旧期（避難期）では「緊急の住宅確保」「避難所運営」などの施策が実施されます。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page018_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "東日本大震災の教訓_2011_EastJapanQuakeLesson_page043_table_0_qa",
+    "question": "この表はどのような情報が含まれていますか？",
+    "answer": "この表は、震災復興に関連する主要な機関と役職者一覧を示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "東日本大震災の教訓_2011_EastJapanQuakeLesson_page043_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page037_table_4_qa",
+    "question": "この表に含まれる災害はいくつありますか？",
+    "answer": "2つです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page037_table_4"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page027_table_0_qa",
+    "question": "締結年月日が平成13年から20年の間で何件の協定が締結されましたか？",
+    "answer": "平成13年から20年にかけての締結年月日があります。具体的な数値は図表に記載されていませんが、その期間中に複数の協定が締結されたことが示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page027_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0_qa",
+    "question": "災害対策本部会議は幾度開催されましたか？",
+    "answer": "計4回の災害対策本部会議が開催されたことが示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page280_table_0_qa",
+    "question": "この表に含まれる主要な項目は何がありますか？",
+    "answer": "主要な項目には事例名、場所（青森県など4県）、取組時期（応急期から復興後期まで）があります。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page280_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page160_table_0_qa",
+    "question": "借地権の対抗力期間はどのくらいですか？",
+    "answer": "借地権の対抗力期間は6か月間です（政令施行日から3年間）。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page160_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集3_2018-2019_page012_table_0_qa",
+    "question": "緊急対応期と応急復旧期はどの期間を指していますか？",
+    "answer": "緊急対応期は2019年1月1日～14日、応急復旧期も同じ期間です。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集3_2018-2019_page012_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page030_table_0_qa",
+    "question": "平成25年度の派遣者数は幾らですか？",
+    "answer": "148名です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page030_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page070_table_1_qa",
+    "question": "虻田町の被害総額是多少円？",
+    "answer": "虻田町の被害総額は20,704,960円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page070_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page045_table_0_qa",
+    "question": "補助率が5.5/10となる条件は何か？",
+    "answer": "特定地区での砂防・地すべり対策事業にかかる全体事業費が10億円以上の場合です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page045_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page031_table_1_qa",
+    "question": "調査期間はいつからいつまででしたか？",
+    "answer": "調査期間は9月中旬から12月までです。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page031_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page007_table_0_qa",
+    "question": "この表はどの地域に関する事業内容を示していますか？",
+    "answer": "日本の岩手県に関する事業内容を示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page007_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page134_table_0_qa",
+    "question": "仙台空港の乗降客目標はどれくらいですか？",
+    "answer": "600万人を目指しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page134_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page022_table_0_qa",
+    "question": "支援を受けた総人数はどのくらいですか？",
+    "answer": "支援を受けた総人数は498名です。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page022_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page212_table_0_qa",
+    "question": "この表はどの地域に関する情報が記載されていますか？",
+    "answer": "陸前高田市や大船渡市に関する情報が記載されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page212_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page024_table_0_qa",
+    "question": "災害時生活再建支援金の最高額はいくらですか？",
+    "answer": "最高額は300万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page024_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page014_table_0_qa",
+    "question": "札幌市の早期復旧実績はどれくらいの期間でしたか？",
+    "answer": "2年程度で完了しました。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page014_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page034_table_0_qa",
+    "question": "阪神・淡路大震災と熊本地震ではどのような具体的な対策が実施されましたか？",
+    "answer": "阪神・淡路大震災と熊本地震では、災害復興公営住宅の供給や被災者の住まい確保などの具体的な対策が実施されました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page034_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page029_table_0_qa",
+    "question": "主な不具合は何がありますか？",
+    "answer": "主な不具合には天井と壁の結露、配管の施工不良、夏季の室温上昇が含まれます。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page029_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page013_table_0_qa",
+    "question": "緊急対応期での主要施策は何が挙げられていますか？",
+    "answer": "被災状況把握や廃棄物処理が行われます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page013_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page012_table_0_qa",
+    "question": "定住促進住宅の平均年齢はどれくらいですか？",
+    "answer": "平均年齢60代後半から70歳前後の高齢者中心の入居者構成となっています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page012_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page015_table_0_qa",
+    "question": "緊急対応期と本格復興期はどの期間を指していますか？",
+    "answer": "緊急対応期は具体的な期間が示されていないため、直接回答できません。ただし、本格復興期は主要な項目の最後に位置するため、災害後比較的長期的な回復活動時期を指していることが推測されます。また、具体的な日付については表から得られません。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page015_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page052_table_0_qa",
+    "question": "災害時の復旧・復興計画で福祉保健部はどのような分野を主管しますか？",
+    "answer": "福祉保健部は生活関連物資の確保を主管しています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page052_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page132_table_0_qa",
+    "question": "应急仮設住宅の建設にはどの程度の期間が必要ですか？",
+    "answer": "3週間以上の期間が必要です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page132_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page090_table_0_qa",
+    "question": "災害後の復興計画策定体制で重要な要素は何が挙げられていますか？",
+    "answer": "調査では、組織体制（庁内組織、委員会、連絡協議会）、地域との連携（住民意見の反映）、国や他の地方公共団体との連携、そして復興計画の公表・広報が重要とされています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page090_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page042_table_0_qa",
+    "question": "阿古地区に避難した住民の人数はいくつか？",
+    "answer": "約600人です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page042_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page128_table_0_qa",
+    "question": "被災者の地元指向や短期利用希望などの傾向はどのようなものか？",
+    "answer": "地元指向の傾向があり、また短期的な利用を望んでいる人が多いという点が示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page128_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page021_table_0_qa",
+    "question": "保健医療福祉調整本部は設置された時期を教えてください。",
+    "answer": "資料から直接具体的な設置時期は記載されていないため、早期とされています。",
+    "question_type": "table",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page021_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page007_table_0_qa",
+    "question": "地域別に何項目の情報が示されていますか？",
+    "answer": "3項目（地域名、被災人数、避難所数）の情報が示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page007_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page073_table_0_qa",
+    "question": "この表に挙げられている主な災害は何件ありますか？",
+    "answer": "5件です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page073_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page054_table_0_qa",
+    "question": "避難所に何人が避難したと記載されていますか？",
+    "answer": "避難所に予想以上に多くの人が避難した点が触れてあります。具体的な人数は示されていません。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page054_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page023_table_0_qa",
+    "question": "災害時のメンタルヘルスケア対策にはどのような主要な項目が含まれていますか？",
+    "answer": "主要な項目には、心の相談窓口の設置、児童・生徒に対するこころのケア事業、専門的人材の育成と確保が含まれます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page023_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page109_table_0_qa",
+    "question": "この表ではどのような公共事業が示されていますか？",
+    "answer": "この表では、河川対策、砂防事業、急傾斜地対策などの公共事業の種類が示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page109_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H26_mitake_page004_table_0_qa",
+    "question": "平成27年9月19日に三岳交流センターに宿泊した人数は幾人でしたか？",
+    "answer": "92名です。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H26_mitake_page004_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page018_table_0_qa",
+    "question": "死者数は幾つですか？",
+    "answer": "30人です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page018_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page002_table_1_qa",
+    "question": "水道普及率はどのくらいですか？",
+    "answer": "水道普及率は97.3%です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page002_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page021_table_0_qa",
+    "question": "平成29年度の派遣人員は何人でしたか？",
+    "answer": "58人でした。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page021_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page256_table_0_qa",
+    "question": "この計画はどの段階までカバーしていますか？",
+    "answer": "应急期から復興後期までの各段階がカバーされています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page256_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page004_table_0_qa",
+    "question": "半壊した建物の数は幾らですか？",
+    "answer": "34,491棟です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page004_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page032_table_0_qa",
+    "question": "2015年の関東・東北豪雨に対する財政支援措置は何が行われましたか？",
+    "answer": "住宅再建、中小企業支援、被害農家への支援が行われました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page032_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page038_table_0_qa",
+    "question": "兵庫県での死者数は幾らですか？",
+    "answer": "91人です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page038_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page005_table_0_qa",
+    "question": "合計で何人の人が負傷しましたか？",
+    "answer": "合計で8,642人の人が負傷しました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page005_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page051_table_0_qa",
+    "question": "补助金政策における补助率はどのくらいですか？",
+    "answer": "渓流に関連する場合2/3、その他の場合は1/2です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page051_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H27_kuchinoerabu_page005_table_1_qa",
+    "question": "屋久島町福祉センターでの避難者数は幾人いますか？",
+    "answer": "25名です。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H27_kuchinoerabu_page005_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page188_table_0_qa",
+    "question": "この取り組みはどの時期にわたって行われましたか？",
+    "answer": "应急期から復興後期までです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page188_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page084_table_1_qa",
+    "question": "無利子または低利子で貸付金はどのような目的で提供されますか？",
+    "answer": "被災農家に対して無利子または低利子で貸付金が提供され、これは農林業者の事業維持や再開に向けた資金助成として利用されます。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page084_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page129_table_0_qa",
+    "question": "災害時の事業場確保支援策にはどのような措置が含まれていますか？",
+    "answer": "早期復旧支援、賃貸型共同仮設工場・店舗の設置、資金援助、民間賃貸工場・店舗情報提供、そして移転可能な事業用地情報提供が含まれます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page129_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page050_table_0_qa",
+    "question": "避難指示が発令された日時はいつでしたか？",
+    "answer": "8月31日00:20に避難指示が発令されました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page050_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page016_table_0_qa",
+    "question": "災害復興計画にはどのような項目が含まれていますか？",
+    "answer": "災害復興計画には「恒久住宅の供給・再建」、「雇用維持・確保」、「安全な地域づくり」と「産業・経済復興」などの項目が含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page016_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集5_2018-2019_page015_table_0_qa",
+    "question": "補助金は家屋経費の何割以内で実施されますか？",
+    "answer": "家屋経費の2分の1以内です。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集5_2018-2019_page015_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page084_table_0_qa",
+    "question": "災害時の支援事業で、農林家に対してどのような助成が行われますか？",
+    "answer": "农林家に対して1世帯50万円を助成します。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page084_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page050_table_0_qa",
+    "question": "全事業の復旧完了率はどのくらいですか？",
+    "answer": "全事業の97.3%が復旧完了しています。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page050_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page086_table_0_qa",
+    "question": "最多で何回ワークショップを開催しましたか？",
+    "answer": "最多4回です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page086_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page017_table_0_qa",
+    "question": "中津市の避難所能容有多少人？",
+    "answer": "776人。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page017_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page209_table_0_qa",
+    "question": "平均して年間で何本の災害教育訓練が行われましたか？",
+    "answer": "2016年から2019年の4年度間で平均して約45本の災害教育訓練が行われました（(50+48+37+45)/4=45）。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page209_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page058_table_0_qa",
+    "question": "補助金が負担金の何分の幾らであるかは？",
+    "answer": "補助金が負担金の2分の1である。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page058_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集9_2011-2018_page006_table_0_qa",
+    "question": "回復プロセスには何つの段階がありますか？",
+    "answer": "2つの段階があります。即時対応期と本格復興期です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集9_2011-2018_page006_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page009_table_1_qa",
+    "question": "阪神・淡路大震災後の重要な課題として挙げられている点は何点ありますか？",
+    "answer": "4点です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page009_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page172_table_0_qa",
+    "question": "この事例はどの地域の災害対策を示していますか？",
+    "answer": "宮城県女川町の東日本大震災の被災地における企業や自治体による連携復興活動を示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page172_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "東日本大震災の教訓_2011_EastJapanQuakeLesson_page008_table_0_qa",
+    "question": "早期の対応が重要と評価された理由は何ですか？",
+    "answer": "早期の情報収集と適切な判断により、迅速な対応が可能になり、被害軽減に直結するためです。",
+    "question_type": "table",
+    "block_ids": [
+      "東日本大震災の教訓_2011_EastJapanQuakeLesson_page008_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page032_table_0_qa",
+    "question": "災害復旧助成事業費はいくらですか？",
+    "answer": "災害復旧助成事業費は1,267万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page032_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page014_table_0_qa",
+    "question": "被災者の人数はどのくらいです？",
+    "answer": "被災者の人数は70人です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page014_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page059_table_0_qa",
+    "question": "冲縄の海岸での災害復旧補助率は何ですか？",
+    "answer": "冲縄の海岸での災害復旧補助率は9/10です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page059_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page003_table_0_qa",
+    "question": "発生日時の範囲は何月何日から何月何日までですか？",
+    "answer": "4月14日から4月29日までです。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page003_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page026_table_3_qa",
+    "question": "この表に記載されている地域はどれくらいありますか？",
+    "answer": "伯太町、広島市、呉市、東山町、帯広市、清水町の6つの地域が含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page026_table_3"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page041_table_2_qa",
+    "question": "この表はどのような災害に関する事例をまとめていますか？",
+    "answer": "阪神・淡路大震災、有珠山噴火、新潟県中越地震、中国・九州北部豪雨に関する事例がまとめられています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page041_table_2"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page034_table_0_qa",
+    "question": "この表ではアルコール依存者と被災者のどのような支援が行われていますか？",
+    "answer": "アルコỆล依赖者的社会自立促进和支持，以及为被災者提供PTSD应对服务的心灵关怀中心和区域关怀中心的运营支持。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page034_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page032_table_0_qa",
+    "question": "東日本大震災に配分された義援金額はいくらですか？",
+    "answer": "1,000億円です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page032_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page042_table_0_qa",
+    "question": "補助金額はどの程度からどの程度までですか？",
+    "answer": "補助金額は3万円から30万円までです。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page042_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page002_table_0_qa",
+    "question": "死者数はいくつか？",
+    "answer": "死者は68人です。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page002_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page068_table_0_qa",
+    "question": "修理費用が100万円以上の家屋の割合はどの程度ですか？",
+    "answer": "キャプションからは具体的な割合は示されていませんが、100万円以上の修理費用が必要な家屋があることが示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page068_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page220_table_0_qa",
+    "question": "2018年度にコラボ・スクールを利用した小中高生の人数はいくつですか？",
+    "answer": "1,277人です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page220_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page086_table_0_qa",
+    "question": "各渓流に設置されている堰堤は何個ありますか？",
+    "answer": "毎渓流に1つまたは複数の堰堤が設置されています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page086_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page226_table_0_qa",
+    "question": "この表ではどのような組織が震災支援にどのように関与したか説明されていますか？",
+    "answer": "この表は、いわて連携復興センター、みやぎ連携復興センター、せんだい・みやぎNPOセンターなどの支援団体や中心機関の活動について記述しています。これらの組織は震災後の支援と復興に重要な役割を果たしました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page226_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page046_table_0_qa",
+    "question": "補助率はどのくらいですか？",
+    "answer": "渓流に関連する部分では、沖縄の場合8/10、奄美の場合2/3が補助されます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page046_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page033_table_0_qa",
+    "question": "この表はどの機関が編集したものですか？",
+    "answer": "復興庁男女共同参画班が編集しました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page033_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page032_table_0_qa",
+    "question": "福島県の会津若松合同庁舎での設置時期はいつですか？",
+    "answer": "福島県の会津若松合同庁舎での設置時期は3月16日9:30です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page032_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page010_table_0_qa",
+    "question": "大槌町の災害復興体制構築にどのような困難が生じましたか？",
+    "answer": "副町長の死亡による遅延があります。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page010_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page001_table_0_qa",
+    "question": "台風による災害では何回発生しましたか？",
+    "answer": "12回発生しました。",
+    "question_type": "table",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page001_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page041_table_5_qa",
+    "question": "どのような災害が阪神・淡路大震災と関連していますか？",
+    "answer": "阪神・淡路大震災は地震に関連しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page041_table_5"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page105_table_0_qa",
+    "question": "災害時の文化財保護にはどのような方法が挙げられていますか？",
+    "answer": "災害時の文化財保護には、調査と速やかな復旧の方法が挙げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page105_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集4_2018-2019_page013_table_0_qa",
+    "question": "災害復興計画における主要施策には何が含まれていますか？",
+    "answer": "主要施策には「安全な地域づくり」、「産業・経済復興」が含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集4_2018-2019_page013_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page034_table_0_qa",
+    "question": "輪島市の復興方針では、都市基盤の再建にどのような対応が強調されていますか？",
+    "answer": "自力再建不能な場合でも近隣の公的賃貸住宅供給や街並み配慮が強調されています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page034_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page017_table_0_qa",
+    "question": "緊急危険度判定調査対象はどの程度ありますか？",
+    "answer": "緊急危険度判定調査対象は7,600棟に達しています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page017_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page208_table_0_qa",
+    "question": "「ぬま大学」はどのような支援活動を行っていますか？",
+    "answer": "「ぬま大学」では、被災地への定着支援として移住者のインタビューを実施しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page208_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page219_table_0_qa",
+    "question": "災害対応に関する事業費はどのくらいですか？",
+    "answer": "災害対応に関する事業費は1,227,000円です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page219_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page134_table_0_qa",
+    "question": "同一敷地内に50戸以上の仮設住宅を設置する場合、どのような施設を設ける必要がありますか？",
+    "answer": "集会施設を設けます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page134_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page016_table_0_qa",
+    "question": "箱根火山の噴火警戒レベルがどの日に LEVEL2 に引き上げられましたか？",
+    "answer": "5月6日です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page016_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H28_typhoon10_page003_table_0_qa",
+    "question": "死者数は幾つありますか？",
+    "answer": "24人です。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H28_typhoon10_page003_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page062_table_1_qa",
+    "question": "補助率はどの程度ですか？",
+    "answer": "直轄では2/3、補助では1/2です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page062_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page007_table_0_qa",
+    "question": "災害による全体的な被害額はいくらですか？",
+    "answer": "災害による全体的な被害額は1144.7億円です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page007_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page012_table_0_qa",
+    "question": "大槌町長はいつ就任しましたか？",
+    "answer": "平成23年8月に就任しました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page012_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page060_table_0_qa",
+    "question": "経済復興状況の中で、業界別再建の進捗率はどのくらいですか？",
+    "answer": "キャプションからは具体的な業界別再建の進捗率については明記されていませんが、経済復興状況に関する情報が含まれています。詳細な数値については図表を参照してください。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page060_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page100_table_0_qa",
+    "question": "所有者不明の土地は幾つありますか？",
+    "answer": "6件の土地です。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page100_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page040_table_0_qa",
+    "question": "この教訓文書はどのような日付の情報を含んでいますか？",
+    "answer": "特定の日付の情報が含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page040_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page019_table_0_qa",
+    "question": "参加した石巻市一般職員は何人ですか？",
+    "answer": "10名です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page019_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page082_table_0_qa",
+    "question": "この支援事業はどのような災害後の状況を目的としていますか？",
+    "answer": "雲仙普賢岳の噴火災害後の観光回復を目的としています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page082_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page107_table_0_qa",
+    "question": "これらの事業はどの期間に実施されましたか？",
+    "answer": "平成23年4月から平成26年3月までです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page107_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page192_table_0_qa",
+    "question": "ASC認証を取得した宮城県内のかき生産者の割合はどのくらいですか？",
+    "answer": "宮城県内のかき生産者の約6割が同認証を得ています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page192_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page023_table_0_qa",
+    "question": "都市整備局と安佐南区役所の地域整備課、下水道局河川課の主な業務内容は何ですか？",
+    "answer": "主要な業務内容には、復興まちづくりに関する総合調整や道路・河川工事、不動産管理が含まれます。特に、下水道局の砂防事業推進担当は土砂災害防止に注力しており、地域の防災対策を強化しています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page023_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page033_table_1_qa",
+    "question": "この表では何種類の主要な項目が含まれていますか？",
+    "answer": "5種類の主要な項目が含まれています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page033_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page042_table_0_qa",
+    "question": "この図表はどのような災害教訓文書に関連していますか？",
+    "answer": "キャプション情報では明確な内容が示されていません。具体的な文書の種類について詳細を提供していただけますと幸いです。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page042_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page056_table_0_qa",
+    "question": "災害救助法や被災者生活再建支援法の適用にはどのような準備が必要ですか？",
+    "answer": "事前準備が必要で、特に救助実施市制度や被災者生活再建支援金の支給方法についての計画が重要です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page056_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page011_table_0_qa",
+    "question": "「釜石市復興まちづくり基本方針」はいつ公表されましたか？",
+    "answer": "23年4月11日に公表されました。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page011_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page081_table_0_qa",
+    "question": "复兴过程中的重要活动有哪些？",
+    "answer": "重要的活动包括接受和分配捐款、建设并安置临时住宅、解除避难警告、制定复兴计划，以及定期举行复兴纪念活动。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page081_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page046_table_0_qa",
+    "question": "この表では何つのプロジェクトが挙げられていますか？",
+    "answer": "8つのプロジェクトが挙げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page046_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page040_table_1_qa",
+    "question": "「1995年阪神・淡路大震災」に関わった団体は哪些？",
+    "answer": "神戸市と阪神・淡路大震災復興基金が関与しました。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page040_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page003_table_0_qa",
+    "question": "避難所に避難した人は何人いますか？",
+    "answer": "約10万3千人が避難しました。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page003_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "平成の災害事例_H28_kumamoto_page006_table_1_qa",
+    "question": "総合的に見ると、どの施設の被害が最も大きいですか？",
+    "answer": "道路や河川の被害が大きいことがわかります。",
+    "question_type": "table",
+    "block_ids": [
+      "平成の災害事例_H28_kumamoto_page006_table_1"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page002_table_0_qa",
+    "question": "半壊家屋の割合はどのくらいですか？",
+    "answer": "21.0％です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page002_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page013_table_0_qa",
+    "question": "この公園はどのような目的で建設されていますか？",
+    "answer": "地域住民だけでなく近隣市町村の人々も訪れる場所とする計画です。また、復興のシンボルとしての役割も担う予定です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page013_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page095_table_0_qa",
+    "question": "「エリアマネジメント」はどのような取り組みを指していますか？",
+    "answer": "「エリアマネジメント」は土地貸与制度導入と合わせて、災害後の地域再生と経済活性化に焦点を当てた取り組みです。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page095_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page024_table_0_qa",
+    "question": "どのような体制が示されていますか？",
+    "answer": "この表は自治体間の災害時の技術職員支援体制について示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page024_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page029_table_0_qa",
+    "question": "平成23年度の派遣者数は幾らでしたか？",
+    "answer": "平成23年度の派遣者数は422名でした。",
+    "question_type": "table",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page029_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page061_table_0_qa",
+    "question": "観光対策事業の合計金額はいくらですか？",
+    "answer": "2,362,573万円です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page061_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page138_table_0_qa",
+    "question": "应急仮設住宅の処分期間はどれくらいですか？",
+    "answer": "2年です。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page138_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page036_table_0_qa",
+    "question": "災害時の重傷者に対して何万円が支給されますか？",
+    "answer": "災害時の重傷者に対して30万円/人が支給されます。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page036_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page170_table_0_qa",
+    "question": "特定災害による事業休廃止時の失業状態はどのようにみなされますか？",
+    "answer": "特定災害による事業休廃止時、失業状態とみなされる。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page170_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "03歴史資料集3_2018-2019_page017_table_0_qa",
+    "question": "支援を受けたランタンは何個ですか？",
+    "answer": "約3,000個です。",
+    "question_type": "table",
+    "block_ids": [
+      "03歴史資料集3_2018-2019_page017_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page055_table_0_qa",
+    "question": "应急仮設住宅が着工した日はいつでしたか？",
+    "answer": "应急仮設住宅が着工した日は23日です。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page055_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page032_table_0_qa",
+    "question": "災害復興計画ではどのような施設の整備が特に重要視されていますか？",
+    "answer": "生命線となる生活道路の整備が重要視されています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page032_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page090_table_0_qa",
+    "question": "この表はどの地域の災害対応に関する教訓を示していますか？",
+    "answer": "岩手県野田村の災害対応に関する教訓を示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page090_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page003_table_0_qa",
+    "question": "主要な施策には哪些项目被包含在内？",
+    "answer": "主要的项目包括公共土木施设的灾害恢复、城市和公共设施的建设、基础设施的重建、文化的复兴、信息收集与提供，以及中小型企业及农业渔业的重建。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page003_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page055_table_0_qa",
+    "question": "被災者の避難者数はどの程度でしたか？",
+    "answer": "被災者の避難者数は当初予想を大幅に上回りました。具体的な数字は記載されていませんが、当初の予想よりも多くの人が避難していることが示されています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page055_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page026_table_0_qa",
+    "question": "喜多～垂玉線はいつ昼間片側通行可能になりましたか？",
+    "answer": "平成31年4月16日に昼間片側通行可能となりました。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page026_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集3_2011-2018_page010_table_0_qa",
+    "question": "補助制度の違いはどの程度ありますか？",
+    "answer": "1,000万円程度です。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集3_2011-2018_page010_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page055_table_0_qa",
+    "question": "緊急対応期における具体的施策は何が挙げられていますか？",
+    "answer": "緊急の住宅確保が挙げられています。",
+    "question_type": "table",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page055_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page025_table_0_qa",
+    "question": "緊急対応期と本格復興期ではどのような違いがありますか？",
+    "answer": "緊急対応期は主要な項目として「すまいと暮らしの再建」や「安全な地域づくり」が挙げられ、本格復興期はそれらの施策が続けられる一方で、より長期的な視点からの復興計画が推進されます。",
+    "question_type": "table",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page025_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page022_table_0_qa",
+    "question": "福岡県と熊本県はどのような特徴がありますか？",
+    "answer": "福岡県と熊本県は頻繁に災害派遣元として挙げられています。これらの地域の災害対応能力や支援体制が強化されていることを示しています。",
+    "question_type": "table",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page022_table_0"
+    ],
+    "requires_image": true,
+    "difficulty": "medium"
+  }
+]

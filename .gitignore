@@ -89,3 +89,9 @@ unsloth_compiled_cache/
 # methodology
 papers_kasensabo_hippo2/
 
+# ── User-requested full folder ignores (repository root) ──
+/data/
+/docs_TikZ/
+/indices/
+/paper_disaster_vlm/
+

@@ -1,0 +1,136 @@
+{
+  "summary": [
+    {
+      "id": 1,
+      "filename": "01_令和２年７月豪雨被害_熊本写真",
+      "disaster_type": "洪水",
+      "top1_score": 0.7147191381454469,
+      "top1_text_score": 0.5646811723709106,
+      "top1_triple_score": 0.6419764161109924,
+      "avg_score": 0.6276011981964111,
+      "lesson_length": 591
+    },
+    {
+      "id": 2,
+      "filename": "02_宮城県津波災害_フリー写真素材",
+      "disaster_type": "地震",
+      "top1_score": 0.7789253854751587,
+      "top1_text_score": 0.6705431938171387,
+      "top1_triple_score": 0.6169463992118835,
+      "avg_score": 0.7146762571334839,
+      "lesson_length": 874
+    },
+    {
+      "id": 3,
+      "filename": "03_熊本地震_フリー画像_日本防災士会",
+      "disaster_type": "Unknown",
+      "top1_score": 0.6817391395568847,
+      "top1_text_score": 0.5291656255722046,
+      "top1_triple_score": 0.6265413761138916,
+      "avg_score": 0.6170620937347412,
+      "lesson_length": 864
+    },
+    {
+      "id": 4,
+      "filename": "04_建設システム_総合防災アプリ_大雨防災",
+      "disaster_type": "Unknown",
+      "top1_score": 0.6393399453163148,
+      "top1_text_score": 0.5159409046173096,
+      "top1_triple_score": 0.558046817779541,
+      "avg_score": 0.5482582855224609,
+      "lesson_length": 737
+    },
+    {
+      "id": 5,
+      "filename": "05_阪神淡路大震災から25年_文春オンライン",
+      "disaster_type": "地震",
+      "top1_score": 0.7356203556060791,
+      "top1_text_score": 0.629858136177063,
+      "top1_triple_score": 0.5877551436424255,
+      "avg_score": 0.6856029596328735,
+      "lesson_length": 859
+    },
+    {
+      "id": 6,
+      "filename": "06_土砂災害フリー画像",
+      "disaster_type": "地震",
+      "top1_score": 0.69846031665802,
+      "top1_text_score": 0.5686341524124146,
+      "top1_triple_score": 0.6021744012832642,
+      "avg_score": 0.6774310655593871,
+      "lesson_length": 783
+    },
+    {
+      "id": 7,
+      "filename": "07_熱海土砂崩れ_建設システム_綜合防災アプリ",
+      "disaster_type": "Unknown",
+      "top1_score": 0.47823469519615175,
+      "top1_text_score": 0.388016015291214,
+      "top1_triple_score": 0.41429823637008667,
+      "avg_score": 0.4642534840106964,
+      "lesson_length": 803
+    },
+    {
+      "id": 8,
+      "filename": "08_熱海土石流災害_静岡新聞",
+      "disaster_type": "地震",
+      "top1_score": 0.6567725443840026,
+      "top1_text_score": 0.5266609191894531,
+      "top1_triple_score": 0.578284740447998,
+      "avg_score": 0.6338178548812865,
+      "lesson_length": 801
+    },
+    {
+      "id": 9,
+      "filename": "09_箱根山噴火_Rescue4th",
+      "disaster_type": "Unknown",
+      "top1_score": 0.48414020061492913,
+      "top1_text_score": 0.3606487214565277,
+      "top1_triple_score": 0.4676523208618164,
+      "avg_score": 0.4363244562149048,
+      "lesson_length": 690
+    },
+    {
+      "id": 10,
+      "filename": "10_ベネズエラ首都土砂災害_AFPBB_News",
+      "disaster_type": "Unknown",
+      "top1_score": 0.7211913442611695,
+      "top1_text_score": 0.5517243146896362,
+      "top1_triple_score": 0.6748954653739929,
+      "avg_score": 0.6879148292541505,
+      "lesson_length": 762
+    },
+    {
+      "id": 11,
+      "filename": "11_2022年10月ベネズエラ、北部アラグア州郊外_Matias_AP通信",
+      "disaster_type": "Unknown",
+      "top1_score": 0.7855781650543213,
+      "top1_text_score": 0.6150346994400024,
+      "top1_triple_score": 0.714069128036499,
+      "avg_score": 0.7145159482955933,
+      "lesson_length": 840
+    },
+    {
+      "id": 12,
+      "filename": "12_ベネズエラM7地震1分揺れ-venezuela-quake_CNN",
+      "disaster_type": "Unknown",
+      "top1_score": 0.492028341293335,
+      "top1_text_score": 0.4279402494430542,
+      "top1_triple_score": 0.3831486105918884,
+      "avg_score": 0.4321268520355225,
+      "lesson_length": 894
+    }
+  ],
+  "statistics": {
+    "top1_score": {
+      "mean": 0.6555624642968177,
+      "min": 0.47823469519615175,
+      "max": 0.7855781650543213
+    },
+    "disaster_types": {
+      "洪水": 1,
+      "地震": 4,
+      "Unknown": 7
+    }
+  }
+}

@@ -27,6 +27,7 @@ Usage:
 import sys
 import argparse
 import json
+import pickle
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
 from dataclasses import dataclass, field
@@ -71,6 +72,7 @@ class RetrievalResult:
     image_path: str = ""
     # スコア内訳
     text_score: float = 0.0
+    bm25_score: float = 0.0  # v0.7.3: BM25キーワードマッチングスコア
     triple_score: float = 0.0
     image_score: float = 0.0
     calibrated_score: float = 0.0
@@ -224,6 +226,7 @@ class MultimodalHippoRAG2Retriever:
                  blocks_path: Optional[Path] = None,
                  triple_index_path: Optional[Path] = None,
                  triple_metadata_path: Optional[Path] = None,
+                 bm25_index_path: Optional[Path] = None,  # v0.7.3: BM25インデックス
                  device: str = "cuda" if torch.cuda.is_available() else "cpu",
                  enable_image_understanding: bool = False,
                  ollama_model: str = "qwen2.5:7b-instruct-q4_k_m"):
@@ -233,6 +236,7 @@ class MultimodalHippoRAG2Retriever:
             blocks_path: layout_blocks_captioned.jsonl パス
             triple_index_path: Triple FAISSインデックスパス
             triple_metadata_path: Triple メタデータパス
+            bm25_index_path: BM25インデックスパス (v0.7.3)
             device: デバイス (cuda/cpu)
             enable_image_understanding: 画像理解を有効化
             ollama_model: Ollamaマルチモーダルモデル名
@@ -265,6 +269,17 @@ class MultimodalHippoRAG2Retriever:
             print(f"🔄 Generating block embeddings...")
             self.block_embeddings = self._generate_block_embeddings()
             print(f"✅ Block embeddings ready: shape {self.block_embeddings.shape}")
+        
+        # BM25キーワード検索インデックス（v0.7.3）
+        self.bm25_index = None
+        self.bm25_corpus_ids = []
+        if bm25_index_path and bm25_index_path.exists():
+            print(f"\n🔄 Loading BM25 index: {bm25_index_path}")
+            with open(bm25_index_path, 'rb') as f:
+                bm25_data = pickle.load(f)
+                self.bm25_index = bm25_data['bm25']
+                self.bm25_corpus_ids = bm25_data['corpus_ids']
+            print(f"✅ BM25 index loaded | Blocks: {len(self.bm25_corpus_ids)}")
         
         # Triple検索インデックス（オプション）
         self.triple_index = None
@@ -336,20 +351,22 @@ class MultimodalHippoRAG2Retriever:
                  top_k: int = 10,
                  volume_filter: Optional[str] = None,
                  chapter_filter: Optional[str] = None,
-                 alpha_text: float = 0.5,
-                 alpha_triple: float = 0.3,
-                 alpha_image: float = 0.2) -> List[RetrievalResult]:
+                 alpha_text: float = 0.2675,   # v0.7.4: Bayesian-optimized (Optuna 50 trials)
+                 alpha_bm25: float = 0.2903,   # v0.7.4: Bayesian-optimized (Optuna 50 trials)
+                 alpha_triple: float = 0.4422, # v0.7.4: Bayesian-optimized (Optuna 50 trials)
+                 alpha_image: float = 0.1) -> List[RetrievalResult]:
         """
-        マルチモーダル検索を実行
+        マルチモーダル検索を実行（v0.7.4: Bayesian-optimized weights）
         
         Args:
             query: 検索クエリ
             top_k: 取得する結果数
             volume_filter: Volumeフィルタ（オプション）
             chapter_filter: Chapterフィルタ（オプション）
-            alpha_text: テキストスコアの重み
-            alpha_triple: Tripleスコアの重み
-            alpha_image: 画像スコアの重み
+            alpha_text: テキスト埋め込みスコアの重み (default: 0.2675, v0.7.4 optimized)
+            alpha_bm25: BM25キーワードマッチングスコアの重み (default: 0.2903, v0.7.4 optimized)
+            alpha_triple: Tripleスコアの重み (default: 0.4422, v0.7.4 optimized)
+            alpha_image: 画像スコアの重み (default: 0.1, fixed)
         
         Returns:
             検索結果のリスト
@@ -369,7 +386,7 @@ class MultimodalHippoRAG2Retriever:
             normalize_embeddings=True
         )
         
-        # 1. テキスト埋め込みベースの検索（Qdrant）
+        # 1. テキスト埋め込みベースの検索
         text_results = self._search_text_embeddings(
             query_embedding, 
             top_k=top_k * 2,  # 多めに取得してリランク
@@ -377,22 +394,29 @@ class MultimodalHippoRAG2Retriever:
             chapter_filter=chapter_filter
         )
         
-        # 2. Triple検索（オプション）
+        # 2. BM25キーワード検索（v0.7.3）
+        bm25_results = {}
+        if self.bm25_index and alpha_bm25 > 0:
+            bm25_results = self._search_bm25(query, top_k=top_k * 2)
+        
+        # 3. Triple検索（オプション）
         triple_results = {}
         if self.triple_index and alpha_triple > 0:
             triple_results = self._search_triples(query_embedding, top_k=top_k * 2)
         
-        # 3. スコア融合
+        # 4. スコア融合（4軸: Text + BM25 + Triple + Image）
         fused_results = self._fuse_scores(
             text_results=text_results,
+            bm25_results=bm25_results,  # v0.7.3
             triple_results=triple_results,
             alpha_text=alpha_text,
+            alpha_bm25=alpha_bm25,  # v0.7.3
             alpha_triple=alpha_triple,
             alpha_image=alpha_image,
             is_figure_query=analysis.is_figure_related
         )
         
-        # 4. リランキング（Top-k選択）
+        # 5. リランキング（Top-k選択）
         fused_results.sort(key=lambda x: x.score, reverse=True)
         
         return fused_results[:top_k]
@@ -554,6 +578,57 @@ class MultimodalHippoRAG2Retriever:
         
         return results
     
+    def _search_bm25(self, 
+                     query: str,
+                     top_k: int = 50) -> Dict[str, float]:
+        """BM25キーワード検索（v0.7.3）
+        
+        Args:
+            query: 検索クエリ
+            top_k: 取得する結果数
+        
+        Returns:
+            {block_id: normalized_score, ...}
+        """
+        if self.bm25_index is None:
+            return {}
+        
+        # トークン化
+        tokens = self._bm25_tokenize(query)
+        
+        # BM25スコア計算
+        bm25_scores = self.bm25_index.get_scores(tokens)
+        
+        # 正規化（0-1）
+        bm25_max = bm25_scores.max()
+        if bm25_max > 0:
+            bm25_norm = bm25_scores / bm25_max
+        else:
+            bm25_norm = bm25_scores
+        
+        # Top-k選択
+        top_indices = np.argsort(-bm25_norm)[:top_k]
+        
+        # block_idにマッピング
+        results = {}
+        for idx in top_indices:
+            if idx < len(self.bm25_corpus_ids):
+                block_id = self.bm25_corpus_ids[idx]
+                results[block_id] = float(bm25_norm[idx])
+        
+        return results
+    
+    @staticmethod
+    def _bm25_tokenize(text: str) -> List[str]:
+        """日本語バイグラムトークン化（文字 + 2-gram）
+        
+        Example:
+            '地震被害' → ['地', '震', '被', '害', '地震', '震被', '被害']
+        """
+        chars = list(text)
+        bigrams = [text[i:i+2] for i in range(len(text)-1)]
+        return chars + bigrams
+    
     def _search_triples(self, 
                         query_embedding: np.ndarray,
                         top_k: int = 20) -> Dict[str, float]:
@@ -581,20 +656,24 @@ class MultimodalHippoRAG2Retriever:
     
     def _fuse_scores(self,
                      text_results: List[RetrievalResult],
+                     bm25_results: Dict[str, float],  # v0.7.3
                      triple_results: Dict[str, float],
                      alpha_text: float,
+                     alpha_bm25: float,  # v0.7.3
                      alpha_triple: float,
                      alpha_image: float,
                      is_figure_query: bool) -> List[RetrievalResult]:
-        """スコア融合"""
-        # テキスト結果をベースに、Tripleスコアを追加
+        """スコア融合（v0.7.3: 4軸 = Text + BM25 + Triple + Image）"""
+        # テキスト結果をベースに、BM25/Tripleスコアを追加
         for result in text_results:
             # テキストスコア
             result.text_score = result.score
             
+            # BM25スコア（v0.7.3）
+            result.bm25_score = bm25_results.get(result.block_id, 0.0)
+            
             # Tripleスコア
-            if result.block_id in triple_results:
-                result.triple_score = triple_results[result.block_id]
+            result.triple_score = triple_results.get(result.block_id, 0.0)
             
             # 図表関連クエリの場合、図表ブロックのスコアをブースト
             if is_figure_query and result.block_type in ['table', 'figure']:
@@ -602,11 +681,12 @@ class MultimodalHippoRAG2Retriever:
             else:
                 boost = 1.0
             
-            # 融合スコア計算
+            # 融合スコア計算（4軸）
             result.score = (
                 alpha_text * result.text_score +
+                alpha_bm25 * result.bm25_score +  # v0.7.3
                 alpha_triple * result.triple_score +
-                alpha_image * result.image_score  # 画像スコアは将来実装
+                alpha_image * result.image_score
             ) * boost
         
         return text_results
@@ -618,15 +698,17 @@ def demo_retrieval():
     print("Multi-modal HippoRAG2 Retriever Demo")
     print("="*60)
     
-    # Retriever初期化
+    # Retriever初期化（v0.7.3: BM25追加）
     blocks_path = Path("experiments_v070/indices/layout_blocks_captioned.jsonl")
     triple_index_path = Path("experiments_v070/indices/mm_triple.index")
     triple_metadata_path = Path("experiments_v070/indices/mm_triples_metadata.json")
+    bm25_index_path = Path("experiments_v070/indices/bm25_index.pkl")  # v0.7.3
     
     retriever = MultimodalHippoRAG2Retriever(
         blocks_path=blocks_path,
         triple_index_path=triple_index_path,
-        triple_metadata_path=triple_metadata_path
+        triple_metadata_path=triple_metadata_path,
+        bm25_index_path=bm25_index_path  # v0.7.3
     )
     
     # デモクエリ
@@ -647,7 +729,7 @@ def demo_retrieval():
         for i, result in enumerate(results, 1):
             print(f"\n{i}. Block ID: {result.block_id}")
             print(f"   Type: {result.block_type}")
-            print(f"   Score: {result.score:.4f} (text: {result.text_score:.4f}, triple: {result.triple_score:.4f})")
+            print(f"   Score: {result.score:.4f} (text: {result.text_score:.4f}, bm25: {result.bm25_score:.4f}, triple: {result.triple_score:.4f})")
             print(f"   Content: {result.content[:100]}...")
 
 
@@ -666,6 +748,9 @@ def main():
     parser.add_argument("--triple-metadata", type=str,
                        default="experiments_v070/indices/mm_triples_metadata.json",
                        help="Path to triple metadata")
+    parser.add_argument("--bm25-index", type=str,
+                       default="experiments_v070/indices/bm25_index.pkl",
+                       help="Path to BM25 index (v0.7.3)")
     parser.add_argument("--demo", action="store_true",
                        help="Run demo with sample queries")
     parser.add_argument("--enable-images", action="store_true",
@@ -678,11 +763,12 @@ def main():
     if args.demo:
         demo_retrieval()
     elif args.query:
-        # Retriever初期化
+        # Retriever初期化（v0.7.3: BM25追加）
         retriever = MultimodalHippoRAG2Retriever(
             blocks_path=Path(args.blocks),
             triple_index_path=Path(args.triple_index),
             triple_metadata_path=Path(args.triple_metadata),
+            bm25_index_path=Path(args.bm25_index),  # v0.7.3
             enable_image_understanding=args.enable_images
         )
         

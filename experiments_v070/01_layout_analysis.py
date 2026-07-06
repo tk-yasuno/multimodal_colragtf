@@ -432,8 +432,10 @@ def main():
                         help="特定のPDFのみ処理")
     args = parser.parse_args()
     
-    # 設定ロード
-    config_path = Path(__file__).parent / args.config
+    # 設定ロード（相対パスの場合はカレントディレクトリから解決）
+    config_path = Path(args.config)
+    if not config_path.is_absolute():
+        config_path = Path.cwd() / config_path
     with open(config_path, 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
     

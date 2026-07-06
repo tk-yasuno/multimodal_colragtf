@@ -1,0 +1,769 @@
+{
+  "1-hop (qa_multimodal.json)": [
+    {
+      "qa": {
+        "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page122_table_0_qa",
+        "question": "特定地域での災害公営住宅の初期活用から解体までの期間はどの程度ですか？",
+        "answer": "これらの情報からは具体的な期間は示されていませんが、特定地域での災害公営住宅の初期活用から解体までの期間が示されています。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_Report_fukko-kyokun-knowhow_page122_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.4% (2 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.4% (2 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集3_1995-2001_page008_table_0_qa",
+        "question": "国がどのような支援を行いましたか？",
+        "answer": "国は個人や中小企業の損壊建物解体を特例的に支援しました。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集3_1995-2001_page008_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 6.2% (1 chars)', '[A] Chinese simplified chars detected: 7.4% (2 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 6.2% (1 chars); [A] Chinese simplified chars detected: 7.4% (2 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集3_1995-2001_page122_table_0_qa",
+        "question": "緊急対応期にどのような具体的施策が行われますか？",
+        "answer": "被災状況把握が行われます。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集3_1995-2001_page122_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 13 chars (min: 20)', '[Q] Chinese simplified chars detected: 4.3% (1 chars)'])",
+      "reason": "Answer too short: 13 chars (min: 20); [Q] Chinese simplified chars detected: 4.3% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page117_table_0_qa",
+        "question": "この文書ではどのような住棟設計が特筆されていますか？",
+        "answer": "コミュニティ形成や共助促進に配慮した住棟設計が特筆されています。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_Report_fukko-kyokun-knowhow_page117_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.2% (1 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.2% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集2_1958-1993_page085_table_1_qa",
+        "question": "漁礁設置助成事業では地元負担はどの程度になりますか？",
+        "answer": "地元負担は半分です。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集2_1958-1993_page085_table_1"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 10 chars (min: 20)', '[Q] Chinese simplified chars detected: 4.0% (1 chars)', '[A] Chinese simplified chars detected: 11.1% (1 chars)'])",
+      "reason": "Answer too short: 10 chars (min: 20); [Q] Chinese simplified chars detected: 4.0% (1 chars); [A] Chinese simplified chars detected: 11.1% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "平成の災害事例_H23_higashinihon_page007_table_0_qa",
+        "question": "复兴期间的主要阶段有哪些？",
+        "answer": "主要阶段包括“应对期”、“应急恢复期”和“全面恢复期”。",
+        "question_type": "table",
+        "block_ids": [
+          "平成の災害事例_H23_higashinihon_page007_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Only Kanji, no hiragana/katakana (total: 12 kanji)', '[A] Only Kanji, no hiragana/katakana (total: 20 kanji)'])",
+      "reason": "[Q] Only Kanji, no hiragana/katakana (total: 12 kanji); [A] Only Kanji, no hiragana/katakana (total: 20 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page072_table_0_qa",
+        "question": "物資を提供した企業はどの2つがありますか？",
+        "answer": "「あしなが育英会」や「ソフトバンク」です。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_Examples_fukko-kyokun-knowhow_page072_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 6.2% (1 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 6.2% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集9_2011-2018_page012_table_0_qa",
+        "question": "复兴计划的制定过程中包含了哪些会议和调查？",
+        "answer": "计划各阶段中的会议和调查包括地区别复旧·复振兴推推进协会议、市民问卷调查以及委员会议等。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集9_2011-2018_page012_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 5.0% (1 chars)', '[Q] Only Kanji, no hiragana/katakana (total: 20 kanji)', '[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Chinese simplified chars detected: 7.3% (3 chars)', '[A] Only Kanji, no hiragana/katakana (total: 41 kanji)'])",
+      "reason": "[Q] Chinese simplified chars detected: 5.0% (1 chars); [Q] Only Kanji, no hiragana/katakana (total: 20 kanji); [A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Chinese simplified chars detected: 7.3% (3 chars); [A] Only Kanji, no hiragana/katakana (total: 41 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集2_1958-1993_page015_table_0_qa",
+        "question": "大船渡、広田、山田はどのような被害を受けましたか？",
+        "answer": "特别重大的损害。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集2_1958-1993_page015_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 8 chars (min: 20)', '[A] Chinese simplified chars detected: 14.3% (1 chars)'])",
+      "reason": "Answer too short: 8 chars (min: 20); [A] Chinese simplified chars detected: 14.3% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page262_table_0_qa",
+        "question": "この表が示す主要な取組主体は誰ですか？",
+        "answer": "主要な取組主体は関西広域連合です。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_Examples_fukko-kyokun-knowhow_page262_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 17 chars (min: 20)', '[Q] Chinese simplified chars detected: 5.6% (1 chars)', '[A] Chinese simplified chars detected: 6.2% (1 chars)'])",
+      "reason": "Answer too short: 17 chars (min: 20); [Q] Chinese simplified chars detected: 5.6% (1 chars); [A] Chinese simplified chars detected: 6.2% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "平成の災害事例_H26_02HeavySnow_page006_table_0_qa",
+        "question": "緊急対応期と応急復旧期（避難期）はどのくらいの期間を表していますか？",
+        "answer": "主要な項目には具体的な期間は記載されていません。",
+        "question_type": "table",
+        "block_ids": [
+          "平成の災害事例_H26_02HeavySnow_page006_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 4.3% (1 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 4.3% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集4_2002-2004_page046_table_0_qa",
+        "question": "ボランティア参加者は実費としてどのくらいの金額を負担しますか？",
+        "answer": "実費は1000円（風呂代込み）です。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集4_2002-2004_page046_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 18 chars (min: 20)', '[Q] Chinese simplified chars detected: 3.3% (1 chars)'])",
+      "reason": "Answer too short: 18 chars (min: 20); [Q] Chinese simplified chars detected: 3.3% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_1_page038_table_0_qa",
+        "question": "「1983年日本海中部地震」で対応した具体的な防災対策は何でしたか？",
+        "answer": "対応した具体的な防災対策は「港湾における防潮堤等整備」です。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_1_page038_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 3.7% (1 chars)', '[A] Chinese simplified chars detected: 3.7% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 3.7% (1 chars); [A] Chinese simplified chars detected: 3.7% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集2_1958-1993_page060_table_0_qa",
+        "question": "災害対策本部会議はどの期間に開催されましたか？",
+        "answer": "8月から10月にかけて約4ヶ月間開催されました。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集2_1958-1993_page060_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[Q] Chinese simplified chars detected: 4.5% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 4.5% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集3_1995-2001_page040_table_0_qa",
+        "question": "商店街や小売市場の復興補助はどのような支援を提供していますか？",
+        "answer": "商店街や小零售市场的复建补助包括设备资金支持、临时工厂设置援助等。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集3_1995-2001_page040_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Very few Japanese kana: 3.2% (hiragana: 1, katakana: 0)', '[A] Chinese simplified chars detected: 3.2% (1 chars)'])",
+      "reason": "[A] Very few Japanese kana: 3.2% (hiragana: 1, katakana: 0); [A] Chinese simplified chars detected: 3.2% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page194_table_0_qa",
+        "question": "取組主体は誰ですか？",
+        "answer": "株式会社八葉水産です。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_Examples_fukko-kyokun-knowhow_page194_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 11 chars (min: 20)', '[Q] Chinese simplified chars detected: 11.1% (1 chars)', '[A] Chinese simplified chars detected: 10.0% (1 chars)'])",
+      "reason": "Answer too short: 11 chars (min: 20); [Q] Chinese simplified chars detected: 11.1% (1 chars); [A] Chinese simplified chars detected: 10.0% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集6_2011-2018_page018_table_0_qa",
+        "question": "対応期と応急復旧期（避難期）にはどのような具体的な施策がありますか？",
+        "answer": "対応期では「緊急救援活動」「避難指示の実施」などが行われ、応急復旧期（避難期）では「緊急の住宅確保」「避難所運営」などの施策が実施されます。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集6_2011-2018_page018_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[Q] Chinese simplified chars detected: 3.2% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 3.2% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0_qa",
+        "question": "災害対策本部会議は幾度開催されましたか？",
+        "answer": "計4回の災害対策本部会議が開催されたことが示されています。",
+        "question_type": "table",
+        "block_ids": [
+          "令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 5.3% (1 chars)', '[A] Chinese simplified chars detected: 3.7% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 5.3% (1 chars); [A] Chinese simplified chars detected: 3.7% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集4_2011-2018_page012_table_0_qa",
+        "question": "定住促進住宅の平均年齢はどれくらいですか？",
+        "answer": "平均年齢60代後半から70歳前後の高齢者中心の入居者構成となっています。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集4_2011-2018_page012_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[Q] Chinese simplified chars detected: 5.0% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 5.0% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_1_page090_table_0_qa",
+        "question": "災害後の復興計画策定体制で重要な要素は何が挙げられていますか？",
+        "answer": "調査では、組織体制（庁内組織、委員会、連絡協議会）、地域との連携（住民意見の反映）、国や他の地方公共団体との連携、そして復興計画の公表・広報が重要とされています。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_1_page090_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 3.3% (1 chars)', '[A] Chinese simplified chars detected: 7.2% (5 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 3.3% (1 chars); [A] Chinese simplified chars detected: 7.2% (5 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集8_2011-2018_page058_table_0_qa",
+        "question": "補助金が負担金の何分の幾らであるかは？",
+        "answer": "補助金が負担金の2分の1である。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集8_2011-2018_page058_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 16 chars (min: 20)', '[Q] Chinese simplified chars detected: 5.6% (1 chars)', '[A] Chinese simplified chars detected: 7.7% (1 chars)'])",
+      "reason": "Answer too short: 16 chars (min: 20); [Q] Chinese simplified chars detected: 5.6% (1 chars); [A] Chinese simplified chars detected: 7.7% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集3_1995-2001_page034_table_0_qa",
+        "question": "この表ではアルコール依存者と被災者のどのような支援が行われていますか？",
+        "answer": "アルコỆล依赖者的社会自立促进和支持，以及为被災者提供PTSD应对服务的心灵关怀中心和区域关怀中心的运营支持。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集3_1995-2001_page034_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 7.5% (4 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 7.5% (4 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集2_2011-2018_page032_table_0_qa",
+        "question": "福島県の会津若松合同庁舎での設置時期はいつですか？",
+        "answer": "福島県の会津若松合同庁舎での設置時期は3月16日9:30です。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集2_2011-2018_page032_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 4.2% (1 chars)', '[A] Chinese simplified chars detected: 4.3% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 4.2% (1 chars); [A] Chinese simplified chars detected: 4.3% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集2_2011-2018_page010_table_0_qa",
+        "question": "大槌町の災害復興体制構築にどのような困難が生じましたか？",
+        "answer": "副町長の死亡による遅延があります。",
+        "question_type": "table",
+        "block_ids": [
+          "02歴史資料集2_2011-2018_page010_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 17 chars (min: 20)', '[Q] Chinese simplified chars detected: 3.7% (1 chars)'])",
+      "reason": "Answer too short: 17 chars (min: 20); [Q] Chinese simplified chars detected: 3.7% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_1_page134_table_0_qa",
+        "question": "同一敷地内に50戸以上の仮設住宅を設置する場合、どのような施設を設ける必要がありますか？",
+        "answer": "集会施設を設けます。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_1_page134_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 10 chars (min: 20)', '[A] Chinese simplified chars detected: 11.1% (1 chars)'])",
+      "reason": "Answer too short: 10 chars (min: 20); [A] Chinese simplified chars detected: 11.1% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "大地震の事例_2018_hokkaido_page007_table_0_qa",
+        "question": "災害による全体的な被害額はいくらですか？",
+        "answer": "災害による全体的な被害額は1144.7億円です。",
+        "question_type": "table",
+        "block_ids": [
+          "大地震の事例_2018_hokkaido_page007_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 5.3% (1 chars)', '[A] Chinese simplified chars detected: 5.9% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 5.3% (1 chars); [A] Chinese simplified chars detected: 5.9% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集4_2002-2004_page081_table_0_qa",
+        "question": "复兴过程中的重要活动有哪些？",
+        "answer": "重要的活动包括接受和分配捐款、建设并安置临时住宅、解除避难警告、制定复兴计划，以及定期举行复兴纪念活动。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集4_2002-2004_page081_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Only Kanji, no hiragana/katakana (total: 13 kanji)', '[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Only Kanji, no hiragana/katakana (total: 47 kanji)'])",
+      "reason": "[Q] Only Kanji, no hiragana/katakana (total: 13 kanji); [A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Only Kanji, no hiragana/katakana (total: 47 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_1_page040_table_1_qa",
+        "question": "「1995年阪神・淡路大震災」に関わった団体は哪些？",
+        "answer": "神戸市と阪神・淡路大震災復興基金が関与しました。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_1_page040_table_1"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[Q] Chinese simplified chars detected: 5.6% (1 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 5.6% (1 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "大地震の事例_2011_higashinihon_page024_table_0_qa",
+        "question": "どのような体制が示されていますか？",
+        "answer": "この表は自治体間の災害時の技術職員支援体制について示しています。",
+        "question_type": "table",
+        "block_ids": [
+          "大地震の事例_2011_higashinihon_page024_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Chinese simplified chars detected: 6.2% (1 chars)', '[A] Chinese simplified chars detected: 6.5% (2 chars)'])",
+      "reason": "[Q] Chinese simplified chars detected: 6.2% (1 chars); [A] Chinese simplified chars detected: 6.5% (2 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_1_page003_table_0_qa",
+        "question": "主要な施策には哪些项目被包含在内？",
+        "answer": "主要的项目包括公共土木施设的灾害恢复、城市和公共设施的建设、基础设施的重建、文化的复兴、信息收集与提供，以及中小型企业及农业渔业的重建。",
+        "question_type": "table",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_1_page003_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Chinese simplified chars detected: 4.8% (3 chars)', '[A] Only Kanji, no hiragana/katakana (total: 62 kanji)'])",
+      "reason": "[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Chinese simplified chars detected: 4.8% (3 chars); [A] Only Kanji, no hiragana/katakana (total: 62 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集2_1958-1993_page055_table_0_qa",
+        "question": "緊急対応期における具体的施策は何が挙げられていますか？",
+        "answer": "緊急の住宅確保が挙げられています。",
+        "question_type": "table",
+        "block_ids": [
+          "01歴史資料集2_1958-1993_page055_table_0"
+        ],
+        "requires_image": true,
+        "difficulty": "medium"
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=True, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['Answer too short: 17 chars (min: 20)', '[Q] Chinese simplified chars detected: 3.8% (1 chars)'])",
+      "reason": "Answer too short: 17 chars (min: 20); [Q] Chinese simplified chars detected: 3.8% (1 chars)"
+    }
+  ],
+  "Multi-hop (qa_multihop.json)": [
+    {
+      "qa": {
+        "question_id": "02歴史資料集6_2011-2018_page027_table_0_02歴史資料集8_2011-2018_page027_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+        "answer": "1) 提高建筑物抗震性能；2) 制定和完善相关法律法规；3) 加强公众的防灾意识和自救技能；4) 构建高效的应急响应机制。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "02歴史資料集6_2011-2018_page027_table_0",
+          "02歴史資料集8_2011-2018_page027_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震",
+          "地震"
+        ],
+        "phases": [
+          "被害把握",
+          "被害把握"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Chinese simplified chars detected: 4.4% (2 chars)', '[A] Only Kanji, no hiragana/katakana (total: 45 kanji)'])",
+      "reason": "[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Chinese simplified chars detected: 4.4% (2 chars); [A] Only Kanji, no hiragana/katakana (total: 45 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集7_2011-2018_page004_table_2_02歴史資料集8_2011-2018_page026_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+        "answer": "1) 提高公众的应急意识和自救能力；2) 早期内部救援与外部支持相结合；3) 制定并实施长远的重建计划。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "02歴史資料集7_2011-2018_page004_table_2",
+          "02歴史資料集8_2011-2018_page026_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震",
+          "地震"
+        ],
+        "phases": [
+          "被害把握",
+          "被害把握"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Only Kanji, no hiragana/katakana (total: 40 kanji)'])",
+      "reason": "[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Only Kanji, no hiragana/katakana (total: 40 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集3_1995-2001_page073_table_0_02歴史資料集5_2011-2018_page041_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+        "answer": "国、自治体、そして地域住民の連携が重要なポイントです。事例Aでは、国家レベルから町村レベルまで組織的な体制整備が行われました。一方、事例Bでは特に2016年の火山砂防フォーラムで強調された自治体間の連携が示唆されます。これには情報交換や地域住民との協働、避難施設の充実が含まれます。これらを通じて、災害時に対応できる体制を構築し、地域全体でのリスク管理と防災力の向上が求められます。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "01歴史資料集3_1995-2001_page073_table_0",
+          "02歴史資料集5_2011-2018_page041_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "噴火",
+          "噴火"
+        ],
+        "phases": [
+          "復興事業",
+          "救命活動"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 4.0% (7 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 4.0% (7 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集2_1958-1993_page087_table_0_02歴史資料集5_2011-2018_page037_table_1_multihop",
+        "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+        "answer": "両事例から、緊急コミュニケーションシステムの整備と地域防災体制の強化が重要です。事例Aでは、地元負担の半分が助成されることで、迅速な復旧と再構築が促進されています。一方、事例Bは政府による早期警戒情報発表と多段階の対策本部設置が即時災害救助に寄与しました。これらの教訓から、今後の備えとして、地域全体での防災意識向上、緊急時の迅速な情報共有システム整備、そして自治体レベルでの災害対策体制の確立が必要です。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "01歴史資料集2_1958-1993_page087_table_0",
+          "02歴史資料集5_2011-2018_page037_table_1"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "噴火",
+          "噴火"
+        ],
+        "phases": [
+          "被害把握",
+          "救命活動"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.1% (6 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.1% (6 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_2_page063_table_0_01歴史資料集3_1995-2001_page073_table_0_multihop",
+        "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+        "answer": "複合災害に対処するためには、地域の特性に基づいた計画づくりと組織的・体制的な基盤構築が必要です。具体的には、住民の意向把握や安全対策を徹底し、国、地方自治体、市町村が連携して緊急時の対応体制を整備する必要があります。",
+        "question_type": "cross_disaster",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_2_page063_table_0",
+          "01歴史資料集3_1995-2001_page073_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "洪水",
+          "噴火"
+        ],
+        "phases": [
+          "復興事業",
+          "復興事業"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 5.0% (5 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 5.0% (5 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "03歴史資料集2_2018-2019_page035_table_1_03歴史資料集3_2018-2019_page006_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+        "answer": "不仅需要针对个人和家庭提供必要的生命安全保障和经济援助（如医疗救助、住房修复），还需要制定全面的农业及产业恢复计划，以确保灾后社会经济能够快速复苏。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "03歴史資料集2_2018-2019_page035_table_1",
+          "03歴史資料集3_2018-2019_page006_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震",
+          "地震"
+        ],
+        "phases": [
+          "被害把握",
+          "被害把握"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Chinese simplified chars detected: 7.4% (5 chars)', '[A] Only Kanji, no hiragana/katakana (total: 68 kanji)'])",
+      "reason": "[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Chinese simplified chars detected: 7.4% (5 chars); [A] Only Kanji, no hiragana/katakana (total: 68 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集2_2011-2018_page013_table_0_02歴史資料集2_2011-2018_page056_table_0_multihop",
+        "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+        "answer": "応急復旧段階ではまず住宅再建の方針を決定し、スケジュールと担当課も明確にします。その後、地域の声を集めることで具体的な復興計画を作り出し、自治協議会や住民懇談会などで意見を集約します。これにより有効な計画策定が可能になります。",
+        "question_type": "phase_transition",
+        "block_ids": [
+          "02歴史資料集2_2011-2018_page013_table_0",
+          "02歴史資料集2_2011-2018_page056_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震"
+        ],
+        "phases": [
+          "応急復旧",
+          "復興事業"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.7% (4 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.7% (4 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "01歴史資料集4_2002-2004_page100_table_0_01歴史資料集5_2005-2009_page021_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+        "answer": "両事例共に組織体制の構築や計画策定が重要であることがわかります。事例Aでは震災復興対策本部と地区震災復興委員会の設置により、迅速な対応が可能になりました。一方、事例Bは具体的な支援事業に経費助成を投入することで地域社会の回復を促しました。今後の備えとして、組織的な体制づくりと実質的な支援策の両方を強化することが重要です。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "01歴史資料集4_2002-2004_page100_table_0",
+          "01歴史資料集5_2005-2009_page021_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震",
+          "地震"
+        ],
+        "phases": [
+          "復興事業",
+          "応急復旧"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.9% (6 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.9% (6 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "大地震の事例_2011_higashinihon_page109_table_0_大地震の事例_2011_higashinihon_page005_table_0_multihop",
+        "question": "应急复旧从阶段过渡到重建项目时，应采取哪些关键步骤？",
+        "answer": "在应急恢复阶段完成后，重要的是首先建立完善的灾后恢复体制，并制定详细的重建计划。接着，需要派遣支援人员并进行多方协商以达成共识。这些步骤对于确保后续重建工作的顺利进行至关重要。",
+        "question_type": "phase_transition",
+        "block_ids": [
+          "大地震の事例_2011_higashinihon_page109_table_0",
+          "大地震の事例_2011_higashinihon_page005_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震"
+        ],
+        "phases": [
+          "応急復旧",
+          "復興事業"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[Q] Chinese simplified chars detected: 4.2% (1 chars)', '[Q] Only Kanji, no hiragana/katakana (total: 24 kanji)', '[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Only Kanji, no hiragana/katakana (total: 82 kanji)'])",
+      "reason": "[Q] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [Q] Chinese simplified chars detected: 4.2% (1 chars); [Q] Only Kanji, no hiragana/katakana (total: 24 kanji); [A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Only Kanji, no hiragana/katakana (total: 82 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "大地震の事例_2011_higashinihon_page079_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の津波災害への備えとして何が重要ですか？",
+        "answer": "事例Aでは補助金制度が具体的に示され、個々の家屋や土地に対する支援が明確です。一方、事例Bは中心市街地全体の再生に焦点を当てており、地域全体の復興計画が必要なことを示唆しています。因此，重要的是需要结合个人和社区层面的恢复计划，建立全面的灾害应对机制，不仅关注个体家庭的重建需求，还应重视社区的整体发展与振兴，以确保灾后社会经济能够迅速复苏并增强抗灾能力。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "大地震の事例_2011_higashinihon_page079_table_0",
+          "復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "津波",
+          "津波"
+        ],
+        "phases": [
+          "被害把握",
+          "被害把握"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 4.2% (7 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 4.2% (7 chars)"
+    },
+    {
+      "qa": {
+        "question_id": "復興知見_202103_fukku-fukko-handbook_2_page032_table_0_復興知見_202103_fukku-fukko-handbook_2_page087_table_0_multihop",
+        "question": "应急复旧从阶段过渡到重建工作，应采取哪些关键步骤？",
+        "answer": "首先，在应急复旧阶段，需优先修复公共土木设施、农林水产业设施和教育医疗设施等关键基础设施。随后，进入重建阶段时，重点推进防灾集団移转促进项目，包括住宅建设、土地购买及公共设施建设，并由市町村主导实施，获得最高3/4的财政补贴。这一过程确保了从紧急救援到长期恢复的有效过渡。",
+        "question_type": "phase_transition",
+        "block_ids": [
+          "復興知見_202103_fukku-fukko-handbook_2_page032_table_0",
+          "復興知見_202103_fukku-fukko-handbook_2_page087_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "地震"
+        ],
+        "phases": [
+          "応急復旧",
+          "復興事業"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.0, issues=['[Q] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[Q] Chinese simplified chars detected: 4.3% (1 chars)', '[Q] Only Kanji, no hiragana/katakana (total: 23 kanji)', '[A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0)', '[A] Chinese simplified chars detected: 5.0% (6 chars)', '[A] Only Kanji, no hiragana/katakana (total: 121 kanji)'])",
+      "reason": "[Q] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [Q] Chinese simplified chars detected: 4.3% (1 chars); [Q] Only Kanji, no hiragana/katakana (total: 23 kanji); [A] Very few Japanese kana: 0.0% (hiragana: 0, katakana: 0); [A] Chinese simplified chars detected: 5.0% (6 chars); [A] Only Kanji, no hiragana/katakana (total: 121 kanji)"
+    },
+    {
+      "qa": {
+        "question_id": "02歴史資料集4_2011-2018_page039_table_0_02歴史資料集5_2011-2018_page023_table_0_multihop",
+        "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+        "answer": "事例Aでは、政府も含めた迅速な対応体制や被災者支援が強調されています。一方、事例Bは地域の防災基盤整備に重点を置いた業務内容を示しています。因此，今後の土砂灾害应对中，不仅需要健全的应急响应机制和快速反应能力，还需要加强基础设施建设，提升整体防灾能力。具体措施包括设立专门的灾害预警与应对机构、完善城市排水系统、强化土石流防治工程等。",
+        "question_type": "disaster_comparison",
+        "block_ids": [
+          "02歴史資料集4_2011-2018_page039_table_0",
+          "02歴史資料集5_2011-2018_page023_table_0"
+        ],
+        "hop_count": 2,
+        "requires_image": true,
+        "difficulty": "hard",
+        "disaster_types": [
+          "土砂災害",
+          "土砂災害"
+        ],
+        "phases": [
+          "被害把握",
+          "応急復旧"
+        ]
+      },
+      "metrics": "QualityMetrics(has_mojibake=False, has_replacement_char=False, has_excessive_repetition=False, is_too_short=False, is_too_long=False, has_invalid_chars=False, is_non_japanese=True, quality_score=0.19999999999999996, issues=['[A] Chinese simplified chars detected: 3.2% (5 chars)'])",
+      "reason": "[A] Chinese simplified chars detected: 3.2% (5 chars)"
+    }
+  ],
+  "Cause-Mitigation (qa_cause_mitigation.json)": []
+}

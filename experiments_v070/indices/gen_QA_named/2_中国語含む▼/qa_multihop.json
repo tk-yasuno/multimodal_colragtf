@@ -1,0 +1,4136 @@
+[
+  {
+    "question_id": "01歴史資料集3_1995-2001_page036_table_0_01歴史資料集4_2002-2004_page080_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aの神戸市では交通ネットワークの強化や電線類の地中化推進などの防災基盤の整備に注力しており、一方で事例Bの中越地震では具体的な被害数（死亡者、負傷者、被災家屋など）が明らかになりました。これらの事例から学べることは、被害を最小限に抑えるためには、事前の防災インフラの整備と同時に、災害発生時の迅速な対応体制の構築も非常に重要です。また、避難所での生活支援や救援物資の供給など、被災者の生活再建を支えるための準備も欠かせません。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page036_table_0",
+      "01歴史資料集4_2002-2004_page080_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page041_table_1_01歴史資料集3_1995-2001_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは火山活動の迅速な検知と対応が強調され、事例Bでは建築関連手続きの簡素化と緩和措置が主眼となっています。共通点としては、いずれも早期の情報収集と適切な迅速な対応が重要であることが示されています。一方で、相違点として、自然現象に対する緊急避難対策と、災害時の建設活動を支援する制度があることから、今後の備えでは火山や地震などの多様なリスクに対し、早期警戒システムの整備と緊急時の柔軟な行政対応が必要であり、また災害時における建築物の確保も重要となるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page041_table_1",
+      "01歴史資料集3_1995-2001_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page052_table_0_大地震の事例_2018_hokkaido_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは地域の実態に基づく具体的な被害データを提供し、復旧活動の詳細も示しています。一方、事例Bはデジタル技術を使った情報発信体制強化に重点を置いています。今後の備えとしては、実証的な災害対策だけでなく、効果的な情報伝達システムの構築が重要です。地域別に具体的な被害状況把握と迅速な情報配信体制を組み合わせることで、より一層の防災力を持つことができます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page052_table_0",
+      "大地震の事例_2018_hokkaido_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集9_2011-2018_page012_table_0_復興知見_202103_fukku-fukko-handbook_2_page059_table_0_multihop",
+    "question": "洪水災害と土砂災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、地域別・対象物別の詳細な調査と計画策定が不可欠です。また、コミュニティや行政との連携強化、早期の情報公開と市民参加も重要な要素となります。これらの共通点から、個別の災害だけでなく複数の災害に対応できる総合的な防災システムを構築することが重要です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集9_2011-2018_page012_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page059_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "土砂災害"
+    ],
+    "phases": [
+      "応急復旧",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page041_table_0_03歴史資料集2_2018-2019_page015_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動終了後は緊急対応期に入り、その後応急復旧期に移ります。この移行段階では、避難所の運営ガイドライン（HUG）を活用し、情報共有とサービス格差防止を実現します。その後、具体的な施策が各市町村で順次実施され、本格的な復旧作業に移ります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page041_table_0",
+      "03歴史資料集2_2018-2019_page015_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page027_table_0_02歴史資料集8_2011-2018_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "1) 提高建筑物抗震性能；2) 制定和完善相关法律法规；3) 加强公众的防灾意识和自救技能；4) 构建高效的应急响应机制。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page027_table_0",
+      "02歴史資料集8_2011-2018_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page003_table_0_01歴史資料集2_1958-1993_page004_table_0_multihop",
+    "question": "地震災害と台風災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策では、地域別の避難所利用状況や大量の避難者の収容能力を確認することが不可欠です（地震災害）。また、政府機関や自治体間での連携と迅速な対応体制の構築も重要で、災害時の救援物資調達や復旧活動における効率性向上につながります（台風災害）。これらの教訓から、広域的な情報共有と緊密な協力体制が必要となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page003_table_0",
+      "01歴史資料集2_1958-1993_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "台風"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集5_2018-2019_page003_table_0_03歴史資料集5_2018-2019_page010_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災後はまず床上浸水の被害状況を確認し、必要な改修を行います。次に、高い災害意識を持つことで有効な避難行動ができるよう防災教育に努め、避難率を向上させましょう。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "03歴史資料集5_2018-2019_page003_table_0",
+      "03歴史資料集5_2018-2019_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page004_table_2_02歴史資料集8_2011-2018_page026_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "1) 提高公众的应急意识和自救能力；2) 早期内部救援与外部支持相结合；3) 制定并实施长远的重建计划。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page004_table_2",
+      "02歴史資料集8_2011-2018_page026_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page031_table_0_復興知見_202103_fukku-fukko-handbook_1_page040_table_2_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aと事例Bから、地震災害への備えでは義援金の迅速な配分（事例A）と地域の長期的な防災対策（事例B）が重要であることがわかります。義援金は被災直後の緊急支援に効果的ですが、一方で地域全体の防災体制強化や被災地の復旧・復興には継続的な取り組みが必要です（事例B）。したがって、地震災害への備えでは、短期的な義援金配分と長期的な地域防災対策の両方を重視することが重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page031_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page040_table_2"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page016_table_0_大地震の事例_2016-2_kumamoto_page052_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは経済損失と地域別の被害度を評価しており、事例Bは被災面積特に農地の被害に焦点を当てています。共通点としては、両方とも地域ごとの詳細な被害情報を提供していることが重要で、これにより地域別対策や資源配分が可能になります。相違点では、Aは経済的な損失を重視し、Bは具体的な被災面積と農業への影響に焦点があります。これらの情報から、今後の備えとして、地域別の詳細な被害評価と経済的・実質的な両面からの支援が必要であることがわかります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page016_table_0",
+      "大地震の事例_2016-2_kumamoto_page052_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page014_table_1_02歴史資料集3_2011-2018_page028_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から、被害評価と迅速な復旧の重要性が明らかになりました。事例Aでは具体的な施設別の被害数や経済損失が明記され、事例Bでは大規模な復旧事業費と工期も示されています。これらから、正確な被害把握と早期からの効果的な復旧計画が必要です。また、地域の自治体との連携（災害救助法の適用）も強調されました。これらを踏まえ、今後の備えとして、詳細な被害評価システムの整備と、公共と民間が一体となった迅速な復旧体制の確立が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page014_table_1",
+      "02歴史資料集3_2011-2018_page028_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page188_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは震災後からの復興と観光振興の取り組みが強調され、企業や地域組織による連携が重要であることが示されています。一方、事例Bは震災直後の対応に焦点を当て、情報共有と早期対応体制確立が特に重要だと指摘しています。これらから、今後の備えとしては、初期の迅速な情報収集と共有の仕組みを整えること、そして長期的な復興計画と地域連携の強化が必要であることがわかります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page188_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page076_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_kumamoto_page002_table_0_大地震の事例_2011_higashinihon_page094_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aの熊本地震は規模が大きく被害範囲も広いことから、早期の震度判定や地域ごとの具体的な被害想定が必要です。一方、事例Bでは災害復旧工事が詳細に計画され実施されていることが明らかになりました。これは、地震災害対策においては、事前準備と迅速な復旧が重要であることを示しています。具体的には、地震発生前の防災訓練や避難所の整備、そして震災後の迅速な復旧作業に必要な人材や資金の確保が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_kumamoto_page002_table_0",
+      "大地震の事例_2011_higashinihon_page094_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page071_table_0_02歴史資料集6_2011-2018_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aと事例Bでは共通点として、火山活動の正確な情報提供と警戒レベルの適切な変更が重要です。また、両件とも迅速かつ組織的な対応が鍵となりました。異なる点としては、事例Aでは具体的な日時とともに非常災害現地対策本部の運営終了やマグマ供給停止を発表した一方、事例Bでは避難指示発令や防災ヘリ、自衛隊派遣など実際の支援活動が中心でした。これらの教訓から、火山警戒体制の強化と緊急時の迅速な対応体制の構築が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page071_table_0",
+      "02歴史資料集6_2011-2018_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page069_table_1_01歴史資料集3_1995-2001_page108_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aと事例Bからみえてくるのは、災害対策の継続性と迅速な復旧体制の構築が重要です。事例Aでは過去の火山や地震による災害を詳細に記録しており、これからの防災計画に活かすことが可能です。一方、事例Bは具体的な復旧活動を述べており、これは実践的な教訓として今後の対策に生かされます。被害の把握と分析、そして迅速かつ効率的な復旧体制の整備が、将来の地震災害への備えとしては不可欠と言えるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page069_table_1",
+      "01歴史資料集3_1995-2001_page108_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page123_table_0_01歴史資料集4_2002-2004_page026_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは住家被害の具体的な種類（全壊、半壊など）が明記されており、事例Bでは死者数や負傷者数などの人命被害に加え、総被害額も明らかになっています。両方の事例から学べることは、洪水対策では住家被害だけでなく人命保護と経済的な損失を減らすことが重要です。具体的には、早期警報システムの強化、耐水性のある建築物への改修、地域全体での防災訓練の実施などが推奨されます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page123_table_0",
+      "01歴史資料集4_2002-2004_page026_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page048_table_0_01歴史資料集4_2002-2004_page038_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通する教訓は早期の情報発信と迅速な対応体制の整備です。また、地域ごとの具体的被害状況把握も重要で、兵庫県での死者数や京都府での負傷者数など個別のデータが緊急時の救助活動に活かされます。一方で、事例Aは津波警報と地震対策連絡部設置の迅速性を強調しており、事例Bでは具体的な被害規模が示されています。今後の備えとしては、早期情報発信、迅速な対応体制整備、地域ごとの詳細な被害把握が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page048_table_0",
+      "01歴史資料集4_2002-2004_page038_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page012_table_0_復興知見_202103_fukku-fukko-handbook_2_page015_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは液状化のメカニズムや早期復旧事例が強調され、事前調査の重要性が指摘されています。一方、事例Bは行政サービスと公共施設の早期回復を重点に置き、被災者の生活再建支援を目的としています。これらの共通点から、地震災害への備えとして重要なのは、「事前調査によるリスク評価」および「多分野での機能維持と迅速な対応」です。前者は液状化のリスクを把握し早期復旧に繋げ、後者は被災者の生活再建を支援し、長期的な復興期まで必要なサービスを確保するための基盤を作り出すことから、両者とも重要な要素となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page012_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page015_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page007_table_0_平成の災害事例_H19_chuetsuoki_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例では、災害発生後迅速な対応（救助法の適用や被災者支援）と長期的な復興計画の策定が共通点です。しかし、事例Aは市町村合併による組織的体制強化を実現し、2回の復興計画策定を通じて柔軟な対応が可能となりました。一方、事例Bでは具体的な日程（仮設住宅完成日など）が明確に設定されており、短期的な目標達成への意欲が感じられます。今後の備えとして重要となるのは、迅速な初期対応と長期的視点を持った計画策定の両方をバランス良く取り入れることです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page007_table_0",
+      "平成の災害事例_H19_chuetsuoki_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page054_table_0_01歴史資料集2_1958-1993_page108_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災者の安否確認と避難指示の発令が優先的になります。その後、被災状況を把握し、必要な救援物資や救助隊の配置を決定します。これにより、救命活動へのスムーズな移行と被災者の安全確保が可能となります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page054_table_0",
+      "01歴史資料集2_1958-1993_page108_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page031_table_0_02歴史資料集4_2011-2018_page032_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握段階で地域の状況（不良住宅率など）を正確に把握し、緊急度の高いエリアを特定します。次に、これらの情報を基に救命活動（地盤再構築や避難路整備など）に移行します。この手順は迅速かつ的確な災害対応につながります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page031_table_0",
+      "02歴史資料集4_2011-2018_page032_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page073_table_0_02歴史資料集5_2011-2018_page041_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "国、自治体、そして地域住民の連携が重要なポイントです。事例Aでは、国家レベルから町村レベルまで組織的な体制整備が行われました。一方、事例Bでは特に2016年の火山砂防フォーラムで強調された自治体間の連携が示唆されます。これには情報交換や地域住民との協働、避難施設の充実が含まれます。これらを通じて、災害時に対応できる体制を構築し、地域全体でのリスク管理と防災力の向上が求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page073_table_0",
+      "02歴史資料集5_2011-2018_page041_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "復興事業",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page052_table_0_復興知見_202103_fukku-fukko-handbook_1_page043_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは具体的な被災面積や地域の復旧状況を示し、農地の保護に重点を置いている一方、事例Bは過去の支援活動の実績を集め、多様な対策の必要性を強調しています。今後の備えとしては、両方の点を取り入れることが重要です。被災地域の実態把握と速やかな支援体制整備（農地保護など）と並行して、過去の事例から学び、様々な対応策を準備することが効果的でしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page052_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page043_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page015_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page042_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは医療体制の強化が重点的に取り上げられていますが、事例Bは具体的な地震情報（地点、震度、時刻）に焦点を当てています。この2つの事例から、重要なのは災害前の準備と迅速な対応両方が必要であることが分かります。医療体制の整備だけでなく、地震発生時の早期警戒システムや避難指示の明確化も重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page015_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page042_table_0_02歴史資料集5_2011-2018_page030_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aは特定地域の仮置場に関する具体的な情報提供であり、緊急時の対応能力強化に重点を置いています。一方、事例Bでは砂防堰堤や崩壊対策の整備計画が示されており、災害予防の立場から長期的な防災システム構築が重要とされています。したがって、今後の土砂災害への備えとしては、仮置場の確保だけでなく、早期の予防工事や地域社会全体での防災意識向上も重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page042_table_0",
+      "02歴史資料集5_2011-2018_page030_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "不明"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page015_table_0_03歴史資料集2_2018-2019_page016_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧後はまず「緊急対応期」と「応急復旧期」の活動を完了し、「本格復旧・復興準備期」と「本格復興期」に移行します。この段階では、被災地での生活再建や恒久的な住宅供給、雇用維持が重点課題となります。また、安全な地域づくりと産業・経済の再兴も重要で、各市町村での具体的施策実施日も考慮に入れるべきです。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page015_table_0",
+      "03歴史資料集2_2018-2019_page016_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page044_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page015_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aと事例Bは、それぞれ異なる側面から地震災害の対応を強化しています。共通点としては、どちらも災害発生時の迅速な対応が重視されています。しかし、具体的な対策において相違があります。事例Aでは、地理的な要因（渓流に関わる部分）と経済・民生への影響度に基づく緊急対応が必要とされています。一方、事例Bでは医療体制の強化が強調されており、災害時の救急体制の充実が重要です。これらの教訓から、今後の地震備えでは地域ごとの特性に合わせた迅速な地滑り対策と、安定した医療体制の構築が必要であると言えるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page044_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page015_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_typhoon10_page004_table_0_大地震の事例_2011_higashinihon_page017_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aではライフラインの被害が明確に示され、特に停電や断水が長期間続いた。一方、事例Bでは職員派遣の課題が指摘され、技術職員の不足と宿泊施設の確保が必要であることが明らかになりました。これらの共通点から、災害時におけるライフラインの安定化と人材確保が重要であり、具体的には緊急時の電力や水供給体制強化、職員の適切な配置と訓練、そして代替宿泊施設の事前確保が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_typhoon10_page004_table_0",
+      "大地震の事例_2011_higashinihon_page017_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "東日本大震災の教訓_2011_EastJapanQuakeLesson_page043_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、政府機関の専門家による復興政策推進が強調されており、組織的な備えが重要であることが示されています。一方、事例Bは個人レベルでの直感と対応を述べており、私有財産や家族の安全も重要な要素です。したがって、今後の地震災害への備えとして、国家レベルでは専門家の参画による計画的かつ組織的な対策が必要ですが、個々人でも家屋の耐震化と家族の避難訓練を実施することでより安心な生活を保障できます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "東日本大震災の教訓_2011_EastJapanQuakeLesson_page043_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page087_table_0_02歴史資料集5_2011-2018_page037_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両事例から、緊急コミュニケーションシステムの整備と地域防災体制の強化が重要です。事例Aでは、地元負担の半分が助成されることで、迅速な復旧と再構築が促進されています。一方、事例Bは政府による早期警戒情報発表と多段階の対策本部設置が即時災害救助に寄与しました。これらの教訓から、今後の備えとして、地域全体での防災意識向上、緊急時の迅速な情報共有システム整備、そして自治体レベルでの災害対策体制の確立が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page087_table_0",
+      "02歴史資料集5_2011-2018_page037_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page001_table_0_03歴史資料集2_2018-2019_page018_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは復興基金の活用方法を示しており、地域防災能力向上や被災者の生活再建に重点を置いている一方で、事例Bは災害直後の廃棄物処理に関する具体的な要請を示しています。これらから学べるのは、地震災害への備えでは、財政的な支援だけでなく、被災地域の現地状況に即した迅速かつ適切な対応が重要であるということです。具体的には、復興基金を活用しながらも、廃棄物処理などの実践的な課題にも柔軟に対応することが求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page001_table_0",
+      "03歴史資料集2_2018-2019_page018_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-2_kumamoto_page052_table_0_大地震の事例_2016-2_kumamoto_page012_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災面積や被害状況を把握した後は、まず避難所の設置と利用者受け入れに迅速に対応します。例えば、100カ所と30カ所の避難所でそれぞれ100人と30人の受け入れを行うことで、地域全体の対応力を強化します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "大地震の事例_2016-2_kumamoto_page052_table_0",
+      "大地震の事例_2016-2_kumamoto_page012_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_typhoon10_page003_table_1_復興知見_202103_fukku-fukko-handbook_1_page032_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aから得られる教訓は、具体的な地域での被害状況把握と復旧計画の策定です。一方、事例Bでは過去の財政支援措置が示されており、これにより今後の備えとしては、地域-specific の防災計画だけでなく、被災時の財政負担軽減策や多様な支援体制も重要となります。例えば、農作物損失に対する補償制度と住宅再建支援を組み合わせた総合的な対策が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_typhoon10_page003_table_1",
+      "復興知見_202103_fukku-fukko-handbook_1_page032_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page032_table_0_01歴史資料集2_1958-1993_page025_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧フェーズではまず災害直後の救助と石橋の緊急保護に取り組みます。その後、治水策や導水トンネル方式を含む耐久性のある施設整備へ移行します。一方、復興事業では被害者の安全確保と住宅団地への集団移転が先行し、高齢者への配慮も重要です。さらに火山災害遺物の収集と展示施設の設置を通じて地域の防災意識を向上させます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page032_table_0",
+      "01歴史資料集2_1958-1993_page025_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page049_table_0_01歴史資料集3_1995-2001_page077_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えとしては、情報連絡室の設置や非常態態勢の開始など早期対応が重要です。また、多様な支援措置（例えば融資制度）を活用し、地域の企業や住民が迅速に復旧・再建できる環境を作ることが求められます。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page049_table_0",
+      "01歴史資料集3_1995-2001_page077_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page033_table_0_02歴史資料集4_2011-2018_page032_table_0_multihop",
+    "question": "台風災害と洪水災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、早期の警報システムと迅速な避難指示が不可欠です。また、安全性の高い建造物や緊急時の避難ルートの確保も重要な要素となります。さらに、地域住民に対する防災教育と自主的な避難体制の整備を推進することで、より強固な防災基盤を作り出すことが可能になります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page033_table_0",
+      "02歴史資料集4_2011-2018_page032_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "洪水"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page016_table_0_大地震の事例_2018_hokkaido_page032_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは経済損失の評価結果が示され、地域別の被害度も考慮する必要があることがわかります。一方、事例Bでは具体的な義援金配分額が明らかにされており、災害規模に対する迅速な支援体制の整備が重要です。これらから、地震災害への備えとして、被害評価と地域別対応を強化するとともに、早期の義援金調達と適切な配分体制の整備が必要であることが教訓となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page016_table_0",
+      "大地震の事例_2018_hokkaido_page032_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page060_table_0_01歴史資料集5_2005-2009_page010_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災者調査を行い、詳細な生活状況を把握した後は、安全な避難所や公営住宅の整備に着手します。平地と斜面地で異なる居住計画を作成し、道路網を設けながら被災者の移動支援も実施します。この手順では、まず被災者ニーズを明確化してから、具体的な復興プロジェクトに取り組むことが重要です。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page060_table_0",
+      "01歴史資料集5_2005-2009_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H24_kyushuhokubu_page004_table_0_平成の災害事例_H24_kyushuhokubu_page004_table_1_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握段階ではまず具体的な被害状況（死者・負傷者数、住家損壊の程度など）を調査します。その後、救命活動に移行すると、避難者の最大数（19万9千人）が避難指示下で確認できました。これにより救援員は緊急避難場所の確保や人員配置を計画できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "平成の災害事例_H24_kyushuhokubu_page004_table_0",
+      "平成の災害事例_H24_kyushuhokubu_page004_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page071_table_1_02歴史資料集5_2011-2018_page040_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは火山活動による緊急時組織の設置と解散が確認され、一方で事例Bは具体的な復興方針を示しています。重要な共通点としては、災害発生時の迅速な対応体制が必要であることが挙げられます。また、異なる点としては、復興計画や地域振興への取り組みが重要となることがわかります。今後の備えとして、迅速かつ効果的な緊急対策と同時に、長期的な地域再生プランを整備し、災害前の防災教育や訓練も強化することが推奨されます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page071_table_1",
+      "02歴史資料集5_2011-2018_page040_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H24_kyushuhokubu_page007_table_0_平成の災害事例_H27_kantotohoku_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは政府と地元自治体の迅速な対応が注目されましたが、具体的な数値や被害状況が示されていません。一方、事例Bは詳細な数値（死者数、家屋被害数など）を示しています。重要になるのは、両者から学ぶ点です。まず、早期の避難指示発令と実施が必要で、同時に具体的な被害状況把握も重要な対策となります。これらの情報は災害時の迅速かつ的確な救助活動に繋がります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H24_kyushuhokubu_page007_table_0",
+      "平成の災害事例_H27_kantotohoku_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page037_table_0_02歴史資料集5_2011-2018_page004_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは死者数が36人であるのに対し、事例Bは3人と大幅に減少している。また、全壊建物や農地被害なども少ないことから、早期警報システムや緊急避難訓練の強化が必要な一方、医療体制の整備や公共施設の耐震化は有効な対策と見られる。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page037_table_0",
+      "02歴史資料集5_2011-2018_page004_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page032_table_0_平成の災害事例_H24_kyushuhokubu_page007_table_0_multihop",
+    "question": "地震災害と洪水災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、早期警報システムの整備と迅速な避難指示が重要です。また、住居や農地の耐震化・耐水化も推進し、地域全体での防災訓練を定期的に行うことが必要です。これらの措置は個別の災害だけでなく、複数の災害同時発生時の被害軽減にも効果的です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page032_table_0",
+      "平成の災害事例_H24_kyushuhokubu_page007_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page041_table_0_平成の災害事例_H26_mitake_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは自治体間の連携強化と住民との協働が重視され、情報交換や避難施設の充実を通じて地域防災力が向上しています。一方、事例Bは具体的な火山活動状況を示し、警戒範囲の変化から火山の活動状況監視の重要性がわかります。今後の備えでは、これらの共通点として、火山活動の早期発見と迅速な情報共有、地域住民との連携強化が不可欠です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page041_table_0",
+      "平成の災害事例_H26_mitake_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集3_2018-2019_page010_table_0_03歴史資料集4_2018-2019_page010_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例共通の重要な点は、早期に対応体制を整えることと財政的な支援の確保です。異なる点では、事例Bで非常災害対策本部の設置が強調されており、組織的な対応体制の整備も重要であることがわかります。今後の台風災害への備えとしては、迅速な情報共有と連携体制の構築、そして予算確保による復旧活動への財政支援が不可欠です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集3_2018-2019_page010_table_0",
+      "03歴史資料集4_2018-2019_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page012_table_1_大地震の事例_2016-2_kumamoto_page052_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地域自治体が具体的な計画を作成し、効果的に復興に取り組んでいる一方で、事例Bは被災地域の現状を詳細に示しています。共通点としては、被災地域の特性や被害状況に対する理解と、それに基づいた有効な対策が必要であることが明らかです。相違点では、事例Aは復興方針やスケジュールの提示により組織運営を体系化し、住民との信頼関係を築くことに成功しています。一方、事例Bは具体的な数値と地図情報を用いて地域の被害規模を把握しており、これに基づいた支援活動が必要です。したがって、今後の地震災害への備えとして重要となるのは、被災地域の特性や状況を正確に理解し、それを基にした迅速かつ具体的な計画策定と実行力であることが示唆されます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page012_table_1",
+      "大地震の事例_2016-2_kumamoto_page052_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page053_table_0_01歴史資料集4_2002-2004_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両事例から明らかにされるのは、早期警報発表の重要性と緊急時対応体制の整備です。特に共通点は、豪雨や洪水の警報発令時に地域住民への迅速な情報提供と避難勧告が行われたことです。一方で、事例Aでは自衛隊が特定地区に分散して配備されましたが、事例Bでは福井市を中心に集中して派遣されました。これから学べることは、地域ごとの特性を踏まえた柔軟な対応体制の整備が必要であるということです。また、両事例とも災害救助法の適用が示されており、これは迅速かつ効果的な救助活動を行う上で不可欠であり、今後の洪水災害への備えとしても重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page053_table_0",
+      "01歴史資料集4_2002-2004_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集3_2018-2019_page006_table_0_03歴史資料集4_2018-2019_page019_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "災害時に迅速かつ効果的な支援活動を行うためには、事例Aの農業被害把握と復興計画策定、以及事例Bの多様な支援活動と組織体制の整備が重要です。農業施設や作物の早期評価と対応は経済的損失を最小限に抑える鍵となり、また被災地の早期復興にも寄与します。一方で、幅広い団体による迅速な支援活動体制は、多様な被災需要に対応し、地域社会全体の早期回復につながります。したがって、災害対策では農業被害評価システムと支援組織の前倒し整備が求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集3_2018-2019_page006_table_0",
+      "03歴史資料集4_2018-2019_page019_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H27_kuchinoerabu_page007_table_0_平成の災害事例_H27_kuchinoerabu_page005_table_1_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を迅速に把握し、特に生命の危険がある場合は即座に救命活動に切り替えます。避難所利用状況確認（避難者数、避難先等）と被災者の即時支援が重要です。また、住宅確保や安全な地域づくりなどの長期的な復興施策を並行して計画します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "平成の災害事例_H27_kuchinoerabu_page007_table_0",
+      "平成の災害事例_H27_kuchinoerabu_page005_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0_01歴史資料集4_2002-2004_page013_table_0_multihop",
+    "question": "洪水災害と土砂災害災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策として重要なのは、長期的な視点での計画立案と地域間・関係者の連携協力です。洪水や土砂災害は個別の自然現象ですが、地域全体で共有する防災意識と緊密な連携により、効率的かつ迅速に復旧と再建が可能になります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0",
+      "01歴史資料集4_2002-2004_page013_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "土砂災害"
+    ],
+    "phases": [
+      "応急復旧",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page063_table_0_01歴史資料集3_1995-2001_page073_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害に対処するためには、地域の特性に基づいた計画づくりと組織的・体制的な基盤構築が必要です。具体的には、住民の意向把握や安全対策を徹底し、国、地方自治体、市町村が連携して緊急時の対応体制を整備する必要があります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page063_table_0",
+      "01歴史資料集3_1995-2001_page073_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "復興事業",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page016_table_0_平成の災害事例_H27_hakone_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "共通点としては、双方の事例で警戒レベルの変更に伴う対応（立入規制、通行止め、避難指示など）が行われており、これらの措置は地域住民や観光客の安全確保に向けたものです。相違点では、事例Aでは5月6日にレベル2に引き上げられ7月3日にレベル3となりましたが、事例Bでは具体的な日付とレベルの変更が明記されていません。また、事例Bには7月3日に設定された警戒区域と54名が避難したという具体的な数値が挙げられています。これらから、具体的な情報提供と早期避難が重要であることが分かります。今後の備えとしては、迅速かつ正確な情報を共有し、地域住民や観光客の安全を最優先に考えるべきです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page016_table_0",
+      "平成の災害事例_H27_hakone_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page038_table_1_復興知見_202103_fukku-fukko-handbook_1_page108_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動から応急復旧へ移行する際に重要なのは、まず早期準備と連携体制の整備（救命活動）から始まり、その後迅速な財源確保（交付税繰上交付や公共施設補助金など）と効率的な行政運営による優先順位付けが求められます。これにより短期間での多量の復旧・復興事業を実現できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page038_table_1",
+      "復興知見_202103_fukku-fukko-handbook_1_page108_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集3_2011-2018_page014_table_0_02歴史資料集3_2011-2018_page046_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握段階では情報収集と提供、意向調査を繰り返し実施。計画図面を作成し専門家を活用します。救命活動に移行すると、具体的な契約内容（3,775筆のうち324件）、土地面積（90万7千㎡）が進捗を示す指標となります。これらの情報に基づき、災害対策や避難所設置などを推進します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集3_2011-2018_page014_table_0",
+      "02歴史資料集3_2011-2018_page046_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page052_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page062_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を迅速に把握し、避難指示や警報の発令を行うことが最初のステップです。次に、避難所を開設し、職員が出勤して早期対応を行うこと。さらに、自衛隊などの外部援助を求めることも重要です。これらの手順が連携することで、救命活動を効果的に行うことができます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page052_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page062_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_typhoon10_page007_table_0_復興知見_202103_fukku-fukko-handbook_1_page027_table_3_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両事例から学べるのは、早期の警報発令や勧告の重要性です（共通点）。しかし、具体的な対策としては、事例Aは政府による迅速な応急処置と災害支援体制の整備が特筆されます。一方、事例Bでは過去の災害データの蓄積と分析が示されています。したがって、洪水災害への備えとして重要になるのは、早期警報システムの強化や地域住民への防災教育だけでなく、災害発生後の迅速な対応体制と事前の防災計画の整備も必須です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_typhoon10_page007_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page027_table_3"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page004_table_0_02歴史資料集7_2011-2018_page009_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは具体的な被害状況（死者数、負傷者数、住宅の損壊状況など）が示されています。これに対し、事例Bは復興プロセスに関する詳細な施策とその内容を提供しています。これらの事例から重要となるのは、災害発生時の迅速かつ効果的な応急処置と同時に、長期的な計画的復興への準備も重要な対策となります。また、地域の被災状況把握と具体的な支援施策の実施が求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page004_table_0",
+      "02歴史資料集7_2011-2018_page009_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page133_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page153_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧ではまず緊急的な対応を行い（例えば、仙台空港の緊急排水やゴミ除去）、次に基幹インフラの復旧（港湾での防波堤の新設や復旧）とBCP策定を行います。その後、復興事業へ移行し、大手企業では技術活用による製品開発と販路回復を推進し、自治体ではスタートアップ企業支援と地域産業再生に力を入れます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page133_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page153_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page033_table_1_復興知見_202103_fukku-fukko-handbook_2_page085_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは災害時の補償内容に焦点を当てており、人的被害と住家被害に対する具体的な金額が示されています。一方、事例Bは建築制限や危険区域の設定に重点を置き、法的措置と地域防災体制の強化を主張しています。これらから学べば、地震災害への備えとして、早期のリスク評価と適切な建築基準遵守が重要で、それらに基づいた補償制度も整備すべきです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page033_table_1",
+      "復興知見_202103_fukku-fukko-handbook_2_page085_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page062_table_0_復興知見_202103_fukku-fukko-handbook_2_page042_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を迅速に把握した後は、まず都道府県が特定緊急砂防事業の要件を確認します。その後、床上浸水被害予防の改良工事が完了した地域では、土砂流出による風水害や震災への対応が必要なエリアへ救援資源を配置します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page062_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page035_table_1_03歴史資料集3_2018-2019_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "不仅需要针对个人和家庭提供必要的生命安全保障和经济援助（如医疗救助、住房修复），还需要制定全面的农业及产业恢复计划，以确保灾后社会经济能够快速复苏。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page035_table_1",
+      "03歴史資料集3_2018-2019_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page021_table_0_01歴史資料集5_2005-2009_page058_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧段階ではまず地域コミュニティ維持に重点を置き、その後施設再建や共用施設復旧を行い、文化財修復と震災復興地域づくりの支援を強化します。この過程で得られた経験と知識は、復興事業フェーズにおける柏崎市震災復興計画策定委員会による組織運営や地域の活性化施策に活かされます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page021_table_0",
+      "01歴史資料集5_2005-2009_page058_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H27_kuchinoerabu_page006_table_0_復興知見_202103_fukku-fukko-handbook_2_page017_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "噴火災害への備えにおいては、事例Aの迅速な対応と組織的な取り組みが重要です。行政機能維持も同様に重要ですが、具体的な措置としては避難指示の早期発令や防災ヘリ・自衛隊の派遣が必要となります（事例A）。一方で、行政機能を確保するためには、事例Bにある施設補助率の設定と激甚法による財政援助も不可欠です。したがって、今後の備えとしては、迅速な情報提供体制と緊急時の多角的支援体制の構築が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H27_kuchinoerabu_page006_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page017_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集3_2011-2018_page052_table_0_02歴史資料集3_2011-2018_page009_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "应急復旧段階ではまず用地取得と造成を行い、その後土地管理と復旧工事を実施します。次に、復興事業では地区ごとの合議体制（協議会や地権者連絡会の設置）と良好な行政・住民間コミュニケーションを構築し、地域からの移転先提案に基づく再建計画を作成します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集3_2011-2018_page052_table_0",
+      "02歴史資料集3_2011-2018_page009_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H26_mitake_page004_table_0_02歴史資料集6_2011-2018_page016_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えとしては、多様なリスク評価と早期警告システムの整備が重要です。また、地域住民や観光客に対しても定期的な訓練や教育を行い、安全対策を理解させることも大切です。これらの対策は、洪水や火山噴火といった個別災害だけでなく、複数の災害同時発生時の迅速な対応にも役立ちます。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "平成の災害事例_H26_mitake_page004_table_0",
+      "02歴史資料集6_2011-2018_page016_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page001_table_0_02歴史資料集4_2011-2018_page004_table_0_multihop",
+    "question": "台風災害と洪水災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害に対処するためには、早期の情報収集と迅速な避難指示が重要です。また、地域全体での防災訓練や備蓄体制の強化も不可欠で、政府は被災者支援システムの整備を進めるべきです。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page001_table_0",
+      "02歴史資料集4_2011-2018_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page002_table_0_平成の災害事例_H19_chuetsuoki_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から、被災者の安全確保と早期復興のための体制整備が重要であることが分かります。具体的には、迅速な救助活動と被災者支援制度の整備（事例Aの人的被害数値や事例Bの被災者生活再建支援法適用）が必要です。また、応急仮設住宅の早期供与や復興計画の策定も重要な対策として挙げられます（事例B）。これらの措置は、人命と財産を守りながら、地域の迅速な回復に寄与します。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page002_table_0",
+      "平成の災害事例_H19_chuetsuoki_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page039_table_0_02歴史資料集7_2011-2018_page031_table_1_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧段階では意見交換期間と町民説明会が重要です。その後、復興事業に移行する際は、これらのフィードバックを基にした計画策定と公聴会の開催（6回行われた）が不可欠となります。これにより、住民の声が反映され、より包括的な復興計画を作成できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page039_table_0",
+      "02歴史資料集7_2011-2018_page031_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page053_table_0_01歴史資料集3_1995-2001_page027_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動段階では警報発表や自衛隊派遣が行われ、その後の応急復旧フェーズでは建築確認申請や許可申請手続きが簡素化されました。具体的な手順としては、まずは被害状況を把握し緊急救助に努め、次に仮設住宅や仮設建築物の設置と生活支援を行い、その後に長期的な復興計画に向けての建築活動を円滑にするための緩和措置が導入されました。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page053_table_0",
+      "01歴史資料集3_1995-2001_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page040_table_0_01歴史資料集2_1958-1993_page004_table_0_multihop",
+    "question": "地震災害と台風災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、早期の防災計画と備えが非常に重要です。地震や台風のように規模が異なる災害に対しても、災害前の防災計画、避難所の確保、救援物資の準備などが基本となります。また、地域住民の教育や訓練も欠かせません。さらに、政府機関や民間団体との連携強化と情報共有体制の整備も不可欠です。これらの対策を通じて、災害前の防備から事後の復旧までの一連の流れをスムーズに進めることが可能になります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page040_table_0",
+      "01歴史資料集2_1958-1993_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "台風"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page027_table_1_02歴史資料集6_2011-2018_page008_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を詳細に把握した後は、まず避難指示の実施や緊急住宅確保（対応期）が必要です。次に、被災者の救急医療と生活支援を提供し、公的サービスを早期に回復させることが重要となります（応急復旧期）。その後、被災者の住居再建や産業復興の計画立案に入り、完全な復興を目指します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page027_table_1",
+      "02歴史資料集6_2011-2018_page008_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page085_table_0_02歴史資料集4_2011-2018_page042_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは防災対策の実施方針や具体的な事業が掲げられ、事例Bは仮置場の設置に関する詳細が示されています。共通点としては両者とも土砂災害の予防と被害低減に向けた計画を示しており、異なる点は対策手法の違いです。今後の備えとして重要となるのは、事例Aのような事前的な防災事業と合わせて、事例Bにあるように発災時の迅速な対応体制（仮置場の設置など）が必要不可欠であると言えるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page085_table_0",
+      "02歴史資料集4_2011-2018_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "不明"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page003_table_0_01歴史資料集5_2005-2009_page010_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "首都地震後、まず被災状況を速やかに把握し（被害把握），緊急避難所の設置と避難者の受け入れを行います。次に公営住宅の造成（救命活動）と道路網の整備を行い、安全で快適な避難生活を確保します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page003_table_0",
+      "01歴史資料集5_2005-2009_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H7_hanshinawaji_page003_table_0_平成の災害事例_H19_chuetsuoki_page002_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通する教訓は、住宅の耐震化と人的被害の最小化です。しかし、規模や地域による違いもあります。事例Aでは都市部での大規模な被災が確認され、特に芦屋市と尼崎市の半壊棟数が多かった一方で、事例Bでは比較的小規模ながら避難所が必要となりました。今後の備えとして、まずは建築物の耐震性を高めることに加えて、地域ごとの実情に合わせた早期の避難計画や支援体制の整備も重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H7_hanshinawaji_page003_table_0",
+      "平成の災害事例_H19_chuetsuoki_page002_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H27_hakone_page005_table_0_平成の災害事例_H27_hakone_page003_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を迅速に把握した後は、まず避難者の受け入れ施設の準備が必要です。住居や事業所などからの情報を基に受け入れ能力を評価し、必要であれば寮・保養所などを活用します。また、別荘などの非緊急施設も有効な補完手段となります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "平成の災害事例_H27_hakone_page005_table_0",
+      "平成の災害事例_H27_hakone_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page063_table_0_01歴史資料集3_1995-2001_page052_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両事例から、床上浸水の被害規模が大きいため、河川や排水設備の改修強化が必要であることがわかります（事例A）。また、具体的な対策としては、早期の予算措置と災害融資制度の活用も重要です（事例A）。一方で、死者数の報告がある台風被害を踏まえ、人的安全確保にも重点を置くべきです。これらから、洪水災害への備えとして、技術的なインフラ強化と財政面での迅速な対応、そして人命優先の体制構築が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page063_table_0",
+      "01歴史資料集3_1995-2001_page052_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page096_table_0_01歴史資料集4_2002-2004_page033_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を正確に把握した後は、即時に被害地域の避難指示や勧告を行うべきです。特に台風などの急激な気象災害では、8月30日のように救出要請と撤収要請が緊急性を持つため、迅速な対応が必要です。また、災害対策本部を設置し、救助法を適用することで、有效的な救命活動が可能になります。県知事や議長による視察も重要で、現場の実情把握と適切な指示提供につながります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page096_table_0",
+      "01歴史資料集4_2002-2004_page033_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H26_mitake_page005_table_1_平成の災害事例_H27_hakone_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両事例共通の重要な点は、迅速な対応と情報提供です。一方で、事例Aでは政府全体が一体となって非常災害現地対策本部を設置し、地域安全に集中しました。これに対し、事例Bではレベルごとの警戒措施や避難指示など、具体的な行動計画が明確でした。今後の備えとしては、これらの共通点から、迅速かつ統一的な情報発信と具体的な対策の整備が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H26_mitake_page005_table_1",
+      "平成の災害事例_H27_hakone_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page076_table_0_01歴史資料集5_2005-2009_page078_table_0_multihop",
+    "question": "噴火災害と土砂災害災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対応では、早期の情報発信と迅速な避難勧告が極めて重要です。また、地域住民の安否確認や生活支援体制の確立も不可欠で、多様な災害に対応できる総合的な防災計画が必要となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page076_table_0",
+      "01歴史資料集5_2005-2009_page078_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "土砂災害"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page080_table_0_01歴史資料集5_2005-2009_page088_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害災害への備えとして何が重要ですか？",
+    "answer": "両者の共通点は、地域の生活基盤（農業や漁業）に対する被害や防災情報の早期伝達が重要であるという点です。異なる点としては、事例Aでは具体的な物理的な被害（農地・パイプハウスの倒壊）が明示されている一方、事例Bは主要な対策として情報伝達体制の強化に焦点を当てています。これからの備えとして、地域住民への防災教育や情報を効果的に伝えるための多様なコミュニケーションプラットフォームの整備が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page080_table_0",
+      "01歴史資料集5_2005-2009_page088_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page037_table_1_復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両者の共通点は地域の特定災害に対する予防策と復旧作業に焦点を当てている点です。しかし、対策の観点は異なります。事例Aは河川事業や地盤安定に関する具体的な施策を提示しており、災害発生時における即応性が重要です。一方、事例Bは長期的な視点から地域住民や専門家との協働を重視し、多様なニーズに対応した堤防設計に力を入れています。これからの洪水対策では、短期的かつ長期的な両面を考慮し、地域全体の協力体制と具体的な防災施策を整備することが重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page037_table_1",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "応急復旧",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集2_2018-2019_page033_table_0_03歴史資料集3_2018-2019_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aの義援金配分と事例Bの農業被害は、災害時の迅速な支援体制と長期的な復旧計画の重要性を示しています。義援金の早期集めと配分は被災地への直接的な助けとなりますが、長期的には被災地域の産業再建や復興計画が求められます。特に農業被害のような広範囲での事業継続支援が必要であることを教訓に、今後の備えでは迅速な情報共有と多様な支援体制構築が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集2_2018-2019_page033_table_0",
+      "03歴史資料集3_2018-2019_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H23_higashinihon_page005_table_0_平成の災害事例_H25_typhoon26_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは復興計画の策定や職員派遣などの組織的な対応過程を示し、事例Bは具体的な被害状況（人的被害、建物被害、農地・農業施設被害など）を明らかにしています。重要な教訓としては、迅速で効率的な組織体制構築と被災地の実情に基づいた対策が不可欠です。また、地域の合意形成や権限代行事業などの活用も有効であり、今後の地震災害ではこれらを踏まえた備えが必要となるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H23_higashinihon_page005_table_0",
+      "平成の災害事例_H25_typhoon26_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page002_table_1_02歴史資料集2_2011-2018_page013_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、震災後の施設の被害状況や具体的な復旧計画の必要性が強調されています。一方、事例Bでは、短時間での迅速な復興推進と、具体的なスケジュール管理の重要性が挙げられています。これからの備えとしては、まず被害を正確に把握し、長期的な復旧計画を作成することが不可欠です。また、その計画内での迅速かつ効率的な実施計画も重要な要素となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page002_table_1",
+      "02歴史資料集2_2011-2018_page013_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page047_table_0_01歴史資料集4_2002-2004_page007_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地震による総死者数104人、負傷者324人の人的被害に加え、住宅被害も大きかったことから、人的安全と早期避難の重要性が浮き彫りになりました。一方、事例Bは洪水や床上浸水対策の具体的な事業内容を示しており、地域住民に対する防災教育や緊急時の連携体制強化が必要であることが示唆されます。これより、今後の洪水災害への備えとして、早期避難訓練の実施と緊急時の情報共有システムの整備が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page047_table_0",
+      "01歴史資料集4_2002-2004_page007_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H24_kyushuhokubu_page004_table_1_平成の災害事例_H24_kyushuhokubu_page008_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動段階で最大の避難者数（19万9千人）を確保した後、次に重要なのは迅速な応急復旧への移行です。まず緊急対応期から安全な居住環境の再建立や産業・経済復興の計画が始動し、被災者支援と地域再生を推進します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "平成の災害事例_H24_kyushuhokubu_page004_table_1",
+      "平成の災害事例_H24_kyushuhokubu_page008_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page035_table_0_02歴史資料集4_2011-2018_page042_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは復旧事業と仮設住宅の設置が強調されており、具体的な取り組み内容が示されています。一方、事例Bは特定地域における仮置場の詳細を説明し、災害時の物資収容能力を強化する対策が重要だと示唆しています。共通点としては、両者とも土砂災害に対する迅速な対応が必要であることが伺えます。教訓として、復旧事業と被災者の居住環境の確保（事例A）とともに、災害物資の適切な保管場所を設ける（事例B）ことが重要です。これにより、災害発生時の迅速な対応と被災地域の早期回復が可能となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page035_table_0",
+      "02歴史資料集4_2011-2018_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H24_kyushuhokubu_page004_table_0_平成の災害事例_H24_kyushuhokubu_page004_table_1_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握段階ではまず具体的な被害状況（死者数、負傷者数など）を調査し、その結果に基づいて避難指示や勧告が必要なら発令します。次に救命活動では、特に避難指示下で多くの人々が避難することから、迅速な救助と安全な避難所の確保が重要です。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "平成の災害事例_H24_kyushuhokubu_page004_table_0",
+      "平成の災害事例_H24_kyushuhokubu_page004_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page021_table_0_02歴史資料集6_2011-2018_page030_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "災害発生時の救命活動段階では早期避難が必要な区域を明示。その後、緊急対応期で生命救済や被災者救助を行い、次に応急復旧期へ移行すると共に、すまいと暮らしの再建や産業・経済復興などの計画的施策が重要となります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page021_table_0",
+      "02歴史資料集6_2011-2018_page030_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page011_table_0_復興知見_202103_fukku-fukko-handbook_1_page138_table_0_multihop",
+    "question": "台風災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、被害者の長期的な生活支援体制の整備が不可欠です。また、市民からの直接的な意見收集や多様な復興計画策定も重要な要素となります。さらに、仮設住宅の利用期間延長時の対策と被災地コミュニティの維持にも配慮が必要です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page011_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page138_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集3_2018-2019_page004_table_0_03歴史資料集5_2018-2019_page003_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aから死者数や住家の損壊数などを確認すると、洪水の直接的な被害規模は大きいことがわかります。一方、事例Bは床上浸水対策と入居規則に焦点を当てており、予防対策の重要性が示されています。今後の洪水災害への備えとしては、まず具体的な床上高さの改修などによる物理的な防災措置が必要です。また、地域住民の生活支援や被災者の受け入れ体制も重要な要素となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集3_2018-2019_page004_table_0",
+      "03歴史資料集5_2018-2019_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page123_table_0_01歴史資料集4_2002-2004_page007_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両事例から、洪水被害の評価と対策の早期実施が重要であることがわかります。事例Aでは住家被害の詳細な調査が行われた一方、事例Bは復旧事業を含む総合的な対策が展開されました。因此，对于未来的洪水灾害准备而言，首先需要进行详细的灾后评估以了解具体损失；其次，应迅速采取措施进行修复和重建工作，并制定长期的防洪策略，包括改善河川设施等。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page123_table_0",
+      "01歴史資料集4_2002-2004_page007_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_typhoon10_page007_table_0_復興知見_202103_fukku-fukko-handbook_1_page027_table_3_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、政府の迅速な対応と多様な措置（避難指示・勧告発令、土砂災害警戒レベルの上昇、自衛隊派遣要請）が見られ、一方で事例Bは主に文書情報やページ番号を示しています。洪水への備えとして重要となるのは、早期の警戒体制と迅速な対応力です。具体的には、地域住民に対する教育・訓練、防災情報の発信システムの整備、土砂災害警戒レベルに基づく適切な避難指示の実施などが求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_typhoon10_page007_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page027_table_3"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page055_table_0_02歴史資料集3_2011-2018_page037_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aではコミュニティ維持と復興計画の方向性確立に重点が置かれており、被災者の避難者数の予想を見直すなど柔軟な対応が挙げられます。一方、事例Bは具体的な事業費や工期、整備内容を示し、災害復旧の経済的・組織的な側面を強調しています。これより、今後の地震災害への備えとして重要なのは、被災地域のコミュニティの維持と再構築を早期から考慮することと、具体的な復旧計画とともに十分な予算確保と迅速な実施作業が不可欠であることがわかります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page055_table_0",
+      "02歴史資料集3_2011-2018_page037_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page135_table_0_復興知見_202103_fukku-fukko-handbook_2_page053_table_0_multihop",
+    "question": "噴火災害と土砂災害災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策では、早期立ち上がり支援や生産基盤の整備のような農業向けの施策が重要です。また、治山工事や地すべり防止工事による土地の保護も有効で、これらの経験から、多様な防災施策の融合と地域全体の連携が必要となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page135_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page053_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page017_table_0_02歴史資料集2_2011-2018_page054_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは復旧・復興の具体的な取り組みが示されており、早期回復計画や被災者支援制度の迅速な適用が重要であることがわかります。一方、事例Bでは計画策定の遅れや連携不足が指摘され、避難状況把握に対する準備の重要性が浮き彫りになります。したがって、今後の地震災害への備えとして、迅速な復興計画の立案と被災者支援制度の整備、そして政府機関間の連携強化が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page017_table_0",
+      "02歴史資料集2_2011-2018_page054_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page013_table_0_02歴史資料集2_2011-2018_page056_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧段階ではまず住宅再建の方針を決定し、スケジュールと担当課も明確にします。その後、地域の声を集めることで具体的な復興計画を作り出し、自治協議会や住民懇談会などで意見を集約します。これにより有効な計画策定が可能になります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page013_table_0",
+      "02歴史資料集2_2011-2018_page056_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page035_table_0_02歴史資料集6_2011-2018_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは火山活動の段階的な縮小が確認され、地域住民への早期情報提供や警戒範囲の適切な調整が重要であることが示されています。一方、事例Bは迅速且つ組織的な対応の必要性を強調しています。因此，为了更好地应对未来的喷发灾害，关键在于建立一个既能及时准确地监测火山活动情况又能迅速组织协调多方资源的系统。这包括定期更新火山警戒级别、制定详细的疏散计划，并确保政府各部门之间的高效沟通与协作。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page035_table_0",
+      "02歴史資料集6_2011-2018_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page035_table_0_01歴史資料集4_2002-2004_page007_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両者の共通点は床上浸水被害の深刻さであり、洪水対策では床上浸水に対する防災強化が必要です。相違点としては、事例Aは具体的な被害数を示していますが、事例Bは復旧事業の期間と内容に焦点があります。これから教訓を得ると、具体的な予測と緊急対応計画（床上浸水対策や河川改良）を早めに立てること、そして地域全体で防災意識を高めることが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page035_table_0",
+      "01歴史資料集4_2002-2004_page007_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page010_table_0_平成の災害事例_H23_higashinihon_page007_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から、被災者の安全確保（被災者数、避難勧告）や迅速な対応体制の整備（救援食糧、火災・床上床下浸水対策）が共通のポイントです。また、具体的な対策として、事例Bのように地域ごとの復興計画を明確化し、長期的な視点で被災状況把握と復興体制を整備することが重要です。一方で、事例Aでは孤立地区への支援が指摘されており、今後の備えにはこうした細部の対策も考慮する必要があります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page010_table_0",
+      "平成の災害事例_H23_higashinihon_page007_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H26_08HeavyRain_page003_table_1_平成の災害事例_H30_07HeavyRain_page005_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通して学べることは、被害の規模や深刻さ予測の重要性です。事例Aでは具体的な被害額と死者数が示され、事例Bでは災害救助法の適用範囲が明らかにされています。これらの情報は災害対策の基盤となります。また、事例Bでは自衛隊の派遣や非常体制の整備が強調されており、事例Aでも避難指示や勧告の人数が大きいことから、早期対応と迅速な救済活動の重要性も確認できます。したがって、今後の土砂災害への備えとして、被害予測の精度を高めると共に、迅速な救助体制の整備が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H26_08HeavyRain_page003_table_1",
+      "平成の災害事例_H30_07HeavyRain_page005_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page037_table_1_復興知見_202103_fukku-fukko-handbook_2_page017_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えとしては、両方の事例から学べる共通点があります。まず、地域ごとの具体的対策（砂防工事や地盤安定措置）が必要であり、また、行政機能維持のために公的補助制度も重要です。洪水では災害予防と復旧が主眼ですが、噴火では学校などの施設の保護と行政機能の継続が強調されます。これらを組み合わせると、地域ごとの具体的対策と政府による支援体制の整備が複合災害への有効な備えとなります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page037_table_1",
+      "復興知見_202103_fukku-fukko-handbook_2_page017_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "応急復旧",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page003_table_0_大地震の事例_2018_hokkaido_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは避難所利用状況を分析し、地域ごとの避難行動の評価が必要であることを示唆します。一方、事例Bではデマ対策と情報発信体制強化に重点が置かれています。今後の備えとしては、効果的な情報共有システムの構築とともに、正確な情報提供と避難者の状況把握が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page003_table_0",
+      "大地震の事例_2018_hokkaido_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page038_table_1_復興知見_202103_fukku-fukko-handbook_1_page171_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動フェーズでは、早期準備と連携体制の整備に重点を置き、特に自主防災組織の充実や備蓄の実施が重要です。応急復旧フェーズでは、職場適応訓練や公共職業訓練などの制度を利用して訓練経費の助成や賃金補填を行い、雇用対策と早期復旧を推進します。この移行では、救命活動で築いた連携体制を活かし、訓練を受けた人材を被災地に配布することで効果的な復旧作業が実現できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page038_table_1",
+      "復興知見_202103_fukku-fukko-handbook_1_page171_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page009_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page228_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは個人情報の共有と制度改善が強調され、障害者の支援が必要であることが示されています。一方、事例Bは政府機関による長期的な復旧・復興体制の構築に焦点を当てています。今後の備えとして重要となるのは、災害時の初期対応と長期的支援体制の両方が整っていること。特に個人情報の保護と共有体制の強化、そして技術的なサポート体制の確立が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page009_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page228_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page087_table_0_02歴史資料集5_2011-2018_page037_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両者の共通点は、地域社会全体の防災体制強化が必要であることを示しています。事例Aでは緊急通信システム事業の助成があり、事例Bでも各自治体と県の災害対策本部設置が挙げられています。異なる点は、事例Aでは産業支援に焦点を当てているのに対し、事例Bは直接的な救助活動に重点を置いています。今後の備えとして、迅速な情報共有体制と地域産業の保護が重要であり、これらを統合した防災計画の整備が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page087_table_0",
+      "02歴史資料集5_2011-2018_page037_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page041_table_0_平成の災害事例_H26_mitake_page005_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aと事例Bを比較すると、地域住民との協働や自治体間の連携は共通の要素ですが、具体的な対策に違いがあります。事例Aでは火山防災フォーラムを通じて情報交換と地域防災力の向上が重要視されており、一方で事例Bでは政府による迅速な対応（災害対策本部設置、警戒情報発表等）が特徴的です。今後の備えとしては、地域住民との緊密な連携と自治体間の協力体制を構築し、同時に政府や行政機関による迅速な支援体制も整備することが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page041_table_0",
+      "平成の災害事例_H26_mitake_page005_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page056_table_0_大地震の事例_2016-1_kumamoto_page006_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握フェーズではまず被害面積を確認し、特に大きな被害（本例では最大28.3ha）に注意。次に、救命活動フェーズでは避難所の設置と運営に重点を置き、被災者の安全確保と生活支援を行うことが重要です。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page056_table_0",
+      "大地震の事例_2016-1_kumamoto_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page033_table_0_03歴史資料集3_2018-2019_page011_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例共通の重要な点は、迅速な救助要請や避難指示の実施です。また、行政連携と住民への正確な情報伝達も欠かせません。異なる点では、事例Aは宮崎県で台風全地域の避難状況を示していますが、事例Bでは特に千葉県での倒木被害に焦点が当てられています。さらに、災害対策本部設置や救助法適用なども重要ですが、AIチャットボットのような新たな技術活用にも注目すべきです。これらから、広範囲な避難指示と迅速な救助体制の確保、正確な情報提供の強化、地域ごとの具体的な被害予測とそれに基づく対策の準備が求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page033_table_0",
+      "03歴史資料集3_2018-2019_page011_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "救命活動",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page042_table_0_復興知見_202103_fukku-fukko-handbook_2_page082_table_1_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動後はまず災害規模と被害範囲を調査し（調査補助率1/2、限度額210千円/ha）、次に緊急復旧が必要な場所を確認します。その後、地区整備事業などを推進し、地域の防災力強化と早期復興を目指します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page042_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page082_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page002_table_0_02歴史資料集8_2011-2018_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地震の規模と影響範囲が強調され、広域かつ強い揺れによる被災が示されています。一方、事例Bは震災後の対応を主に扱っており、「非常災害」指定や復興工事の開始時期などの具体的な行動が記述されています。これから学べる教訓として、まず地震自体の早期検知と迅速な避難指導が重要です（1）。そして次に、被災後の対応計画や法的な支援措置も早急に整備することが求められます（2）。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page002_table_0",
+      "02歴史資料集8_2011-2018_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集5_2018-2019_page015_table_0_01歴史資料集2_1958-1993_page084_table_1_multihop",
+    "question": "台風災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対応では、初期支援（如き家屋補修や農林業者向けの資金助成）だけでなく、長期的な復旧と経営安定に向けた支援（如き技術研修や新たな事業計画立案）が重要です。また、地域全体の早期回復を目指すためには、被災者の移転支援も含めた総合的な対策が必要となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "03歴史資料集5_2018-2019_page015_table_0",
+      "01歴史資料集2_1958-1993_page084_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page032_table_0_平成の災害事例_H27_hakone_page004_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、早期警戒システムの強化と情報共有が重要です。例えば、火山活動と洪水の両方に対応できる警戒レベルや避難指示が必要で、地域住民に対して定期的な訓練と防災教育を実施することも大切です。また、安全な避難場所の確保と緊急時用の生活必需品の備蓄も同時に考慮するべきです。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page032_table_0",
+      "平成の災害事例_H27_hakone_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H28_kumamoto_page007_table_0_大地震の事例_2011_higashinihon_page054_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは避難者の数と避難所の設置数が明確に示されており、災害時における対応規模を把握することが重要です。一方、事例Bは震災後の復興計画立案過程に焦点を当てており、地域住民の声を聞き取り集落単位での維持に重きを置くことが大切だと示唆しています。したがって、今後の備えとして、避難所の数や規模を事前に把握し、また震災発生後は地域の声を最大限に反映させた計画立案が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H28_kumamoto_page007_table_0",
+      "大地震の事例_2011_higashinihon_page054_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page061_table_0_02歴史資料集3_2011-2018_page037_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは過疎地域の住宅問題に焦点が置かれており、不良住宅の改善や用地取得支援が中心となっています。一方、事例Bは具体的な道路施設の復旧事業を示しており、被災地域の基盤整備に重点があります。共通点として、両者とも災害後の生活再建と社会インフラの回復に尽力しています。相違点では、Aは住居環境の改善に、Bは交通網の復旧に焦点が当たっていることが挙げられます。今後は過疎化対策と基盤整備の両面から地震災害への備えを強化することが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page061_table_0",
+      "02歴史資料集3_2011-2018_page037_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page187_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page042_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "地震災害への備えでは、具体的な避難指示や被害評価の迅速化（事例B）が不可欠ですが、地域独自資源の活用と連携による復興力向上（事例A）も重要な教訓です。そのため、地震発生時に早期の情報提供と適切な避難指導が求められる一方で、災害後の地域全体での協働や特色ある取り組みを通じた持続可能な復興が不可欠となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page187_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page018_table_1_02歴史資料集6_2011-2018_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例AとBの共通点は、どちらも自然災害（地震や台風、洪水）による被害を示しており、ライフラインや住宅の損失が大きな問題となっています。しかし、具体的な対策としては異なる側面に焦点を当てる必要があることが明らかです。事例Aでは公共土木施設とライフラインの維持管理が重要であり、事例Bでは家屋被害に対処するための構造強化や浸水防止措置が必要となります。したがって、災害への備えとして、地域ごとの脆弱性を把握し、適切な防災対策（土木施設・ライフラインの確保、住宅耐震化、浸水対策など）を講じることが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page018_table_1",
+      "02歴史資料集6_2011-2018_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page092_table_0_01歴史資料集3_1995-2001_page073_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "应急復旧ではまず医療救護や企業支援などの直接的な救助が必要です。その後、復興事業では政府の対策会議設置や地域レベルでの専門部署強化が推進します。これらの段階は迅速な災害対応と組織的復興体制構築を不可欠にしています。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page092_table_0",
+      "01歴史資料集3_1995-2001_page073_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page040_table_1_復興知見_202103_fukku-fukko-handbook_1_page085_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧から復興事業への移行では、まず災害後の状況を総括し、復興組織の解散検討を行うことが重要です。次に、新たな復興計画を立案し、関連団体との連携強化に努めます。具体的な事例として、1995年の阪神・淡路大震災では神戸市と復興基金が活躍し、2011年の東日本大震災では宮城県と国が協力しました。また、2009年の中国・九州北部豪雨では防府市の対応が参考になります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page040_table_1",
+      "復興知見_202103_fukku-fukko-handbook_1_page085_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "洪水"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page054_table_0_02歴史資料集3_2011-2018_page022_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは計画策定の遅延や情報錯綜が指摘され、一方で事例Bは具体的な補助金制度が提示されています。共通点としては、効果的な復興支援には迅速且つ明確な計画作成が必要であることが示唆されます。相違点では、実際の補助金額や対象者が異なるため、地域特性に合わせた具体的な支援策を検討することが重要です。今後の備えとしては、避難計画の早期策定と明確化、そして復興支援制度の詳細な設計が不可欠となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page054_table_0",
+      "02歴史資料集3_2011-2018_page022_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page088_table_0_02歴史資料集5_2011-2018_page030_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地域との連携強化と早期情報伝達が重視されており、これに対し事例Bは具体的な工事の進行状況を示しています。共通点としては、地域住民や関係機関との協力体制の構築が重要であり、これは災害時の迅速かつ効果的な対応につながります。一方で異なるのは、物理的な防災インフラ整備（砂防堰堤や急傾斜地崩壊対策）が必要であるという点です。したがって、今後の備えでは地域住民との連携とインフラ整備の両面に注力することが推奨されます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page088_table_0",
+      "02歴史資料集5_2011-2018_page030_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "不明"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page137_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは天災融資制度の改訂内容が示され、経営資金や事業資金の限度額の増加、償還期間の延長が特徴的です。これに対し、事例Bは多様な支援活動を紹介しており、具体的な事例や支援主体が詳細に記載されています。今後の地震災害への備えとして重要になるのは、財政的な支援だけでなく、多様な機関による地域復興への直接貢献も必要であるということです。具体的には、政府の融資制度を活用しつつ、NPOや自治体など民間からの支援活動も積極的に活用することで、災害からの回復力を高めることができます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page137_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page031_table_0_01歴史資料集3_1995-2001_page012_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "应急復旧ではまず被害状況を把握し、必要な復旧作業（如、尼崎市の家庭用水道管改造）に迅速に対応します。その後、具体的な復興計画の策定と実施へ移行します。これには設置された神戸市復興計画検討委員会や審議会による延べ26回の開催が重要で、多くのメンバー参加と慎重な審議により効果的な復興プランが策定されました。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page031_table_0",
+      "01歴史資料集3_1995-2001_page012_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page061_table_0_02歴史資料集4_2011-2018_page011_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例共通の重要な点は、地元住民や被災者の意見聴取と情報提供を通じた復興計画策定です。しかし、具体的な手法では異なります。事例Aは高潮対策の検討会を通じて基本方針を決定し、地元への情報提供にも努めました（3回開催）。一方、事例Bは広範囲にわたるアンケート調査やヒアリング、説明会を行い、具体的な復旧・復興計画を立案しました（約160世帯対象のヒアリング）。今後の台風災害への備えとして、地元住民の意見聴取と情報提供、そして適切な計画策定が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page061_table_0",
+      "02歴史資料集4_2011-2018_page011_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page054_table_0_02歴史資料集2_2011-2018_page013_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動終了後、まずは犠牲者数の正確な把握と情報共有を確実に行い、次に住宅再建の方針やスケジュールを明確にし、各担当課を明示します。これにより、迅速かつ効率的な応急復旧が可能になります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page054_table_0",
+      "02歴史資料集2_2011-2018_page013_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集3_2011-2018_page046_table_0_02歴史資料集3_2011-2018_page052_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動終了後は、まず被害状況を評価し、必要な用地を迅速に取得します（【救命活動】の「防災関連の契約」→【応急復旧】の「用地取得業務」）。次に、地盤調査や設計を行い、安全な建造物の復旧工事を実施します（【応急復旧】の「用地造成等業務」）。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集3_2011-2018_page046_table_0",
+      "02歴史資料集3_2011-2018_page052_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集6_2011-2018_page016_table_0_01歴史資料集5_2005-2009_page010_table_0_multihop",
+    "question": "噴火災害と土砂災害災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "噴火災害では避難指示や通行止めが必要となり、土砂災害では住宅地整備や公営住宅の設置が重要とされました。これらの経験から、災害時の迅速な情報提供や地域住民の安全確保、そして災害後の生活支援体制の確立が複合災害への対策として重要です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集6_2011-2018_page016_table_0",
+      "01歴史資料集5_2005-2009_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "土砂災害"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page020_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page162_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地域医療体制の早期整備と被災施設への支援が強調されており、一方で事例Bは地元人材の雇用を通じた地域再生に焦点を当てています。共通点としては、地域社会全体での対策が重要であり、医療や人材の確保が必要であることが示されています。相違点では、Aは災害時の医療支援に重きを置いており、Bは震災後の経済活動再開に焦点を当てています。したがって、今後の備えとして、災害前からの地域医療体制の整備や人材育成、被災直後の緊急対応と長期的な地域再生計画の両面からアプローチすることが重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page020_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page162_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page031_table_0_02歴史資料集5_2011-2018_page017_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは長期的な支援体制の構築が強調されており、職員の確保や他の地域からの応援が必要であることが示されています。一方、事例Bは具体的な被害数値（死者数、負傷者数など）を詳細に記録しており、災害時の影響の規模を把握する上で重要な情報提供となっています。今後の洪水災害への備えとして重要になるのは、長期的な支援体制と迅速な情報収集・共有システムの整備です。前者は災害対応の継続性を確保し、後者は被害の範囲や深刻度を的確に把握し、適切な救助活動を行うための基盤となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page031_table_0",
+      "02歴史資料集5_2011-2018_page017_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H26_08HeavyRain_page003_table_1_復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0_multihop",
+    "question": "土砂災害と津波災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、早期警報システムの強化や適切な避難指示体制の確立が重要です。また、ライフラインや公共施設の防災設計の向上も必要で、土地利用計画においても防災性を考慮に入れるべきです。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "平成の災害事例_H26_08HeavyRain_page003_table_1",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "津波"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page100_table_0_01歴史資料集5_2005-2009_page021_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例共に組織体制の構築や計画策定が重要であることがわかります。事例Aでは震災復興対策本部と地区震災復興委員会の設置により、迅速な対応が可能になりました。一方、事例Bは具体的な支援事業に経費助成を投入することで地域社会の回復を促しました。今後の備えとして、組織的な体制づくりと実質的な支援策の両方を強化することが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page100_table_0",
+      "01歴史資料集5_2005-2009_page021_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集5_2018-2019_page015_table_0_平成の災害事例_H23_typhoon12_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは移転支援が重点的に進められ、被災した住民の再配置に向けた補助金制度が設けられています。これに対し、事例Bは避難指示や政府機関の設置など、直接的な防災対策に焦点を当てています。今後の備えとしては、早期の避難指示と同時に移転支援制度の整備が必要です。具体的には、避難所での生活援助や新しい居住地への移転補助金などを提供することで、被災者の安全確保と生活再建を促進できます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集5_2018-2019_page015_table_0",
+      "平成の災害事例_H23_typhoon12_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page027_table_0_03歴史資料集2_2018-2019_page035_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは復興の過程と法律的な措置が強調され、事例Bでは具体的な補償金額と条件が示されています。両者から、早期の法的指定と緊急対応（事例A）は災害直後の混乱を整理し、その後の復旧活動に迅速に対応する上で重要です。一方で、明確な補償制度（事例B）は被災者の支援と生活再建を円滑にするために不可欠です。したがって、地震対策として法的基盤の整備と具体的な補償体制の確立が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page027_table_0",
+      "03歴史資料集2_2018-2019_page035_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page090_table_0_01歴史資料集4_2002-2004_page089_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは具体的な被害状況（人的被害や住宅被害など）を町村別に示しており、地域ごとの差異があることがわかります。一方、事例Bは震災復興計画の詳細を述べており、特に地域支援員の役割と農村部への対応が強調されています。今後の地震災害への備えとして重要になるのは、具体的な被害想定と地域ごとの対策の両面です。事例Aから得られる情報は早期の避難や救援活動に有用ですが、事例Bからは被災後の社会経済的影響に対応するための組織的な支援体制が必要であることが示されています。具体的な教訓として、地域差を考慮した多様な対策と連携強化が重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page090_table_0",
+      "01歴史資料集4_2002-2004_page089_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page028_table_0_01歴史資料集4_2002-2004_page041_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは迅速な緊急対応と長期的な復旧体制の重要性が強調されており、一方で事例Bは具体的な損傷評価指針を示しています。これらから、今後の洪水災害への備えとして、早期の警報システムの整備や緊急対策の迅速化、さらなる被災状況評価基準の明確化が必要となります。また、長期的な復旧・復興計画の立案も重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page028_table_0",
+      "01歴史資料集4_2002-2004_page041_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page022_table_1_02歴史資料集4_2011-2018_page042_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aは地すべりやがけ崩れの対策実施状況を示し、未対策箇所が多いことが問題点である一方、事例Bは具体的な仮置場の設置情報があり、災害発生時の対応が明確になっています。今後の備えとして重要的是非両方の情報を活用すべきで、地域ごとのリスク評価と早期対策を推進するとともに、適切な収容施設の確保も必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page022_table_1",
+      "02歴史資料集4_2011-2018_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "不明"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page270_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page200_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動から応急復旧への移行では、まず生存者や被災者の安全確認と支援を完了した後、食料や生活必需品の提供に続き、施設の修繕と地元自治体や観光グループとの協力が重要です。こうした連携により、被災地域の早期復興と観光業の活性化を促進できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page270_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page200_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page004_table_0_01歴史資料集3_1995-2001_page061_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "事例Aは台風による即時対応に焦点を当てており、避難所の設置や政府機関の連携が強調されています。一方、事例Bは長期間の復興プロセスを踏まえており、対策検討会や復興促進委員会の定期開催が特徴です。今後の台風災害への備えとしては、初期の即時対応と長期的な復旧・復興計画の両方の視点を持つことが重要です。具体的には、避難所の確保や政府機関の連携だけでなく、地域住民に対する情報提供や専門家の意見を取り入れた計画的対策を推進すべきです（約150文字）。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page004_table_0",
+      "01歴史資料集3_1995-2001_page061_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "救命活動",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H26_02HeavySnow_page004_table_1_平成の災害事例_H28_kumamoto_page004_table_2_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通して学べるのは、人的被害の把握と復旧費用の推定が重要です。具体的には、早期の救難活動と被災者の迅速な救助・避難が求められます（事例Aでは111人負傷）。また、建物や公共施設の損壊状況も詳細に調査し、復旧コストを予測することで、適切な支援計画を作成できます（事例Aでは農業被害229億円）。一方で、事例Bでは死者数（273人）が特に深刻であり、その点への対策強化が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H26_02HeavySnow_page004_table_1",
+      "平成の災害事例_H28_kumamoto_page004_table_2"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H27_hakone_page004_table_0_復興知見_202103_fukku-fukko-handbook_1_page043_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは警戒レベルの変化による迅速な対応と情報提供が強調され、事例Bでは特に農業や水産業に大きな影響を与える火山災害に対する地域経済への配慮が見られます。共通して重要となるのは、早期警報システムの整備と住民教育の充実です。これらの対策により、地域住民は適切な避難行動を起こし、農業や観光産業も持続可能なものとして維持できるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H27_hakone_page004_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page043_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集5_2018-2019_page003_table_0_平成の災害事例_H26_mitake_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両者から得られる教訓は、地域住民の安全確保と被災者の生活支援のバランスが重要であることがわかります。事例Aでは床上高さの改修により防災対策を強化し、空室利用規則の緩和で地域活性化を目指しました。一方、事例Bでは直ちに登山者の安全を最優先とし、必要な制限や支援措置を迅速に対応しました。これより、洪水災害への備えとしては、初期段階での早期警報システムの整備や避難ルートの明確化が重要です。また、被災後の生活再建支援も同時に計画することが推奨されます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集5_2018-2019_page003_table_0",
+      "平成の災害事例_H26_mitake_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page040_table_0_01歴史資料集2_1958-1993_page060_table_0_multihop",
+    "question": "地震災害と洪水災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、早期警報システムの整備や適切な防災計画が不可欠です。地震や洪水のように異なる種類の災害は頻繁に連携して発生するため、両方の事例から学ぶことで、より一貫した緊急対応と復旧作業を可能にすることができます。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page040_table_0",
+      "01歴史資料集2_1958-1993_page060_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "洪水"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集8_2011-2018_page024_table_0_02歴史資料集4_2011-2018_page004_table_0_multihop",
+    "question": "地震災害と洪水災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、早期の情報収集と迅速な対応が不可欠です。地震と洪水は異なる要因ですが、共通して緊急時計画や避難指示の迅速な実施が必要です。また、地域住民への説明会の実施や復旧計画の早急な決定も重要で、災害前から備えを強化し、多様なリスクに対応できる体制を作ることが推奨されます。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集8_2011-2018_page024_table_0",
+      "02歴史資料集4_2011-2018_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page009_table_0_01歴史資料集2_1958-1993_page059_table_0_multihop",
+    "question": "地震災害と台風災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、初期応急処置と迅速な救助活動が不可欠です。また、長期的な復興計画の整備も重要な要素となります。地震や台風などの自然災害は頻度と規模が異なるため、多種多様なリスクに対応できる柔軟な備えが必要です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page009_table_0",
+      "01歴史資料集2_1958-1993_page059_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page073_table_0_02歴史資料集6_2011-2018_page021_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは組織的・体制的な基盤整備が強調され、地域レベルから国家レベルまでの対策が順次実施されました。一方、事例Bは具体的な避難区域の設定と警戒レベルを示しています。今後の噴火災害への備えとして重要となるのは、両方の事例が示すように、組織体制の整備と早期避難のための明確な指針を持つことです。これは地域からの迅速な避難だけでなく、復興推進にも効果的であり、災害対応全体に活かせる重要な教訓となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page073_table_0",
+      "02歴史資料集6_2011-2018_page021_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "復興事業",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page007_table_0_01歴史資料集3_1995-2001_page062_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通する教訓は、財源確保と住民の意向尊重の重要性です。事例Aでは緊急対策費と復旧・復興財源を早期に確保し、被災地域の復興に充てることが重要でした。一方、事例Bでは被災地住民の意向調査や個別対応を行い、計画立案から実施まで綿密な協力体制が求められました。これらは台風災害への備えとしても有効であり、早期の財源確保と被災者の声を反映した迅速かつ適切な復興計画立案が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page007_table_0",
+      "01歴史資料集3_1995-2001_page062_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "応急復旧",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page083_table_0_02歴史資料集7_2011-2018_page042_table_0_multihop",
+    "question": "噴火災害と土砂災害災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えとしては、地域の生活再建と産業振興に加えて、安全な住まいの確保が非常に重要です。また、自然災害に対する防災対策も欠かせません。これらの共通点から、居住環境の安全性を高めながら、地域経済や社会機能の維持強化にも取り組むことが有効となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page083_table_0",
+      "02歴史資料集7_2011-2018_page042_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "土砂災害"
+    ],
+    "phases": [
+      "復興事業",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page120_table_0_01歴史資料集3_1995-2001_page018_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被害把握段階で特定地域の被害状況を詳細に調査し、重点的な救助が必要な場所を確認します。その後、必要な救急物資や救援隊を迅速に送り込み、避難所からの移転先を決定するための情報収集を行います。例えば、アンケート結果から避難者の生活再建方法を把握し、応急仮設住宅や親族・知人宅など適切な場所を確保します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page120_table_0",
+      "01歴史資料集3_1995-2001_page018_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page087_table_0_01歴史資料集3_1995-2001_page071_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aは緊急通信システムの助成により迅速な災害対応が可能となりますが、具体的な火山活動情報に欠けています。一方、事例Bは詳細な噴火予知情報を提供していますが、災害復旧支援策は未記載です。したがって、今後の噴火災害への備えとして、火山活動の早期発見と迅速な警報システムの整備、そして同時に災害後の漁業や地域経済の再構築をサポートするための具体的な助成制度が必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page087_table_0",
+      "01歴史資料集3_1995-2001_page071_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集7_2011-2018_page031_table_1_03歴史資料集2_2018-2019_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通する教訓は、事前計画と地域の協力を重視することです。事例Aでは復興計画の策定過程が明確に示されており、パブリック・コメントも反映されました。一方、事例Bでも地震活動のモニタリングやその影響が指摘されています。これらの経験から、地域住民との密接な連携と継続的な情報共有、そして多様な震災対策を準備することが重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集7_2011-2018_page031_table_1",
+      "03歴史資料集2_2018-2019_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page011_table_0_03歴史資料集4_2018-2019_page010_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例から、台風災害への備えでは、被害状況に応じた迅速な対策と市民の意見を反映した復興計画の策定が重要です。事例Bのように、政府による予備費の決定や激甚災害指定は財政的な支援を確保する上で不可欠ですが、一方で事例Aではアンケート調査や地域説明会を通じて市民の声を集めることも同様に重要です。これらの活動により、復興計画がより実効性を持ち、被災者の生活再建にも貢献します。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page011_table_0",
+      "03歴史資料集4_2018-2019_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page086_table_1_01歴史資料集3_1995-2001_page076_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "事例Aは降灰被害に対応した農家支援に焦点を当てており、主に施設園芸農家のための降灰対策事業を中心に推進されています。一方、事例Bは具体的な噴火災害における生活支援に焦点を当てており、避難指示区域に居住する低所得世帯に対する経済的支援が中心です。今後の噴火災害への備えとして重要となるのは、被災地域の特性や被災者のニーズに応じた柔軟な対策が必要であるという教訓です。特に生活支援面では、経済的な支援だけでなく精神的なケアも不可欠であり、農業向けの助成事業と合わせて総合的な防災体制を構築することが重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page086_table_1",
+      "01歴史資料集3_1995-2001_page076_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page037_table_1_復興知見_202103_fukku-fukko-handbook_2_page031_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、砂防や地すべり対策など具体的な防災施策が行われており、災害発生前の予防が重視されています。一方、事例Bは復旧制度に焦点を当てており、災害後の迅速な復旧と整備が強調されています。これからの洪水災害への備えとしては、まず予防対策の強化が必要ですが、同時に災害発生時の快速かつ効果的な復旧体制も重要です。これらの両面から総合的な防災システムを構築することが有効でしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page037_table_1",
+      "復興知見_202103_fukku-fukko-handbook_2_page031_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "応急復旧",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page109_table_0_大地震の事例_2011_higashinihon_page080_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧段階ではまず土地調査と所有者の交渉を実施し，測量や地質調査を行います。その後，用地取得のための契約や支払いを行うことが必要です。これらの工程が完了したら，復興事業に移行し，円滑化団体の手続きや税制優遇利用などを検討します。これにより，災害後の地域再建と復興を効率的に推進できます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page109_table_0",
+      "大地震の事例_2011_higashinihon_page080_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "不明"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page074_table_0_復興知見_202103_fukku-fukko-handbook_2_page144_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aではゴミ・がれきの適切な処理方法が焦点になっており、一方で事例Bは農林漁業支援策を強調しています。共通点としては、両者とも災害後の社会復旧に不可欠な要素として「廃棄物処理」と「産業再建」が重要であることが示されています。しかし、相違点としては、事例Aは自然環境と直接関わるゴミ・がれきの処理を主眼としている一方で、事例Bは経済活動に直結する農林漁業支援策を重視しています。今後の地震災害への備えとして、これら2つの側面ともに考慮することが重要です。即ち、廃棄物の適切処理と産業再建体制の強化が必要となるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page074_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page144_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page031_table_0_大地震の事例_2016-1_kumamoto_page002_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは緊急時指挥所の設置時期や場所が明確に示され、地域に対する迅速な支援体制の構築が重要な教訓です。一方、事例Bは被災度と救助状況を反映しており、災害発生後の早期情報収集と迅速な応急処置の重要性が明らかになりました。今後の備えとして、これら2つの要素を組み合わせることで、地震災害への迅速かつ的確な対応ができるようになるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page031_table_0",
+      "大地震の事例_2016-1_kumamoto_page002_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page016_table_0_大地震の事例_2018_hokkaido_page029_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは経済損失の評価と地域別の被害度が示され、一方で事例Bは応急仮設住宅における具体的な不具合とその原因が述べられています。共通点として、災害対策においては経済的影響と居住施設の質が重要です。相違点としては、事例Aでは地震直後の経済評価に焦点が置かれていますが、事例Bでは長期的な住居環境改善が必要であることが明らかになりました。今後の備えとして重要なのは、短期的な救援と長期的な復興計画の両面を考慮することです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page016_table_0",
+      "大地震の事例_2018_hokkaido_page029_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Examples_fukko-kyokun-knowhow_page168_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page150_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地域経済の再生に成功した一方、事例Bは復興に関する複数の取り組みを示しています。共通点としては、被災地における早期復興と地元経済の再生が重要な課題であることがわかります。相違点として、Aは具体的な地域（南三陸）での実践事例が挙げられ、Bは総合的な復興に関する取り組みを示しています。これらから、今後の地震災害への備えとしては、地域ごとの早期復興と経済再生のための具体的な計画策定が必要であり、同時に多岐にわたる復興活動に対する支援体制も重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page168_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page150_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page109_table_0_大地震の事例_2011_higashinihon_page005_table_0_multihop",
+    "question": "应急复旧从阶段过渡到重建项目时，应采取哪些关键步骤？",
+    "answer": "在应急恢复阶段完成后，重要的是首先建立完善的灾后恢复体制，并制定详细的重建计划。接着，需要派遣支援人员并进行多方协商以达成共识。这些步骤对于确保后续重建工作的顺利进行至关重要。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page109_table_0",
+      "大地震の事例_2011_higashinihon_page005_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page079_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の津波災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは補助金制度が具体的に示され、個々の家屋や土地に対する支援が明確です。一方、事例Bは中心市街地全体の再生に焦点を当てており、地域全体の復興計画が必要なことを示唆しています。因此，重要的是需要结合个人和社区层面的恢复计划，建立全面的灾害应对机制，不仅关注个体家庭的重建需求，还应重视社区的整体发展与振兴，以确保灾后社会经济能够迅速复苏并增强抗灾能力。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page079_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page089_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "津波",
+      "津波"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page012_table_0_大地震の事例_2016-1_kumamoto_page032_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、復旧・復興指針の早期公表と詳細なスケジュール・担当部署設定が強調されており、これらは災害直後から継続的な活動を計画しやすくする役割を持ちます。一方、事例Bでは具体的な生活支援物資の提供状況が明示されており、避難所運営に直接役立つ情報が含まれています。因此，重要的是要结合详细的灾后重建计划与实际的物资准备。制定清晰的灾后恢复计划并明确各阶段的任务分工至关重要；同时，提前储备必要的生活支援物资也非常重要，以便在灾难发生时能够迅速应对，确保受灾群众的基本生活需求得到满足。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page012_table_0",
+      "大地震の事例_2016-1_kumamoto_page032_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page032_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは地域別の財政支援措置の実施が強調され、被災者への即時支援と長期的な復興に重点が置かれています。一方、事例Bは海岸堤防等の長期的視点での建設を推奨し、住民や専門家との協働が重要です。洪水災害への備えとして、短期的な被災者支援だけでなく、持続可能な復興計画と地域社会全体の協力を重視することが求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page032_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page144_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "03歴史資料集4_2018-2019_page014_table_0_03歴史資料集5_2018-2019_page015_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは可燃物の処理に対応する施設と期間が明確に設定されており、物理的な廃棄物管理が必要であることがわかります。一方、事例Bは経済的な支援を提供し、被災者の移転支援に焦点を当てています。したがって、台風災害への備えとして重要なのは、物理的廃棄物の適切な処理施設と期間設定だけではなく、被災者の生活環境再構築や経済的な支援も含めた総合的な対策が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "03歴史資料集4_2018-2019_page014_table_0",
+      "03歴史資料集5_2018-2019_page015_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_Report_fukko-kyokun-knowhow_page228_table_0_復興知見_202103_Report_fukko-kyokun-knowhow_page085_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "土地区画整理事業）を立案します。継続的な住民意向調査と土地需要に応じた柔軟な調整が推進され、空き地の有効活用も検討することで、地域の持続的復興が実現します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page228_table_0",
+      "復興知見_202103_Report_fukko-kyokun-knowhow_page085_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page130_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page074_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aの中小企業組合等共同施設等災害復旧事業は経済活動の早期回復に焦点を当てており、具体的な支援策や補助率の設定が明確です。一方、事例Bの「いわてこどもケアセンター」は長期的な社会福祉の視点から取り組んでおり、被災地での子どもたちの支援が重点されています。これより、地震災害への備えとしては、短期的な復旧と経済再生だけでなく、長期的な社会福祉や教育の観点からの支援体制の整備も重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page130_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page074_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集2_2011-2018_page012_table_0_02歴史資料集4_2011-2018_page018_table_1_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例AとBを比較すると、共通点は早期からの復興計画策定と被害状況の把握です。一方で、事例Aは具体的な地域（釜石市、大槌町、野田村）における復興方針を示し、政策立案段階から早急な行動が求められることを強調しています。一方、事例Bはより広範な被害状況を明らかにし、公共土木施設の損失が多く、ライフラインが大きく影響を受けていることを示しています。この教訓から、今後の地震災害への備えとして、地域別具体的な復興計画と共に、早期のライフライン保護と公共土木施設の強化が重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集2_2011-2018_page012_table_0",
+      "02歴史資料集4_2011-2018_page018_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H27_kantotohoku_page005_table_0_大地震の事例_2016-1_kumamoto_page056_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通の教訓は、迅速な政府機関の対応と被災地の浸水被害を防ぐための早期避難指示の重要性です。しかしながら、具体的な対策としては、事例Aでは浸水した政府機関の設置箇所が示されており、今後は重要施設の耐水化や高台への移転が必要となります。一方で、事例Bでは具体的な被害面積が明らかにされ、広範囲な地域での防災計画策定や浸水想定区域の明確化が求められます。これらの教訓を踏まえ、地域ごとの特性を考慮した個別対策と合わせて総合的な洪水管理システムの構築が重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H27_kantotohoku_page005_table_0",
+      "大地震の事例_2016-1_kumamoto_page056_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page138_table_0_復興知見_202103_fukku-fukko-handbook_2_page017_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "噴火災害に対する備えでは、長期化した被災者の生活支援（事例A）と公共施設の早期復旧（事例B）が両方共に重要です。長期的な仮設住宅利用に対応した支援措置を講じることで、被災者生活再建を支援し、地域コミュニティの維持につなげることが求められます。一方で、重要な公共施設の早期復旧により行政機能が維持され、社会全体の回復に向けた基盤となることが重要です。つまり、被災者の生活支援と社会インフラの早期復旧は密接に関連しており、双方を考慮した総合的な備えが必要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page138_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page017_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page132_table_0_復興知見_202103_fukku-fukko-handbook_1_page042_table_1_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧では迅速な仮設住宅供給が必要ですが、長期的な視点からは民間賃貸住宅の活用も考慮します。その後の復興事業では、具体的な事例（如き有珠山噴火など）に基づいた観光産業復興や安全確保策を実施することが重要です。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page132_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page042_table_1"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page081_table_0_01歴史資料集3_1995-2001_page031_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動終了後、まず避難指示の解除時期を確認し、その後に災害経過と政府の対応を総括します。次に、具体的な復旧作業（如き水道管改造）のための融資情報を集め、例えば尼崎市の30万円無利子融資を利用することで迅速な復旧が可能となります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page081_table_0",
+      "01歴史資料集3_1995-2001_page031_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page155_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page053_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは具体的な支援措置と制度の創設が強調され、事例Bでは地域住民自身の運動による復興活動が注目されます。共通点としては、地域社会の自助努力と政府・行政の支援が災害対策において重要であることがわかります。相違点では、事例Aは制度的な面を強調し、事例Bはより具体的な個人や地域レベルでの取り組みを示しています。今後の地震災害への備えとしては、制度的・行政的支援と同時に、地域住民の自助努力や相互扶助体制の構築が重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page155_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page053_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "復興事業",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_1_page119_table_0_復興知見_202103_Examples_fukko-kyokun-knowhow_page228_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から見えてくる共通点は、災害に対する迅速な対応と地域の持続可能な復興が必要であるという点です。しかし、具体的な対策では異なる点もあります。事例Aでは被災者の生活再建支援や地域経済の復興が強調されており、これは個々の生活環境を早期に回復させる上で重要ですが、事例Bでは登録団体数の多さが示されるように、組織間の連携と協働も重要な要素です。したがって、今後の地震災害への備えとして、個人レベルだけでなく地域全体の連携や支援団体とのネットワーク構築が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_1_page119_table_0",
+      "復興知見_202103_Examples_fukko-kyokun-knowhow_page228_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page062_table_0_01歴史資料集4_2002-2004_page033_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の台風災害への備えとして何が重要ですか？",
+    "answer": "両事例から、災害対応の重要なポイントは「住民の意向調査」や「個別対応」にあります。事例Aでは11年間にわたる復興計画立案と実施に重点を置いており、被災地住民の意見を取り入れることが強調されています。一方、事例Bは短期的な避難指示や救出要請などの緊急対応が中心で、個別の住民意向調査は行われていません。今後の台風災害への備えとして重要になるのは、早期から被災地住民の声を聞き、迅速かつ適切な個別対応を行うことです。これにより、避難指示や救出要請などの緊急措置が効果的に行われ、被災者の安全確保につながります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page062_table_0",
+      "01歴史資料集4_2002-2004_page033_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "台風",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page010_table_0_01歴史資料集5_2005-2009_page021_table_0_multihop",
+    "question": "救命活動から応急復旧へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "救命活動が一段落したら、まず避難者の生活支援を確保し、次に公営住宅の入居開始と住宅地整備を進めます。その後、地域コミュニティ維持や共用施設復旧など、人々の日常生活を支える基盤整備に着手します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page010_table_0",
+      "01歴史資料集5_2005-2009_page021_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "地震"
+    ],
+    "phases": [
+      "救命活動",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page042_table_0_01歴史資料集3_1995-2001_page083_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両事例から、迅速な避難指示や救助体制の整備（事例A）、地域再建と防災体制強化（事例B）が非常に重要であることがわかります。具体的には、定期的な避難訓練を実施し、最新のハザードマップに基づく危険区域の把握と適切な建設制限を行うべきです。また、避難所や仮設住宅の早期準備も必要で、被災後の生活再建支援体制も同時に整備すべきです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page042_table_0",
+      "01歴史資料集3_1995-2001_page083_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page043_table_0_復興知見_202103_fukku-fukko-handbook_2_page135_table_0_multihop",
+    "question": "洪水災害と噴火災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への備えでは、早期立ち上がり支援と基盤整備が不可欠です。洪水では河川指定変更や避難所開設が重要となりますが、噴火では降灰による継続的な被害対策も同様に大切となります。また、経済的支援も災害復旧に大きな役割を果たします。これらの共通点から、多面的な備えと連携体制の整備が重要です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page043_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page135_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page027_table_0_01歴史資料集3_1995-2001_page027_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは床上浸水や床下浸水の被害状況が詳細に示されており、具体的な地域別の被害内訳が分かることで、今後の防災対策の重点化が可能となります。一方、事例Bは地震災害時の建築活動円滑化のための各種緩和措置をまとめています。これらから学べることは、災害発生前の防災設備整備と、発生後の迅速な復旧支援体制の構築が必要であり、地域別の詳細な被害情報と緊急時対策が両輪となって活用されるべきであるという教訓があります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page027_table_0",
+      "01歴史資料集3_1995-2001_page027_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "令和の災害事例_202505_Reiwa6DisasterExamples_page033_table_0_令和の災害事例_202505_Reiwa6DisasterExamples_page035_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災状況を迅速に把握した後は、避難者の数と避難所の運営状況を確認し、物資の供給体制を整えます。具体的には、衛星電話の確保やガソリンスタンドからの緊急供給などの通信手段と物資の確保が重要です。これにより、救命活動に必要な情報伝達と支援物資の適切な配送が可能になります。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page033_table_0",
+      "令和の災害事例_202505_Reiwa6DisasterExamples_page035_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H7_hanshinawaji_page003_table_0_平成の災害事例_H16_chuetsu_page011_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例から、災害時の迅速な対応と長期的な復興計画の必要性が明らかです。事例Aでは具体的な被害数が提示され、地域ごとの差異が理解できました。一方、事例Bは復興過程を年月単位で示し、仮設住宅から本格的復興への移行を示しています。今後の備えとして、早期の情報収集と被害評価、そして長期的な支援システムの整備が重要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H7_hanshinawaji_page003_table_0",
+      "平成の災害事例_H16_chuetsu_page011_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page031_table_0_復興知見_202103_fukku-fukko-handbook_1_page070_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "両事例の共通点は、災害発生時に迅速な支援体制の整備が必要であるという点です。しかし、異なる点としては、事例Aでは義援金配分に焦点を当てている一方、事例Bでは津波被害の実態把握と堆積物処理が中心となっています。これからの地震災害への備えとして重要となるのは、まず迅速な義援金や救援物資の調達体制を整えること。そして同時に、被災地域の詳細な被害状況把握と堆積物処理計画も推進する必要があるでしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page031_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page070_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "復興知見_202103_fukku-fukko-handbook_2_page032_table_0_復興知見_202103_fukku-fukko-handbook_2_page087_table_0_multihop",
+    "question": "应急复旧从阶段过渡到重建工作，应采取哪些关键步骤？",
+    "answer": "首先，在应急复旧阶段，需优先修复公共土木设施、农林水产业设施和教育医疗设施等关键基础设施。随后，进入重建阶段时，重点推进防灾集団移转促进项目，包括住宅建设、土地购买及公共设施建设，并由市町村主导实施，获得最高3/4的财政补贴。这一过程确保了从紧急救援到长期恢复的有效过渡。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "復興知見_202103_fukku-fukko-handbook_2_page032_table_0",
+      "復興知見_202103_fukku-fukko-handbook_2_page087_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page031_table_0_復興知見_202103_fukku-fukko-handbook_1_page110_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは具体的な義援金配分例を示しており、被災者の支援に重点を置いている一方で、事例Bは更なる視点から地震災害時の金融・財政対策全般について述べています。したがって、今後の備えとして重要になるのは、単に被災者支援だけではなく、事業者の早期復旧と地方公共団体の災害復旧活動も考慮に入れた総合的な計画が必要です。また、義援金配分だけでなく、特別融資制度や予算補正などによる財政的支援体制も整備するべきです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page031_table_0",
+      "復興知見_202103_fukku-fukko-handbook_1_page110_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集5_2005-2009_page020_table_0_02歴史資料集2_2011-2018_page004_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは被災地の生活再建や産業復興に焦点を当てており、具体的な支援事業内容が明確です。一方、事例Bは地域別の被害状況を詳細に示し、直接的な影響を浮き彫りにしています。これらから学ぶべき教訓として、まず被災地の実態把握（被害数等）が重要であり、次に具体的な支援策が必要となります。即応性と長期的視点を組み合わせた総合的な対策が求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集5_2005-2009_page020_table_0",
+      "02歴史資料集2_2011-2018_page004_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2018_hokkaido_page033_table_1_復興知見_202103_fukku-fukko-handbook_1_page158_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aは災害発生後の補償内容を提示しており、人的被害と住家被害に対する具体的な金額を示しています。これに対し、事例Bは震災復興のための政策や制度を掲げており、被災地域の再建や優良建築物の促進に焦点が置かれています。そのため、今後の地震災害への備えとして重要となるのは、まず災害発生時の迅速な補償システムと、次に震災後の一貫した復興支援策を整えることです。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2018_hokkaido_page033_table_1",
+      "復興知見_202103_fukku-fukko-handbook_1_page158_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page060_table_0_01歴史資料集5_2005-2009_page010_table_0_multihop",
+    "question": "洪水災害と土砂災害の経験を基に、複合災害に対する地域の備えとして何が重要でしょうか？",
+    "answer": "複合災害に対する地域の備えでは、早期警報システムの整備や緊急時対策本部の運営が不可欠です。また、安全な避難所と公営住宅の確保、そして災害後も利用できる基盤整備（道路網、交流施設など）も重要となります。このような総合的な防災計画は、地域住民の生命や財産を守る上で効果的です。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page060_table_0",
+      "01歴史資料集5_2005-2009_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "土砂災害"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集9_2011-2018_page012_table_0_02歴史資料集9_2011-2018_page009_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧フェーズでは地区別復旧・復興推進協議会や市民アンケートを通じて地域のニーズを把握し、基本方針や最終計画を策定します。その後、これらの計画に基づき具体的な復興事業の構成とスケジュールを決定し、市民からの意見を取り入れながら4回にわたる議論会を開催することで、より実効性のある復興計画を作り出します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集9_2011-2018_page012_table_0",
+      "02歴史資料集9_2011-2018_page009_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page013_table_0_01歴史資料集5_2005-2009_page010_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害災害への備えとして何が重要ですか？",
+    "answer": "両事例は地域の再建に向けた計画的なアプローチを示しています。共通点として、両者とも地盤改良や住宅整備などの具体的な対策を含んでおり、これらの措置が災害後の生活質向上と安定した地域再建につながることが重要です。相違点としては、事例Aは治山事業や砂防事業の連携による一体的な復興を目指しており、これは土砂災害への迅速かつ効率的な対応を可能にします。一方、事例Bは公営住宅と住宅地の整備により安全・安心な島づくりを推進しています。これらから、災害時の地域再建においては、地盤改良や住宅整備などの具体的対策とともに、効率的な復旧体制の構築が重要となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page013_table_0",
+      "01歴史資料集5_2005-2009_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "応急復旧",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page071_table_1_02歴史資料集6_2011-2018_page016_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両事例から、噴火災害への備えは組織体制の整備と迅速な対応の重要性が明らかになりました。具体的には、事前に地域ごとの専門機関を設置し、火山活動監視体制を強化すること。また、警戒レベル別の具体的な行動指針を定めておくことも有効です。さらに、避難指示や施設閉鎖などの措置を迅速に行い、住民の安全確保に努めることが求められます。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page071_table_1",
+      "02歴史資料集6_2011-2018_page016_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2011_higashinihon_page011_table_0_大地震の事例_2016-1_kumamoto_page008_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、被災地の自治体が具体的な復興計画を作成し、住民の意見を取り入れていることが重要です。一方、事例Bは震源や規模、そして救援活動開始までの時間を明示しており、迅速な対応が不可欠であることを示しています。したがって、今後の地震災害への備えとして重要なのは、詳細な計画と迅速な実行能力の両方を持つことです。また、地域住民との連携や意見交換を通じた情報共有も、効果的な災害対応に不可欠です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "大地震の事例_2011_higashinihon_page011_table_0",
+      "大地震の事例_2016-1_kumamoto_page008_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page014_table_0_02歴史資料集5_2011-2018_page041_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災情報を迅速に把握し、被災施設の規模や種類を確認します。次に、被害内容に基づき必要な支援策（助成制度など）を決定します。さらに、地域住民への避難指示や情報提供を行い、避難所の準備や運営を行います。これらの手順により、救命活動に移行する際も有秩序に行えます。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page014_table_0",
+      "02歴史資料集5_2011-2018_page041_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page032_table_0_01歴史資料集2_1958-1993_page025_table_0_multihop",
+    "question": "応急復旧から復興事業へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "応急復旧ではまず災害復旧助成と緊急事業費を活用し、地域の防災機能強化と石橋保全に取り組みます。その後、復興事業では住宅団地への移転や火山災害遺物の収集・展示施設設置などの対策を実施することで、地域住民の生活再建と防災意識向上を目指します。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page032_table_0",
+      "01歴史資料集2_1958-1993_page025_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火"
+    ],
+    "phases": [
+      "応急復旧",
+      "復興事業"
+    ]
+  },
+  {
+    "question_id": "大地震の事例_2016-1_kumamoto_page011_table_0_大地震の事例_2016-1_kumamoto_page003_table_0_multihop",
+    "question": "被害把握から救命活動へ移行する際、どのような対応手順が重要ですか？",
+    "answer": "被災者数や避難所利用者数などの初期データを基に被災状況を把握した後、次に各地区別の避難所利用状況を分析し、必要な救助活動の優先度を決定します。また、救助失敗数を参考に救援体制を見直すことも重要です。",
+    "question_type": "phase_transition",
+    "block_ids": [
+      "大地震の事例_2016-1_kumamoto_page011_table_0",
+      "大地震の事例_2016-1_kumamoto_page003_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H16_chuetsu_page010_table_1_平成の災害事例_H23_higashinihon_page005_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の地震災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは公共土木施設や農業用施設など具体的な被害項目を示し、大量の財政が必要であることがわかります。一方、事例Bは東日本大震災からの教訓で復興計画の策定や職員派遣などの組織運営に焦点を当てています。因此，重要的备灾措施包括了基础设施保护（如公共土木设施）和有效的组织管理（如复原计划制定及人员调配），两者缺一不可。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "平成の災害事例_H16_chuetsu_page010_table_1",
+      "平成の災害事例_H23_higashinihon_page005_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "地震"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集3_1995-2001_page123_table_0_01歴史資料集4_2002-2004_page029_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の洪水災害への備えとして何が重要ですか？",
+    "answer": "事例Aの住宅被害調査と事例Bの洪水対策には、共通点として「災害後の回復と再発防止」があります。異なる点としては、事例Aは具体的な住家被害数を示していますが、事例Bでは地域間での連携や自治体からの応援が強調されています。今後の洪水災害への備えとして重要になるのは、地域住民の避難体制とその後の支援システムの整備、そして自治体間や民間との連携強化です。また、事例Bで示されたように、具体的な対策会議を設けて、治水対策や農山村のあり方について検討するのも有効でしょう。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集3_1995-2001_page123_table_0",
+      "01歴史資料集4_2002-2004_page029_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "洪水",
+      "洪水"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集5_2011-2018_page041_table_0_02歴史資料集6_2011-2018_page006_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両事例から共通点としては、火山活動に対する迅速な対応と地域住民との連携が重要であることが分かります。一方で、事例Aは長期的な防災体制の構築に注力しており、自治体間での協働も強調されています。これに対して、事例Bは緊急時の迅速かつ組織的な対応を重視しています。今後の備えとして、地域住民との継続的なコミュニケーションと連携体制の整備、さらには緊急時に迅速な行動が可能となるよう、関係機関間での連携強化が必要です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集5_2011-2018_page041_table_0",
+      "02歴史資料集6_2011-2018_page006_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "救命活動",
+      "救命活動"
+    ]
+  },
+  {
+    "question_id": "02歴史資料集4_2011-2018_page039_table_0_02歴史資料集5_2011-2018_page023_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害への備えとして何が重要ですか？",
+    "answer": "事例Aでは、政府も含めた迅速な対応体制や被災者支援が強調されています。一方、事例Bは地域の防災基盤整備に重点を置いた業務内容を示しています。因此，今後の土砂灾害应对中，不仅需要健全的应急响应机制和快速反应能力，还需要加强基础设施建设，提升整体防灾能力。具体措施包括设立专门的灾害预警与应对机构、完善城市排水系统、强化土石流防治工程等。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "02歴史資料集4_2011-2018_page039_table_0",
+      "02歴史資料集5_2011-2018_page023_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "被害把握",
+      "応急復旧"
+    ]
+  },
+  {
+    "question_id": "平成の災害事例_H24_kyushuhokubu_page004_table_0_03歴史資料集4_2018-2019_page010_table_0_multihop",
+    "question": "地震災害と台風災害の経験を統合すると、複合災害への備えとして何が重要ですか？",
+    "answer": "複合災害への対策としては、まず防災教育の強化が必要で、地震と台風の両方に対する適切な避難訓練を行い、地域住民全員がその危険性を認識し、対応できるようになることが重要です。次に、多様な災害に対応するための防災基盤整備も必要で、耐震設計や台風への対策を兼ねた建築物の普及は不可欠です。さらに、財政的な支援体制の強化も求められ、予備費の確保や迅速な復旧活動の推進が重要となります。",
+    "question_type": "cross_disaster",
+    "block_ids": [
+      "平成の災害事例_H24_kyushuhokubu_page004_table_0",
+      "03歴史資料集4_2018-2019_page010_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "地震",
+      "台風"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集2_1958-1993_page084_table_1_01歴史資料集3_1995-2001_page077_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の噴火災害への備えとして何が重要ですか？",
+    "answer": "両者の共通点は、被災事業者に対する直接的な支援措置を提供することにあります。異なる点としては、事例Aでは農林業者に対し利子補助や技術研修の支援が行われており、経営再建能力向上に焦点を当てています。一方、事例Bは融資対象事業者の範囲が広く、運転資金だけでなく設備投資も含む点が特徴です。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集2_1958-1993_page084_table_1",
+      "01歴史資料集3_1995-2001_page077_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "噴火",
+      "噴火"
+    ],
+    "phases": [
+      "被害把握",
+      "被害把握"
+    ]
+  },
+  {
+    "question_id": "01歴史資料集4_2002-2004_page013_table_0_01歴史資料集5_2005-2009_page088_table_0_multihop",
+    "question": "事例Aと事例Bを比較して、今後の土砂災害災害への備えとして何が重要ですか？",
+    "answer": "両事例から学べるのは、迅速な計画策定と地域全体での連携が非常に重要であるということです。事例Aでは約45日後に砂防施設計划を提示し、治山や砂防事業の一体的な復興を目指しました。一方、事例Bでは地元コミュニティFM局との協定により、災害時の情報配信強化を図りました。これらから推測すると、今後の備えとして、迅速な計画策定と地域内外の連携が不可欠であり、情報伝達体制の充実も重要な対策となります。",
+    "question_type": "disaster_comparison",
+    "block_ids": [
+      "01歴史資料集4_2002-2004_page013_table_0",
+      "01歴史資料集5_2005-2009_page088_table_0"
+    ],
+    "hop_count": 2,
+    "requires_image": true,
+    "difficulty": "hard",
+    "disaster_types": [
+      "土砂災害",
+      "土砂災害"
+    ],
+    "phases": [
+      "応急復旧"
+    ]
+  }
+]
